@@ -1373,6 +1373,25 @@ public class JobConf extends Configuration {
   public int getMaxReduceTaskFailuresPercent() {
     return getInt("mapred.max.reduce.failures.percent", 0);
   }
+ 
+  // add by wei 
+  /**
+   * Set the relativeDeadline for this job
+   * 
+   * @param relativeDeadline the relativeDeadline for this job.
+   */
+  public void setJobRelativeDeadline(int relativeDeadline) {
+    setInt("mapred.job.relative.deadline", relativeDeadline);
+  }
+
+  /**
+   * Get the relativeDeadline for this job
+   * 
+   * @param relativeDeadline the relativeDeadline for this job.
+   */
+  public int getJobRelativeDeadline() {
+    return getInt("mapred.job.relative.deadline", 0);
+  }
   
   /**
    * Set the maximum percentage of reduce tasks that can fail without the job
@@ -1387,6 +1406,7 @@ public class JobConf extends Configuration {
   public void setMaxReduceTaskFailuresPercent(int percent) {
     setInt("mapred.max.reduce.failures.percent", percent);
   }
+  
   
   /**
    * Set {@link JobPriority} for this job.

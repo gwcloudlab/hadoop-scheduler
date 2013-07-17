@@ -233,6 +233,9 @@ public class JobInProgress {
   long startTime;
   long launchTime;
   long finishTime;
+  // add by wei
+  int relativeDeadline;
+  long deadLine;
 
   // First *task launch time
   final Map<TaskType, Long> firstTaskLaunchTimes =
@@ -428,6 +431,12 @@ public class JobInProgress {
       
       this.priority = conf.getJobPriority();
       this.status.setJobPriority(this.priority);
+      //add by wei
+      this.relativeDeadline = conf.getJobRelativeDeadline();
+      this.status.setJobRelativeDeadline(this.relativeDeadline);
+      this.deadLine = this.startTime + this.relativeDeadline * 1000;
+      this.status.setJobDeadline(this.deadLine);
+
       String queueName = conf.getQueueName();
       this.profile = new JobProfile(user, jobId, 
           jobFile, url, conf.getJobName(), queueName);
@@ -832,6 +841,17 @@ public class JobInProgress {
   public long getStartTime() {
     return startTime;
   }
+  
+  //add by wei
+  public int getJobRelativeDeadline() {
+    return relativeDeadline;
+  }
+
+  //add by wei
+  public long getJobDeadline() {
+    return deadLine;
+  }
+
   public long getFinishTime() {
     return finishTime;
   }
@@ -1125,6 +1145,12 @@ public class JobInProgress {
                                            );
         taskEvent.setTaskRunTime((int)(status.getFinishTime() 
                                        - status.getStartTime()));
+	//added by wei
+	System.out.printf("##task id: %s, task type: %b, run time: %d%n", taskEvent.getTaskAttemptId(), taskEvent.isMap, taskEvent.getTaskRunTime());
+//	System.out.printf("##hello world!%n");
+
+//	System.out.printf("##task type: %b, run time: %d%n", taskEvent.isMap, taskEvent.getTaskRunTime());
+
         tip.setSuccessEventNumber(taskCompletionEventTracker); 
       } else if (state == TaskStatus.State.COMMIT_PENDING) {
         // If it is the first attempt reporting COMMIT_PENDING

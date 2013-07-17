@@ -137,10 +137,13 @@ class EagerTaskInitializationListener extends JobInProgressListener {
       public int compare(JobInProgress o1, JobInProgress o2) {
         int res = o1.getPriority().compareTo(o2.getPriority());
         if(res == 0) {
+	// add by wei
           if(o1.getStartTime() < o2.getStartTime())
+       // if(o1.getJobDeadline() < o2.getJobDeadline())
             res = -1;
           else
             res = (o1.getStartTime()==o2.getStartTime() ? 0 : 1);
+         //   res = (o1.getJobDeadline()==o2.getJobDeadline() ? 0 : 1);
         }
           
         return res;
@@ -149,6 +152,11 @@ class EagerTaskInitializationListener extends JobInProgressListener {
     
     synchronized (jobInitQueue) {
       Collections.sort(jobInitQueue, comp);
+      // add by wei
+      for (JobInProgress job : jobInitQueue){
+	System.out.printf("***current time: %d, job name: %s, job startTime: %d, job relativeDeadline: %d, job deadline: %d%n", 
+                         System.currentTimeMillis(), job.getProfile().getJobName(), job.getStartTime(), job.getJobRelativeDeadline(), job.getJobDeadline());
+      }
     }
   }
 

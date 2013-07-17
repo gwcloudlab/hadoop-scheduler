@@ -81,6 +81,10 @@ public class JobStatus implements Writable, Cloneable {
   private float setupProgress;
   private int runState;
   private long startTime;
+  // add by wei
+  private int relativeDeadline;
+  private long deadLine;
+
   private String user;
   private JobPriority priority;
   private String schedulingInfo="NA";
@@ -251,6 +255,30 @@ public class JobStatus implements Writable, Cloneable {
    * @return start time of the job
    */
   synchronized public long getStartTime() { return startTime;}
+
+  // add by wei
+  /** 
+   * Set the relative deadline of the job
+   * @param relativeDeadline The relativeDeadline of the job
+   */
+  synchronized void setJobRelativeDeadline(int relativeDeadline) { this.relativeDeadline = relativeDeadline;}
+    
+  /**
+   * @return relative deadline of the job
+   */
+  synchronized public int getJobRelativeDeadline() { return relativeDeadline;}
+
+  // add by wei
+  /** 
+   * Set the deadline of the job
+   * @param deadLine The deadLine of the job
+   */
+  synchronized void setJobDeadline(long deadLine) { this.deadLine = deadLine;}
+    
+  /**
+   * @return deadline of the job
+   */
+  synchronized public long getJobDeadline() { return deadLine;}
 
   @Override
   public Object clone() {

@@ -39,6 +39,8 @@ class JobQueueJobInProgressListener extends JobInProgressListener {
   static class JobSchedulingInfo {
     private JobPriority priority;
     private long startTime;
+    //add by wei
+    private long deadLine;
     private JobID id;
     
     public JobSchedulingInfo(JobInProgress jip) {
@@ -48,11 +50,15 @@ class JobQueueJobInProgressListener extends JobInProgressListener {
     public JobSchedulingInfo(JobStatus status) {
       priority = status.getJobPriority();
       startTime = status.getStartTime();
+      //add by wei
+      deadLine = status.getJobDeadline();
       id = status.getJobID();
     }
     
     JobPriority getPriority() {return priority;}
     long getStartTime() {return startTime;}
+    //add by wei
+    long getJobDeadline() {return deadLine;}
     JobID getJobID() {return id;}
     
     @Override
@@ -83,10 +89,12 @@ class JobQueueJobInProgressListener extends JobInProgressListener {
     public int compare(JobSchedulingInfo o1, JobSchedulingInfo o2) {
       int res = o1.getPriority().compareTo(o2.getPriority());
       if (res == 0) {
-        if (o1.getStartTime() < o2.getStartTime()) {
+      //  if (o1.getStartTime() < o2.getStartTime()) {
+        if (o1.getJobDeadline() < o2.getJobDeadline()) {
           res = -1;
         } else {
-          res = (o1.getStartTime() == o2.getStartTime() ? 0 : 1);
+     //     res = (o1.getStartTime() == o2.getStartTime() ? 0 : 1);
+          res = (o1.getJobDeadline() == o2.getJobDeadline() ? 0 : 1);
         }
       }
       if (res == 0) {
