@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>mapred.job.tracker</name>
+        	<value>mastertest:9001</value>
+	</property>
+
+<property>
+  <name>mapred.reduce.tasks</name>
+  <value>4</value>
+  <description>The default number of reduce tasks per job. Typically set to 99%
+  of the cluster's reduce capacity, so that if a node fails the reduces can
+  still be executed in a single wave.
+  Ignored when mapred.job.tracker is "local".
+  </description>
+</property>
+
+
+</configuration>

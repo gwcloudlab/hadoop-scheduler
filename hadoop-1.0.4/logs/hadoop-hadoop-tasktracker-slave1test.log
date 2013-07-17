@@ -1,0 +1,121 @@
+2013-07-17 15:32:13,954 INFO org.apache.hadoop.mapred.TaskTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting TaskTracker
+STARTUP_MSG:   host = slave1test/192.168.1.223
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.4-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'hadoop' on Wed Jul 17 15:27:18 UTC 2013
+************************************************************/
+2013-07-17 15:32:14,181 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2013-07-17 15:32:14,265 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2013-07-17 15:32:14,268 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2013-07-17 15:32:14,268 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: TaskTracker metrics system started
+2013-07-17 15:32:14,619 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2013-07-17 15:32:14,623 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-07-17 15:32:14,826 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2013-07-17 15:32:14,928 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2013-07-17 15:32:14,950 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2013-07-17 15:32:14,953 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as hadoop
+2013-07-17 15:32:14,954 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/local
+2013-07-17 15:32:14,979 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2013-07-17 15:32:14,988 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2013-07-17 15:32:14,989 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source TaskTrackerMetrics registered.
+2013-07-17 15:32:15,008 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2013-07-17 15:32:15,010 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort47896 registered.
+2013-07-17 15:32:15,011 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort47896 registered.
+2013-07-17 15:32:15,015 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2013-07-17 15:32:15,016 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 47896: starting
+2013-07-17 15:32:15,017 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 47896: starting
+2013-07-17 15:32:15,017 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 47896: starting
+2013-07-17 15:32:15,017 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 47896: starting
+2013-07-17 15:32:15,018 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:47896
+2013-07-17 15:32:15,018 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 47896: starting
+2013-07-17 15:32:15,018 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_slave1test:localhost/127.0.0.1:47896
+2013-07-17 15:32:16,047 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: mastertest/192.168.1.222:9001. Already tried 0 time(s).
+2013-07-17 15:32:27,899 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_slave1test:localhost/127.0.0.1:47896
+2013-07-17 15:32:27,908 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2013-07-17 15:32:27,914 INFO org.apache.hadoop.mapred.TaskTracker:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@5097cdfc
+2013-07-17 15:32:27,916 WARN org.apache.hadoop.mapred.TaskTracker: TaskTracker's totalMemoryAllottedForTasks is -1. TaskMemoryManager is disabled.
+2013-07-17 15:32:27,921 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2013-07-17 15:32:27,928 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ShuffleServerMetrics registered.
+2013-07-17 15:32:27,930 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50060
+2013-07-17 15:32:27,931 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50060 webServer.getConnectors()[0].getLocalPort() returned 50060
+2013-07-17 15:32:27,931 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50060
+2013-07-17 15:32:27,931 INFO org.mortbay.log: jetty-6.1.26
+2013-07-17 15:32:28,351 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50060
+2013-07-17 15:32:28,351 INFO org.apache.hadoop.mapred.TaskTracker: FILE_CACHE_SIZE for mapOutputServlet set to : 2000
+2013-07-17 15:32:28,366 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0015 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,366 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307170115_0004 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307162141_0003 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0003 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307152043_0001 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0002 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307162141_0002 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0019 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0007 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0017 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0004 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0001 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,367 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307170115_0003 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0010 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0012 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0016 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307121517_0002 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307170115_0001 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307162141_0001 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307152111_0001 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0011 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0009 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0005 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:28,368 INFO org.apache.hadoop.mapred.UserLogCleaner: Adding job_201307161835_0008 for user-log deletion with retainTimeStamp:1374161547919
+2013-07-17 15:32:31,368 ERROR org.apache.hadoop.mapred.TaskTracker: Shutting down. Incompatible buildVersion.
+JobTracker's: 1.0.4-SNAPSHOT from  by hadoop source checksum 82a0b38b8e82fb8c12324ff76d78ff07
+TaskTracker's: 1.0.4-SNAPSHOT from  by hadoop source checksum d4b1151e4a826c2ffa6a648ff57b9d9e
+2013-07-17 15:32:31,375 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_slave1test:localhost/127.0.0.1:47896
+2013-07-17 15:32:31,376 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cleanup...
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.hadoop.filecache.TrackerDistributedCacheManager$CleanupThread.run(TrackerDistributedCacheManager.java:947)
+2013-07-17 15:32:31,382 INFO org.apache.hadoop.ipc.Server: Stopping server on 47896
+2013-07-17 15:32:31,382 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 47896: exiting
+2013-07-17 15:32:31,383 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 47896: exiting
+2013-07-17 15:32:31,383 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 47896
+2013-07-17 15:32:31,383 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 47896: exiting
+2013-07-17 15:32:31,383 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 47896: exiting
+2013-07-17 15:32:31,383 INFO org.apache.hadoop.ipc.metrics.RpcInstrumentation: shut down
+2013-07-17 15:32:31,383 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2013-07-17 15:32:31,384 WARN org.apache.hadoop.mapred.TaskTracker: Reinitializing local state
+2013-07-17 15:32:31,384 INFO org.apache.hadoop.mapred.TaskTracker: Starting tasktracker with owner as hadoop
+2013-07-17 15:32:31,384 INFO org.apache.hadoop.mapred.TaskTracker: Good mapred local directories are: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/local
+2013-07-17 15:32:31,387 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name jvm already exists!
+2013-07-17 15:32:31,387 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name TaskTrackerMetrics already exists!
+2013-07-17 15:32:31,388 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort42325 registered.
+2013-07-17 15:32:31,388 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort42325 registered.
+2013-07-17 15:32:31,389 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2013-07-17 15:32:31,389 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2013-07-17 15:32:31,389 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 42325: starting
+2013-07-17 15:32:31,390 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 42325: starting
+2013-07-17 15:32:31,390 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 42325: starting
+2013-07-17 15:32:31,390 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 42325: starting
+2013-07-17 15:32:31,390 INFO org.apache.hadoop.mapred.TaskTracker: TaskTracker up at: localhost/127.0.0.1:42325
+2013-07-17 15:32:31,390 INFO org.apache.hadoop.mapred.TaskTracker: Starting tracker tracker_slave1test:localhost/127.0.0.1:42325
+2013-07-17 15:32:31,391 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 42325: starting
+2013-07-17 15:32:31,393 INFO org.apache.hadoop.mapred.TaskTracker:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@3bf08184
+2013-07-17 15:32:31,393 INFO org.apache.hadoop.mapred.TaskTracker: Starting thread: Map-events fetcher for all reduce tasks on tracker_slave1test:localhost/127.0.0.1:42325
+2013-07-17 15:32:31,395 WARN org.apache.hadoop.mapred.TaskTracker: TaskTracker's totalMemoryAllottedForTasks is -1. TaskMemoryManager is disabled.
+2013-07-17 15:32:31,396 INFO org.apache.hadoop.mapred.IndexCache: IndexCache created with max memory = 10485760
+2013-07-17 15:32:31,399 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down: Map-events fetcher for all reduce tasks on tracker_slave1test:localhost/127.0.0.1:42325
+2013-07-17 15:32:31,399 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Cleanup...
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.hadoop.filecache.TrackerDistributedCacheManager$CleanupThread.run(TrackerDistributedCacheManager.java:947)
+2013-07-17 15:32:31,500 INFO org.apache.hadoop.ipc.Server: Stopping server on 42325
+2013-07-17 15:32:31,500 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 42325: exiting
+2013-07-17 15:32:31,500 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 42325: exiting
+2013-07-17 15:32:31,500 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 42325: exiting
+2013-07-17 15:32:31,500 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 42325: exiting
+2013-07-17 15:32:31,501 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 42325
+2013-07-17 15:32:31,501 INFO org.apache.hadoop.ipc.metrics.RpcInstrumentation: shut down
+2013-07-17 15:32:31,501 INFO org.apache.hadoop.mapred.TaskTracker: Shutting down StatusHttpServer
+2013-07-17 15:32:31,502 INFO org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2013-07-17 15:32:31,514 INFO org.mortbay.log: Stopped SelectChannelConnector@0.0.0.0:50060
