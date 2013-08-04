@@ -1,4 +1,5 @@
 hadoop-1.0.4/build/**/*
+hadoop-1.0.4/build/*.jar
 hadoop-1.0.4/logs/**/*
 hadoop-1.0.4/hdfs/tmp/**/*
 hadoop-1.0.4/src/docs/**/*

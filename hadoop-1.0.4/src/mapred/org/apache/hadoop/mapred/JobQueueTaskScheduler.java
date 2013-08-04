@@ -163,6 +163,11 @@ class JobQueueTaskScheduler extends TaskScheduler {
           if (job.getStatus().getRunState() != JobStatus.RUNNING) {
             continue;
           }
+	  
+          //add by wei
+          if (job.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline(job)) {
+	    continue;	
+	  }
 
           Task t = null;
           
@@ -308,4 +313,37 @@ class JobQueueTaskScheduler extends TaskScheduler {
   public synchronized Collection<JobInProgress> getJobs(String queueName) {
     return jobQueueJobInProgressListener.getJobQueue();
   }  
+
+  public double predictMapTaskExecTime(JobInProgress job) {
+    double mapTaskExecTime = 0;
+    String jobName = job.getProfile().getJobName();
+    if (jobName.equals("PiEstimator")) {
+      mapTaskExecTime = 5;
+    }  else if (jobName.equals("word count")) {
+    	  mapTaskExecTime = 40;
+    }  else if (jobName.equals("TeraSort")) {
+          mapTaskExecTime = 7.5;
+    }
+    return mapTaskExecTime;
+ }
+
+ public boolean canMeetDeadline(JobInProgress job){
+    boolean canMeetDeadline;
+    int pendingMapTasks;
+    int currentMapSlots;
+    double mapTaskExecTime;
+    long remainingTime;
+
+    pendingMapTasks = job.pendingMaps();
+    currentMapSlots = job.runningMaps();
+    remainingTime = (job.getJobDeadline() - System.currentTimeMillis());
+    mapTaskExecTime = predictMapTaskExecTime(job); 
+    if (currentMapSlots == 0) {
+      canMeetDeadline = false;
+      return canMeetDeadline;
+    }
+    canMeetDeadline = (pendingMapTasks * mapTaskExecTime * 1000 / currentMapSlots < remainingTime);
+    return canMeetDeadline;  
+  
+ }
 }
