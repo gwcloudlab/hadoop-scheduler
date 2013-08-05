@@ -1,6 +1,11 @@
+hadoop-1.0.4/*.jar
+hadoop-1.0.4/*.jar.bak
 hadoop-1.0.4/build/**/*
 hadoop-1.0.4/build/*.jar
 hadoop-1.0.4/logs/**/*
+hadoop-1.0.4/logs/*.out*
+hadoop-1.0.4/logs/*.log*
+hadoop-1.0.4/logs/*.xml
 hadoop-1.0.4/hdfs/tmp/**/*
 hadoop-1.0.4/src/docs/**/*
 hadoop-1.0.4/src/native/INSTALL

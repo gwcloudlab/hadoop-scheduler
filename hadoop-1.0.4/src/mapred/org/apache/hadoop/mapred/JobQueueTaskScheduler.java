@@ -21,11 +21,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.io.*;
+import java.lang.*;
+import java.util.*;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.mapreduce.server.jobtracker.TaskTracker;
+
+//add by wei
+import org.apache.hadoop.mapred.NodeResource;
 
 /**
  * A {@link TaskScheduler} that keeps jobs in a queue in priority order (FIFO
@@ -39,6 +45,12 @@ class JobQueueTaskScheduler extends TaskScheduler {
   protected JobQueueJobInProgressListener jobQueueJobInProgressListener;
   protected EagerTaskInitializationListener eagerTaskInitializationListener;
   private float padFraction;
+
+  //add by wei
+  public Map<String, NodeResource> resources
+    = new HashMap<String, NodeResource>();
+  protected volatile boolean running = false;
+  protected volatile static long INTERVAL = 10000;
   
   public JobQueueTaskScheduler() {
     this.jobQueueJobInProgressListener = new JobQueueJobInProgressListener();
@@ -46,12 +58,18 @@ class JobQueueTaskScheduler extends TaskScheduler {
   
   @Override
   public synchronized void start() throws IOException {
-    super.start();
-    taskTrackerManager.addJobInProgressListener(jobQueueJobInProgressListener);
-    eagerTaskInitializationListener.setTaskTrackerManager(taskTrackerManager);
-    eagerTaskInitializationListener.start();
-    taskTrackerManager.addJobInProgressListener(
-        eagerTaskInitializationListener);
+    try {
+      super.start();
+      taskTrackerManager.addJobInProgressListener(jobQueueJobInProgressListener);
+      eagerTaskInitializationListener.setTaskTrackerManager(taskTrackerManager);
+      eagerTaskInitializationListener.start();
+      taskTrackerManager.addJobInProgressListener(
+          eagerTaskInitializationListener);
+      running = true;
+      new UpdateThread().start();
+    } catch (Exception e) {
+      LOG.error("Failed to start threads ", e);
+    }
   }
   
   @Override
@@ -66,6 +84,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       eagerTaskInitializationListener.terminate();
     }
     super.terminate();
+    running=false;
   }
   
   @Override
@@ -327,7 +346,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
     return mapTaskExecTime;
  }
 
- public boolean canMeetDeadline(JobInProgress job){
+  public boolean canMeetDeadline(JobInProgress job){
     boolean canMeetDeadline;
     int pendingMapTasks;
     int currentMapSlots;
@@ -346,4 +365,53 @@ class JobQueueTaskScheduler extends TaskScheduler {
     return canMeetDeadline;  
   
  }
+
+ public void updateNodeResources() {
+   String fileName="/home/hadoop/resource.txt";
+   File file=new File(fileName);
+   BufferedReader br = null;
+   String host="";
+   double cpu=0;
+  
+   try {
+     br=new BufferedReader(new FileReader(file));
+   } catch (FileNotFoundException e) {
+     LOG.error("Can not find resource.txt file", e);
+   } 
+     String line=null;
+     String[] rec=null;
+   try {
+   while((line=br.readLine())!=null){
+     rec=line.split("\t");
+     host=rec[0];
+     cpu=Double.parseDouble(rec[1]);
+     NodeResource nodeResource = new NodeResource(cpu);
+     synchronized (this) {
+       resources.put(host, nodeResource);
+     }
+     
+   }
+  } catch (IOException e1) {
+    LOG.error("Exception in reading resource.txt file", e1);
+  }
+ }   
+
+  private class UpdateThread extends Thread {
+    private UpdateThread() {
+      super("DeadlineScheduler update thread"); 
+    }
+
+    public void run() {
+      while(running) {
+        try {
+          Thread.sleep(INTERVAL);
+          updateNodeResources();
+        } catch (Exception e) {
+          LOG.error("Exception in DeadlineScheduler's UpdateThread", e);
+        }
+      }
+    }
+
+  }
+
 }
