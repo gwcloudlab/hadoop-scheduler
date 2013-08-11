@@ -177,12 +177,15 @@ class JobQueueTaskScheduler extends TaskScheduler {
     int numNonLocalMaps = 0;
     boolean canMeetDeadline = false;
     int j = 0;
+    String host = taskTracker.getStatus().getHost();
+    NodeResource nodeResource = resources.get(host);
     System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
 
     scheduleMaps:
     for (int i=0; i < availableMapSlots; ++i) {
       JobInProgress job = null;
       JobInProgress firstJob = null;
+      JobInProgress maxProgressJob = null;
       synchronized (jobQueue) {
         for (JobInProgress jobTmp : jobQueue) {
         System.out.printf("%%%%JobName=%s Deadline=%d %n", jobTmp.getProfile().getJobName(), jobTmp.getJobDeadline());  
@@ -198,6 +201,9 @@ class JobQueueTaskScheduler extends TaskScheduler {
           System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d %n", jobTmp.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
           //add by wei
           if (jobTmp.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline) {
+            if((maxProgressJob == null) || (jobProgress(jobTmp, nodeResource) > jobProgress(maxProgressJob, nodeResource))){
+              maxProgressJob = jobTmp; 
+            }
 	    continue;	
 	  }
           j = i + 1;
@@ -209,7 +215,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
         // Check if we found a job
         if (job == null) {
      //   job = jobQueue.iterator.next();
-          job = firstJob;
+    //      job = firstJob;
+          job = maxProgressJob;
         }
         
         System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
@@ -369,24 +376,62 @@ class JobQueueTaskScheduler extends TaskScheduler {
           mapTaskExecTime = 7.5;
     }
     return mapTaskExecTime;
- }
+  } 
+
+
+  public double dedicatedMapTaskExecTime(JobInProgress job) {
+    double dedicatedMapTaskExecTime = 0;
+    String jobName = job.getProfile().getJobName();
+    if (jobName.equals("PiEstimator")) {
+      dedicatedMapTaskExecTime = 5;
+    }  else if (jobName.equals("word count")) {
+    	  dedicatedMapTaskExecTime = 40;
+    }  else if (jobName.equals("TeraSort")) {
+          dedicatedMapTaskExecTime = 7.5;
+    }
+    return dedicatedMapTaskExecTime;
+  } 
+
+  public double predictMapTaskExecTime(JobInProgress job, NodeResource nodeResource) {
+    double mapTaskExecTime = 0;
+    String jobName = job.getProfile().getJobName();
+    if (jobName.equals("PiEstimator")) {
+      mapTaskExecTime = 5;
+    }  else if (jobName.equals("word count")) {
+    	  mapTaskExecTime = 40;
+    }  else if (jobName.equals("TeraSort")) {
+          mapTaskExecTime = 7.5;
+    }
+    return mapTaskExecTime;
+  }
+
+  public double jobProgress(JobInProgress job, NodeResource nodeResource){
+    double jobProgress = 0;
+  
+ //   NodeResource dedicateNodeResource =  new NodeResource(200, 0, 0);
+ //   jobProgress = predictMapTaskExecTime(job, nodeResource) / predictMapTaskExecTime(job, dedicatedNodeResource);
+   jobProgress = predictMapTaskExecTime(job, nodeResource) / dedicatedMapTaskExecTime(job);
+      
+    return jobProgress;
+
+  } 
 
   public boolean canMeetDeadline(JobInProgress job){
     boolean canMeetDeadline;
     int pendingMapTasks;
     int currentMapSlots;
-    double mapTaskExecTime;
+    double dedicatedMapTaskExecTime;
     long remainingTime;
 
     pendingMapTasks = job.pendingMaps();
     currentMapSlots = job.runningMaps();
     remainingTime = (job.getJobDeadline() - System.currentTimeMillis());
-    mapTaskExecTime = predictMapTaskExecTime(job); 
+    dedicatedMapTaskExecTime = dedicatedMapTaskExecTime(job); 
     if (currentMapSlots == 0) {
       canMeetDeadline = false;
       return canMeetDeadline;
     }
-    canMeetDeadline = (pendingMapTasks * mapTaskExecTime * 1000 / currentMapSlots < remainingTime);
+    canMeetDeadline = (pendingMapTasks * dedicatedMapTaskExecTime * 1000 / currentMapSlots < remainingTime);
     return canMeetDeadline;  
   
  }
