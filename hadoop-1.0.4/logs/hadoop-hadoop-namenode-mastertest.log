@@ -163,3 +163,7 @@ The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode 
 2013-08-11 01:12:04,415 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/jobtracker.info is closed by DFSClient_-1444006391
 2013-08-11 01:12:06,815 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.222:50010 to delete  blk_726877986951035650_6471
 2013-08-11 01:12:09,815 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.223:50010 to delete  blk_726877986951035650_6471
+2013-08-11 01:16:31,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-11 01:16:31,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 7 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 6 SyncTimes(ms): 256 
+2013-08-11 01:16:33,151 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-11 01:16:33,151 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
