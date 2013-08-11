@@ -287,3 +287,5 @@ The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode 
 2013-08-11 21:17:06,304 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
 2013-08-11 21:17:07,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
 2013-08-11 21:17:07,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-08-11 22:02:15,635 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 125, processing time: 1 msecs
+2013-08-11 22:07:50,433 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 125, processing time: 1 msecs

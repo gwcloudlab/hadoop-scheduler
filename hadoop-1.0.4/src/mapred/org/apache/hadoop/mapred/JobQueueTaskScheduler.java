@@ -410,7 +410,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
   
  //   NodeResource dedicateNodeResource =  new NodeResource(0, 0, 0);
  //   jobProgress = predictMapTaskExecTime(job, nodeResource) / predictMapTaskExecTime(job, dedicatedNodeResource);
-   jobProgress = predictMapTaskExecTime(job, nodeResource) / dedicatedMapTaskExecTime(job);
+   jobProgress = 1 / (predictMapTaskExecTime(job, nodeResource) / dedicatedMapTaskExecTime(job));
       
     return jobProgress;
 

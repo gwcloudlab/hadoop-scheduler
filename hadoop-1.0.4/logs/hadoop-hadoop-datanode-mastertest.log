@@ -138,3 +138,7 @@ STARTUP_MSG:   build =  -r ; compiled by 'hadoop' on Sun Aug 11 01:07:37 UTC 201
 2013-08-11 21:07:49,236 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 6ms
 2013-08-11 21:07:52,231 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
 2013-08-11 21:07:52,233 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 125 blocks took 1 msec to generate and 1 msecs for RPC and NN processing
+2013-08-11 22:07:47,430 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2013-08-11 22:07:47,436 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 6ms
+2013-08-11 22:07:50,432 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2013-08-11 22:07:50,433 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 125 blocks took 1 msec to generate and 1 msecs for RPC and NN processing
