@@ -1210,23 +1210,27 @@ public class JobInProgress {
           if(status.getIsMap()){
             if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
 
-              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, ExecTime=%d %n ",
-                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, status.getFinishTime()-status.getStartTime());
+              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
             }
             else{
-              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, ExecTime=%d %n ",
-                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, status.getFinishTime()-status.getStartTime());
+              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
            }
           }
           else{
             if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
-              System.out.printf("JobName=%s, ID=%s, Type=REDUCE, Status=%s, Machine=%s, ExecTime=%d, ShuffleTime=%d, SortTime=%d %n",
-                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, status.getFinishTime()-status.getStartTime(),
+              System.out.printf("JobName=%s, ID=%s, Type=REDUCE, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, ShuffleTime=%d, SortTime=%d %n",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(),
                                 status.getShuffleFinishTime()-status.getStartTime(), status.getSortFinishTime()-status.getShuffleFinishTime());
             }
             else{
-              System.out.printf("JobName=%s, ID=%s, Type=SC_REDUCE, Status=%s, Machine=%s, ExecTime=%d %n ",
-                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, status.getFinishTime()-status.getStartTime());
+              System.out.printf("JobName=%s, ID=%s, Type=SC_REDUCE, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
 
             }
           }
@@ -2679,6 +2683,14 @@ public class JobInProgress {
       }
       else {
         jobComplete();
+        //add by wei
+        JobInProgress job = tip.getJob();
+        if (job.getFinishTime() <= job.getJobDeadline()) {
+          System.out.printf("&&&job %s meet deadline, jobFinishTime=%d %n", job.getProfile().getJobName(), job.getFinishTime());
+        } 
+        else {
+          System.out.printf("&&&job %s miss deadline, jobFinishTime=%d %n", job.getProfile().getJobName(), job.getFinishTime());
+        }
       }
       // The job has been killed/failed/successful
       // JobTracker should cleanup this task

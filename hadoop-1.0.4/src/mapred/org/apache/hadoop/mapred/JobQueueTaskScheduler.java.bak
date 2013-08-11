@@ -24,7 +24,6 @@ import java.util.List;
 import java.io.*;
 import java.lang.*;
 import java.util.*;
-import java.net.*;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -51,6 +50,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
   public Map<String, NodeResource> resources
     = new HashMap<String, NodeResource>();
   protected volatile boolean running = false;
+  protected volatile static long INTERVAL = 10000;
   
   public JobQueueTaskScheduler() {
     this.jobQueueJobInProgressListener = new JobQueueJobInProgressListener();
@@ -66,7 +66,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       taskTrackerManager.addJobInProgressListener(
           eagerTaskInitializationListener);
       running = true;
-      new UpdateResourceThread().start();
+      new UpdateThread().start();
     } catch (Exception e) {
       LOG.error("Failed to start threads ", e);
     }
@@ -175,44 +175,19 @@ class JobQueueTaskScheduler extends TaskScheduler {
     
     int numLocalMaps = 0;
     int numNonLocalMaps = 0;
-    boolean canMeetDeadline = false;
-    int j = 0;
-    System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
-
     scheduleMaps:
     for (int i=0; i < availableMapSlots; ++i) {
-      JobInProgress job = null;
-      JobInProgress firstJob = null;
       synchronized (jobQueue) {
-        for (JobInProgress jobTmp : jobQueue) {
-        System.out.printf("%%%%JobName=%s Deadline=%d %n", jobTmp.getProfile().getJobName(), jobTmp.getJobDeadline());  
-	if(firstJob == null && jobTmp.getStatus().getRunState() == JobStatus.RUNNING ) {
-            firstJob = jobTmp;
-            j = i + 1;
-          }
-   
-          if (jobTmp.getStatus().getRunState() != JobStatus.RUNNING) {
+        for (JobInProgress job : jobQueue) {
+          if (job.getStatus().getRunState() != JobStatus.RUNNING) {
             continue;
           }
-	  canMeetDeadline = canMeetDeadline(jobTmp);
-          System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d %n", jobTmp.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
+	  boolean canMeetDeadline = canMeetDeadline(job);
+          System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d", job.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
           //add by wei
-          if (jobTmp.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline) {
+          if (job.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline) {
 	    continue;	
 	  }
-          j = i + 1;
-          job = jobTmp;
-          break;
-        }
-      
-        //add by wei
-        // Check if we found a job
-        if (job == null) {
-     //   job = jobQueue.iterator.next();
-          job = firstJob;
-        }
-        
-        System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
 
           Task t = null;
           
@@ -249,6 +224,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
             // from other TaskTrackers.
             break scheduleMaps;
           }
+        }
       }
     }
     int assignedMaps = assignedTasks.size();
@@ -419,81 +395,24 @@ class JobQueueTaskScheduler extends TaskScheduler {
   } catch (IOException e1) {
     LOG.error("Exception in reading resource.txt file", e1);
   }
- }  
+ }   
 
-  private class ReceiveThread extends Thread {
-    private Socket clientSocket;
-    private BufferedReader in;
-
-    public ReceiveThread(Socket s) {
-      this.clientSocket = s;
-      try {
-        this.in = new BufferedReader(new InputStreamReader(this.clientSocket.getInputStream()));
-        start();
-      } catch(IOException e) {
-          LOG.error("Exception in ReceiveThread");
-      }
-    }
-    public void run() {
-      String line;
-      try {
-        while(true) {
-          line = in.readLine();
-          String[] rec = line.split("\t");
-          String host = rec[0];
-          double cpu = Double.parseDouble(rec[1]);
-          NodeResource nodeResource = new NodeResource(cpu);
-          synchronized(this){
-            resources.put(host, nodeResource);
-            nodeResource = resources.get(host);
-            System.out.printf("host:%s cpu usage:%f %n", host, nodeResource.getCpuUsage());
-          }
-        }
-      } catch(IOException e) {
-        LOG.error("ReceiveThread run() fail to read data from socket");
-      } finally {
-        if(in != null) {
-          try{
-            in.close();
-          } catch(IOException e1){
-            LOG.error("ReceiveThread run() finally block close exception");
-          }
-        }
-
-      }
-
-    }
-  } 
-
-  private class UpdateResourceThread extends Thread {
-    private UpdateResourceThread() {
+  private class UpdateThread extends Thread {
+    private UpdateThread() {
       super("DeadlineScheduler update thread"); 
     }
 
     public void run() {
-      int port = 8888;
-      ServerSocket socket = null;
-      try {
-      JobQueueTaskScheduler jobQueueTaskScheduler = new JobQueueTaskScheduler();
-      socket = new ServerSocket(port);
-      socket.setReuseAddress(true);
       while(running) {
-        Socket clientScoket = socket.accept();
-        jobQueueTaskScheduler.new ReceiveThread(clientScoket);
-        } 
-      } catch (Exception e) {
+        try {
+          Thread.sleep(INTERVAL);
+          updateNodeResources();
+        } catch (Exception e) {
           LOG.error("Exception in DeadlineScheduler's UpdateThread", e);
-      } finally {
-        if(socket != null) {
-          try {
-            socket.close();
-          } catch (IOException e1) {
-            LOG.error("Exception in UpdateResourceThread run() finally block socket.close()");
-          }
         }
       }
-
-     }
     }
+
+  }
 
 }

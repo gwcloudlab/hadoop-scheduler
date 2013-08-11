@@ -1,26 +1,165 @@
-2013-08-05 00:35:06,939 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 1 msecs
-2013-08-05 00:37:08,520 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
-2013-08-05 00:39:14,206 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
-2013-08-05 00:39:14,206 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-08-05 00:39:15,489 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
-2013-08-05 00:39:15,489 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
-2013-08-05 01:35:08,140 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 1 msecs
-2013-08-05 01:37:06,707 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
-2013-08-05 01:39:16,027 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
-2013-08-05 01:39:16,027 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-08-05 01:39:17,294 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
-2013-08-05 01:39:17,294 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 74 
-2013-08-05 02:35:06,340 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 1 msecs
-2013-08-05 02:37:07,896 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
-2013-08-05 02:39:17,829 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
-2013-08-05 02:39:17,830 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-08-05 02:39:19,027 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
-2013-08-05 02:39:19,027 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
-2013-08-05 03:35:07,540 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
-2013-08-05 03:37:06,083 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 1 msecs
-2013-08-05 03:39:19,604 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
-2013-08-05 03:39:19,604 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-08-05 03:39:20,751 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
-2013-08-05 03:39:20,752 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
-2013-08-05 04:35:02,744 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 1 msecs
-2013-08-05 04:37:07,270 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-11 00:10:44,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-11 00:10:44,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-11 00:10:45,713 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-11 00:10:45,713 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-11 00:35:19,293 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 125, processing time: 0 msecs
+2013-08-11 00:36:41,775 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 125, processing time: 0 msecs
+2013-08-11 01:06:17,470 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at mastertest/192.168.1.222
+************************************************************/
+2013-08-11 01:11:25,895 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = mastertest/192.168.1.222
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.4-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'hadoop' on Sun Aug 11 01:07:37 UTC 2013
+************************************************************/
+2013-08-11 01:11:26,082 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2013-08-11 01:11:26,094 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2013-08-11 01:11:26,095 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2013-08-11 01:11:26,095 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2013-08-11 01:11:26,376 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2013-08-11 01:11:26,380 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-08-11 01:11:26,384 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2013-08-11 01:11:26,384 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2013-08-11 01:11:26,400 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2013-08-11 01:11:26,400 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 17.77875 MB
+2013-08-11 01:11:26,400 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2013-08-11 01:11:26,400 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2013-08-11 01:11:26,460 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hadoop
+2013-08-11 01:11:26,461 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2013-08-11 01:11:26,461 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2013-08-11 01:11:26,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2013-08-11 01:11:26,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2013-08-11 01:11:26,809 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2013-08-11 01:11:26,829 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2013-08-11 01:11:26,843 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 140
+2013-08-11 01:11:26,883 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2013-08-11 01:11:26,883 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 22182 loaded in 0 seconds.
+2013-08-11 01:11:26,884 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/hadoop/hdfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2013-08-11 01:11:26,892 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 22182 saved in 0 seconds.
+2013-08-11 01:11:27,390 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 22182 saved in 0 seconds.
+2013-08-11 01:11:27,772 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 4 entries 68 lookups
+2013-08-11 01:11:27,772 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 1323 msecs
+2013-08-11 01:11:27,776 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+2013-08-11 01:11:27,787 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2013-08-11 01:11:27,798 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2013-08-11 01:11:27,827 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2013-08-11 01:11:27,830 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort9000 registered.
+2013-08-11 01:11:27,830 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort9000 registered.
+2013-08-11 01:11:27,837 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: mastertest/192.168.1.222:9000
+2013-08-11 01:11:27,988 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2013-08-11 01:11:28,136 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2013-08-11 01:11:28,145 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = false
+2013-08-11 01:11:28,154 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2013-08-11 01:11:28,155 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2013-08-11 01:11:28,155 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2013-08-11 01:11:28,155 INFO org.mortbay.log: jetty-6.1.26
+2013-08-11 01:11:28,832 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2013-08-11 01:11:28,832 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2013-08-11 01:11:28,845 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2013-08-11 01:11:28,848 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2013-08-11 01:11:28,855 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2013-08-11 01:11:28,864 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2013-08-11 01:11:28,871 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2013-08-11 01:11:28,872 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2013-08-11 01:11:28,872 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2013-08-11 01:11:28,875 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2013-08-11 01:11:28,883 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2013-08-11 01:11:28,885 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2013-08-11 01:11:28,885 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2013-08-11 01:11:28,898 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2013-08-11 01:11:29,856 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.223:50010 storage DS-1491970474-192.168.1.223-50010-1373507339494
+2013-08-11 01:11:29,858 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.223:50010
+2013-08-11 01:11:31,212 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.222:50010 storage DS-1743768612-192.168.1.222-50010-1373507340924
+2013-08-11 01:11:31,212 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.222:50010
+2013-08-11 01:11:31,335 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 29 seconds.
+2013-08-11 01:11:31,336 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 125, processing time: 17 msecs
+2013-08-11 01:11:32,871 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 125, processing time: 3 msecs
+2013-08-11 01:11:33,981 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:hadoop cause:org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 27 seconds.
+2013-08-11 01:11:33,982 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000, call delete(/home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system, true) from 192.168.1.222:48149: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 27 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 27 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1994)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1974)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:792)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:563)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1388)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1384)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1121)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1382)
+2013-08-11 01:11:43,990 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:hadoop cause:org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 17 seconds.
+2013-08-11 01:11:43,990 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000, call delete(/home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system, true) from 192.168.1.222:48150: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 17 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 17 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1994)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1974)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:792)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:563)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1388)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1384)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1121)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1382)
+2013-08-11 01:11:51,340 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 9 seconds.
+2013-08-11 01:11:53,995 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:hadoop cause:org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 7 seconds.
+2013-08-11 01:11:53,996 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000, call delete(/home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system, true) from 192.168.1.222:48151: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 7 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 7 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1994)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1974)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:792)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:563)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1388)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1384)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1121)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1382)
+2013-08-11 01:12:01,354 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 125
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 40
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 13 msec
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 34 secs.
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 2 datanodes
+2013-08-11 01:12:01,355 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 40 blocks
+2013-08-11 01:12:03,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 1 msec
+2013-08-11 01:12:03,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 0 msec
+2013-08-11 01:12:03,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 0 blocks in 0 msec processing time, 0 msec clock time, 1 cycles
+2013-08-11 01:12:04,001 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_726877986951035650 is added to invalidSet of 192.168.1.222:50010
+2013-08-11 01:12:04,002 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_726877986951035650 is added to invalidSet of 192.168.1.223:50010
+2013-08-11 01:12:04,328 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/jobtracker.info. blk_-125234048482042700_6472
+2013-08-11 01:12:04,384 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.223:50010 is added to blk_-125234048482042700_6472 size 4
+2013-08-11 01:12:04,395 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.222:50010 is added to blk_-125234048482042700_6472 size 4
+2013-08-11 01:12:04,414 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/jobtracker.info from client DFSClient_-1444006391
+2013-08-11 01:12:04,415 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/jobtracker.info is closed by DFSClient_-1444006391
+2013-08-11 01:12:06,815 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.222:50010 to delete  blk_726877986951035650_6471
+2013-08-11 01:12:09,815 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.223:50010 to delete  blk_726877986951035650_6471

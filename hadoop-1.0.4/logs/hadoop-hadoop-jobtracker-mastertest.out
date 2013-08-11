@@ -1,129 +1,62 @@
-***current time: 1375648574647, job name: PiEstimator, job startTime: 1375648574602, job relativeDeadline: 300, job deadline: 1375648874602
-JobName=PiEstimator, ID=attempt_201308042034_0002_m_000101_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4579 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5598 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5594 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5534 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5550 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5514 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5580 
- ***current time: 1375648602267, job name: TeraSort, job startTime: 1375648602205, job relativeDeadline: 200, job deadline: 1375648802205
-JobName=PiEstimator, ID=attempt_201308042034_0002_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6978 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6582 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000017_0, Type=SC_MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4379 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6088 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6156 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7412 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5602 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5518 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=8349 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5684 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5545 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5481 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5611 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7559 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000016_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5614 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000017_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5496 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7463 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000018_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5750 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000019_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5821 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7420 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000020_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6017 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000021_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6040 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000022_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5511 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000023_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5528 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=11002 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000024_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5623 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000025_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5500 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7432 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000026_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6220 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000027_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6112 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000028_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5523 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000029_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5548 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7618 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000030_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5567 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000031_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5675 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7369 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000032_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5769 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000033_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5746 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000034_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5620 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000035_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5794 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7346 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000036_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5461 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000037_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5681 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7441 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000038_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5557 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000039_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5479 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000040_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5634 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000041_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5617 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7477 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000042_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5635 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000043_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5601 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7486 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000044_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5693 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000045_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5687 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000046_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5706 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000047_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5659 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7397 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000048_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5541 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000049_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5548 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4399 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000050_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5512 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000051_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5607 
- JobName=TeraSort, ID=attempt_201308042034_0003_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=7398 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000052_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5626 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000053_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5544 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000054_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5533 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000055_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5588 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000056_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=7122 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000057_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=7061 
- JobName=TeraSort, ID=attempt_201308042034_0003_r_000001_0, Type=REDUCE, Status=SUCCEEDED, Machine=slave1test, ExecTime=155709, ShuffleTime=137914, SortTime=1049 
-JobName=PiEstimator, ID=attempt_201308042034_0002_m_000058_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5608 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000059_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5486 
- JobName=TeraSort, ID=attempt_201308042034_0003_r_000000_0, Type=REDUCE, Status=SUCCEEDED, Machine=mastertest, ExecTime=156259, ShuffleTime=141591, SortTime=801 
-JobName=TeraSort, ID=attempt_201308042034_0003_r_000002_0, Type=REDUCE, Status=SUCCEEDED, Machine=mastertest, ExecTime=156404, ShuffleTime=137630, SortTime=1053 
-JobName=PiEstimator, ID=attempt_201308042034_0002_m_000060_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6822 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000061_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6493 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000062_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=5227 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000063_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6888 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000064_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6918 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000065_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=5359 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000068_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4542 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000066_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6528 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000067_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6896 
- JobName=TeraSort, ID=attempt_201308042034_0003_r_000003_0, Type=REDUCE, Status=SUCCEEDED, Machine=mastertest, ExecTime=28797, ShuffleTime=14539, SortTime=801 
-JobName=PiEstimator, ID=attempt_201308042034_0002_m_000069_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4379 
- JobName=TeraSort, ID=attempt_201308042034_0003_r_000003_1, Type=REDUCE, Status=KILLED, Machine=slave1test, ExecTime=32961, ShuffleTime=19739, SortTime=1470 
-JobName=TeraSort, ID=attempt_201308042034_0003_m_000016_0, Type=SC_MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4362 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000070_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6708 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000071_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=6274 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000072_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4399 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000073_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5570 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000074_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5497 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000075_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4326 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000076_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5545 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000077_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5548 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000078_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4367 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000079_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5585 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000080_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=5587 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000081_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4322 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000082_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4530 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000083_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4549 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000084_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4545 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000085_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4512 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000086_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4380 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000087_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4584 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000088_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4495 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000089_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4571 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000090_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4502 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000091_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4956 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000092_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4304 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000093_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4527 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000094_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4637 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000095_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4523 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000096_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4504 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000097_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4606 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000098_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, ExecTime=4344 
- JobName=PiEstimator, ID=attempt_201308042034_0002_m_000099_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4528 
- JobName=PiEstimator, ID=attempt_201308042034_0002_r_000000_0, Type=REDUCE, Status=SUCCEEDED, Machine=slave1test, ExecTime=290608, ShuffleTime=287490, SortTime=21 
-JobName=PiEstimator, ID=attempt_201308042034_0002_m_000100_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave1test, ExecTime=4527 
- 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+host:slave3 cpu usage:0.080000 
+host:slave4 cpu usage:0.100000 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+Exception in thread "Thread-34" java.lang.NullPointerException
+	at org.apache.hadoop.mapred.JobQueueTaskScheduler$ReceiveThread.run(JobQueueTaskScheduler.java:442)
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
