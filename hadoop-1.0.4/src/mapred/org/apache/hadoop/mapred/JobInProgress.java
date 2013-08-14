@@ -236,6 +236,8 @@ public class JobInProgress {
   // add by wei
   int relativeDeadline;
   long deadLine;
+  private Map<String, Integer> slotsOccupied = 
+      new HashMap<String, Integer>();
 
   // First *task launch time
   final Map<TaskType, Long> firstTaskLaunchTimes =
@@ -854,6 +856,46 @@ public class JobInProgress {
 
   public long getFinishTime() {
     return finishTime;
+  }
+
+  public Map<String, Integer> getSlotsHashMap() {
+    return this.slotsOccupied;
+  }
+
+  public int getSlotsOccupied(String host) {
+    int slots;
+
+    if(slotsOccupied.containsKey(host))
+      slots = slotsOccupied.get(host);
+    else
+      slots = 0;
+    return slots;
+  }
+ 
+  public void incSlotsOccupied(String host) {
+    int slots = 0;
+   
+    if(slotsOccupied.containsKey(host)) {
+      slots = slotsOccupied.get(host);
+      slots++;
+    }
+    else {
+      slots = 1;
+    }
+    slotsOccupied.put(host, slots);
+  }
+
+  public void decSlotsOccupied(String host) {
+    int slots = 0;
+    
+    if(slotsOccupied.containsKey(host)) {
+    slots = slotsOccupied.get(host);
+      slots--;
+    }
+    else {
+      slots = 0;
+    }
+    slotsOccupied.put(host, slots);
   }
 
   public int desiredMaps() {
@@ -1792,6 +1834,10 @@ public class JobInProgress {
       name = Values.CLEANUP.name();
     } else if (tip.isMapTask()) {
       ++runningMapTasks;
+      //add by wei
+      String host = tts.getHost();
+      tip.getJob().incSlotsOccupied(host);
+      
       name = Values.MAP.name();
       counter = Counter.TOTAL_LAUNCHED_MAPS;
       splits = tip.getSplitNodes();
@@ -2697,6 +2743,10 @@ public class JobInProgress {
       jobtracker.markCompletedTaskAttempt(status.getTaskTracker(), taskid);
     } else if (tip.isMapTask()) {
       runningMapTasks -= 1;
+      //add by wei
+      String taskTrackerName = status.getTaskTracker();
+      String host = convertTrackerNameToHostName(taskTrackerName);
+      tip.getJob().decSlotsOccupied(host);
       // check if this was a sepculative task
       if (oldNumAttempts > 1) {
         speculativeMapTasks -= (oldNumAttempts - newNumAttempts);
@@ -3025,6 +3075,11 @@ public class JobInProgress {
       if (!tip.isJobCleanupTask() && !tip.isJobSetupTask()) {
         if (tip.isMapTask() && !metricsDone) {
           runningMapTasks -= 1;
+          //add by wei
+          String taskTrackerName = status.getTaskTracker();
+          String host = convertTrackerNameToHostName(taskTrackerName);
+          tip.getJob().decSlotsOccupied(host);
+ 
           metrics.failedMap(taskid);
           this.queueMetrics.failedMap(taskid);
         } else if (!metricsDone) {

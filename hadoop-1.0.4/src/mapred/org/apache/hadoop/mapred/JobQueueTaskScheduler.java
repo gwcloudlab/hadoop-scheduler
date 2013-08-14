@@ -48,13 +48,22 @@ class JobQueueTaskScheduler extends TaskScheduler {
   private float padFraction;
 
   //add by wei
-  public Map<String, NodeResource> resources
+  protected static  Map<String, NodeResource> resources
     = new HashMap<String, NodeResource>();
   protected volatile boolean running = false;
   
   public JobQueueTaskScheduler() {
     this.jobQueueJobInProgressListener = new JobQueueJobInProgressListener();
   }
+
+  public void initResources() {
+    NodeResource nodeMasterTest = new NodeResource(0);
+    resources.put("mastertest", nodeMasterTest);
+    NodeResource nodeSlave1Test = new NodeResource(0);
+    resources.put("slave1test", nodeSlave1Test);
+  }
+
+
   
   @Override
   public synchronized void start() throws IOException {
@@ -66,6 +75,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       taskTrackerManager.addJobInProgressListener(
           eagerTaskInitializationListener);
       running = true;
+      initResources();
       new UpdateResourceThread().start();
     } catch (Exception e) {
       LOG.error("Failed to start threads ", e);
@@ -178,9 +188,12 @@ class JobQueueTaskScheduler extends TaskScheduler {
     boolean canMeetDeadline = false;
     int j = 0;
     String host = taskTracker.getStatus().getHost();
+    System.out.printf("???resources address in the assignTasks():%s %n", Integer.toHexString(System.identityHashCode(resources)));
     NodeResource nodeResource = resources.get(host);
+    System.out.printf("+++current time:%d, nodeResource address:%s, cpu usage:%f %n", System.currentTimeMillis(), 
+                      Integer.toHexString(System.identityHashCode(nodeResource)), nodeResource.getCpuUsage());
     System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
-
+    System.out.printf("XXXtasktracker name=%s %n", taskTracker.getTrackerName());
     scheduleMaps:
     for (int i=0; i < availableMapSlots; ++i) {
       JobInProgress job = null;
@@ -188,11 +201,11 @@ class JobQueueTaskScheduler extends TaskScheduler {
       JobInProgress maxProgressJob = null;
       synchronized (jobQueue) {
         for (JobInProgress jobTmp : jobQueue) {
-        System.out.printf("%%%%JobName=%s Deadline=%d %n", jobTmp.getProfile().getJobName(), jobTmp.getJobDeadline());  
-	if(firstJob == null && jobTmp.getStatus().getRunState() == JobStatus.RUNNING ) {
+        System.out.printf("!!!JobName=%s Deadline=%d %n", jobTmp.getProfile().getJobName(), jobTmp.getJobDeadline());  
+/*	if(firstJob == null && jobTmp.getStatus().getRunState() == JobStatus.RUNNING ) {
             firstJob = jobTmp;
             j = i + 1;
-          }
+          }*/
    
           if (jobTmp.getStatus().getRunState() != JobStatus.RUNNING) {
             continue;
@@ -215,7 +228,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
         // Check if we found a job
         if (job == null) {
      //   job = jobQueue.iterator.next();
-    //      job = firstJob;
+     //     job = firstJob;
           job = maxProgressJob;
         }
         
@@ -390,48 +403,87 @@ class JobQueueTaskScheduler extends TaskScheduler {
           dedicatedMapTaskExecTime = 7.5;
     }
     return dedicatedMapTaskExecTime;
-  } 
+  }
 
   public double predictMapTaskExecTime(JobInProgress job, NodeResource nodeResource) {
     double mapTaskExecTime = 0;
     String jobName = job.getProfile().getJobName();
     if (jobName.equals("PiEstimator")) {
-      mapTaskExecTime = 5;
+      mapTaskExecTime = 3 * nodeResource.getCpuUsage() + 5;
     }  else if (jobName.equals("word count")) {
-    	  mapTaskExecTime = 40;
+          mapTaskExecTime = 2 * nodeResource.getCpuUsage() + 40;
     }  else if (jobName.equals("TeraSort")) {
-          mapTaskExecTime = 7.5;
+          mapTaskExecTime = 0.1 * nodeResource.getCpuUsage() + 7.5;
     }
     return mapTaskExecTime;
   }
 
   public double jobProgress(JobInProgress job, NodeResource nodeResource){
     double jobProgress = 0;
-  
- //   NodeResource dedicateNodeResource =  new NodeResource(0, 0, 0);
- //   jobProgress = predictMapTaskExecTime(job, nodeResource) / predictMapTaskExecTime(job, dedicatedNodeResource);
-   jobProgress = 1 / (predictMapTaskExecTime(job, nodeResource) / dedicatedMapTaskExecTime(job));
-      
+
+    NodeResource dedicatedNodeResource =  new NodeResource(0);
+    jobProgress = predictMapTaskExecTime(job, dedicatedNodeResource) / (predictMapTaskExecTime(job, nodeResource));
+
     return jobProgress;
 
-  } 
-
-  public boolean canMeetDeadline(JobInProgress job){
+  }
+                                 
+/*  public boolean canMeetDeadline(JobInProgress job){
     boolean canMeetDeadline;
     int pendingMapTasks;
     int currentMapSlots;
     double dedicatedMapTaskExecTime;
     long remainingTime;
+    NodeResource dedicatedNodeResource = null;
 
+    dedicatedNodeResource = new NodeResource(0);
     pendingMapTasks = job.pendingMaps();
     currentMapSlots = job.runningMaps();
     remainingTime = (job.getJobDeadline() - System.currentTimeMillis());
-    dedicatedMapTaskExecTime = dedicatedMapTaskExecTime(job); 
+    dedicatedMapTaskExecTime = predictMapTaskExecTime(job, dedicatedNodeResource);
     if (currentMapSlots == 0) {
       canMeetDeadline = false;
       return canMeetDeadline;
     }
     canMeetDeadline = (pendingMapTasks * dedicatedMapTaskExecTime * 1000 / currentMapSlots < remainingTime);
+    return canMeetDeadline;  
+  
+ }*/
+
+
+  public boolean canMeetDeadline(JobInProgress job){
+    boolean canMeetDeadline = false;
+    int pendingMapTasks;
+    long remainingTime;
+//    int[] taskNums = new int[100];
+    int totalTaskNums = 0;
+//    int i = 0;
+
+    pendingMapTasks = job.pendingMaps();
+    remainingTime = (job.getJobDeadline() - System.currentTimeMillis());
+
+    Set<Map.Entry<String, Integer>> entries = job.getSlotsHashMap().entrySet();
+    for (Map.Entry<String, Integer> entry:entries) {
+      String host = entry.getKey();
+      Integer slotsNum = entry.getValue();
+      NodeResource nodeResouce = resources.get(host);
+      double predictMapTaskExecTime = predictMapTaskExecTime(job, nodeResouce);      
+//      taskNums[i] = (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
+      totalTaskNums += (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
+      System.out.printf("AAAjobName=%s, host=%s, slotsNum=%d, TaskExecTime=%f, pendingTasks=%d, TaskNums=%d %n", job.getProfile().getJobName(), 
+                        host, slotsNum, predictMapTaskExecTime, pendingMapTasks, (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum);
+//      i++;      
+    }
+
+/*    for (i = 0; i < taskNums.length; i++) {
+      totalTaskNums += taskNums[i];
+    }*/
+  
+    if (totalTaskNums >= pendingMapTasks)
+      canMeetDeadline = true;
+    else
+      canMeetDeadline = false;
+    
     return canMeetDeadline;  
   
  }
@@ -456,7 +508,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
      host=rec[0];
      cpu=Double.parseDouble(rec[1]);
      NodeResource nodeResource = new NodeResource(cpu);
-     synchronized (this) {
+     synchronized (resources) {
        resources.put(host, nodeResource);
      }
      
@@ -488,10 +540,12 @@ class JobQueueTaskScheduler extends TaskScheduler {
           String host = rec[0];
           double cpu = Double.parseDouble(rec[1]);
           NodeResource nodeResource = new NodeResource(cpu);
-          synchronized(this){
+          synchronized(resources){
             resources.put(host, nodeResource);
-            nodeResource = resources.get(host);
-            System.out.printf("host:%s cpu usage:%f %n", host, nodeResource.getCpuUsage());
+            NodeResource nodeResource1 = resources.get(host);
+            System.out.printf("???resources address in ReceiveThread():%s %n", Integer.toHexString(System.identityHashCode(resources)));
+            System.out.printf("+++current time:%d, nodeResource1 address:%s, host:%s, cpu usage:%f %n", System.currentTimeMillis(), 
+                             Integer.toHexString(System.identityHashCode(nodeResource1)), host, nodeResource1.getCpuUsage());
           }
         }
       } catch(IOException e) {
