@@ -20021,3 +20021,7 @@ STARTUP_MSG:   build =  -r ; compiled by 'hadoop' on Wed Aug 14 21:11:22 UTC 201
 2013-08-14 21:23:45,467 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_8992133316741305024_12796 file /home/hadoop/hdfs/data/current/subdir45/blk_8992133316741305024 for deletion
 2013-08-14 21:23:45,467 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_6952141781200781112_12904 at file /home/hadoop/hdfs/data/current/subdir39/blk_6952141781200781112
 2013-08-14 21:23:45,467 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_8992133316741305024_12796 at file /home/hadoop/hdfs/data/current/subdir45/blk_8992133316741305024
+2013-08-14 21:25:58,755 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at slave1test/192.168.1.223
+************************************************************/
