@@ -46,8 +46,9 @@ class JobQueueTaskScheduler extends TaskScheduler {
   protected JobQueueJobInProgressListener jobQueueJobInProgressListener;
   protected EagerTaskInitializationListener eagerTaskInitializationListener;
   private float padFraction;
-
+    
   //add by wei
+  protected static double DISKTHRESHOLD = 500;
   protected static  Map<String, NodeResource> resources
     = new HashMap<String, NodeResource>();
   protected volatile boolean running = false;
@@ -57,9 +58,9 @@ class JobQueueTaskScheduler extends TaskScheduler {
   }
 
   public void initResources() {
-    NodeResource nodeMasterTest = new NodeResource(0);
+    NodeResource nodeMasterTest = new NodeResource(0, 0);
     resources.put("mastertest", nodeMasterTest);
-    NodeResource nodeSlave1Test = new NodeResource(0);
+    NodeResource nodeSlave1Test = new NodeResource(0, 0);
     resources.put("slave1test", nodeSlave1Test);
   }
 
@@ -109,6 +110,9 @@ class JobQueueTaskScheduler extends TaskScheduler {
   @Override
   public synchronized List<Task> assignTasks(TaskTracker taskTracker)
       throws IOException {
+    // Assigned tasks
+    List<Task> assignedTasks = new ArrayList<Task>();
+   
     TaskTrackerStatus taskTrackerStatus = taskTracker.getStatus(); 
     ClusterStatus clusterStatus = taskTrackerManager.getClusterStatus();
     final int numTaskTrackers = clusterStatus.getTaskTrackers();
@@ -126,8 +130,6 @@ class JobQueueTaskScheduler extends TaskScheduler {
     final int trackerRunningMaps = taskTrackerStatus.countMapTasks();
     final int trackerRunningReduces = taskTrackerStatus.countReduceTasks();
 
-    // Assigned tasks
-    List<Task> assignedTasks = new ArrayList<Task>();
 
     //
     // Compute (running + pending) map and reduce task numbers across pool
@@ -187,13 +189,13 @@ class JobQueueTaskScheduler extends TaskScheduler {
     int numNonLocalMaps = 0;
     boolean canMeetDeadline = false;
     int j = 0;
+    boolean diskBottleneck = false;
+
     String host = taskTracker.getStatus().getHost();
-    System.out.printf("???resources address in the assignTasks():%s %n", Integer.toHexString(System.identityHashCode(resources)));
     NodeResource nodeResource = resources.get(host);
     System.out.printf("+++current time:%d, nodeResource address:%s, cpu usage:%f %n", System.currentTimeMillis(), 
                       Integer.toHexString(System.identityHashCode(nodeResource)), nodeResource.getCpuUsage());
     System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
-    System.out.printf("XXXtasktracker name=%s %n", taskTracker.getTrackerName());
     scheduleMaps:
     for (int i=0; i < availableMapSlots; ++i) {
       JobInProgress job = null;
@@ -213,24 +215,46 @@ class JobQueueTaskScheduler extends TaskScheduler {
 	  canMeetDeadline = canMeetDeadline(jobTmp);
           System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d %n", jobTmp.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
           //add by wei
-          if (jobTmp.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline) {
-            if((maxProgressJob == null) || (jobProgress(jobTmp, nodeResource) > jobProgress(maxProgressJob, nodeResource))){
-              maxProgressJob = jobTmp; 
+          if (jobTmp.getStatus().getRunState() == JobStatus.RUNNING) {
+            if (!canMeetDeadline) {
+              job = jobTmp;
+              j = i + 1;
+              break;
             }
-	    continue;	
-	  }
-          j = i + 1;
+
+            if (diskBottleneck(jobTmp, taskTracker)) {
+              diskBottleneck = true;
+              break;
+            } 
+            else {
+              if((maxProgressJob == null) || (jobProgress(jobTmp, nodeResource) > jobProgress(maxProgressJob, nodeResource))) {
+                maxProgressJob = jobTmp; 
+                diskBottleneck = false;
+              }
+	    }
+          }
+     /*     if(jobTmp.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline)
+            continue;
           job = jobTmp;
-          break;
+          j = i + 1;
+          break;*/
+          j = i + 1;
         }
       
         //add by wei
         // Check if we found a job
-        if (job == null) {
+        if (job == null && diskBottleneck) {
      //   job = jobQueue.iterator.next();
      //     job = firstJob;
-          job = maxProgressJob;
+          break;
+        } 
+        else { 
+          if(job == null)
+            job = maxProgressJob;
         }
+
+    /*    if(job == null)
+          job = maxProgressJob;*/
         
         System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
 
@@ -325,6 +349,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
     }
 
     return assignedTasks;
+    
   }
 
   private boolean exceededPadding(boolean isMapTask, 
@@ -421,7 +446,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
   public double jobProgress(JobInProgress job, NodeResource nodeResource){
     double jobProgress = 0;
 
-    NodeResource dedicatedNodeResource =  new NodeResource(0);
+    NodeResource dedicatedNodeResource =  new NodeResource(0, 0);
     jobProgress = predictMapTaskExecTime(job, dedicatedNodeResource) / (predictMapTaskExecTime(job, nodeResource));
 
     return jobProgress;
@@ -450,6 +475,39 @@ class JobQueueTaskScheduler extends TaskScheduler {
   
  }*/
 
+public double predictJobDiskDemand(JobInProgress job) {
+  String jobName = job.getProfile().getJobName();
+  double diskDemand = 0.0;
+    if (jobName.equals("PiEstimator")) {
+      diskDemand = 10.0;
+    }  else if (jobName.equals("word count")) {
+        diskDemand = 20.0;
+    }  else if (jobName.equals("TeraSort")) {
+        diskDemand = 15.0;
+    }   
+    return diskDemand; 
+
+}
+
+public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
+  boolean diskBottleneck = false;
+  String taskTrackerHost = taskTracker.getStatus().getHost();
+  double taskTrackerCpuUsage = resources.get(taskTrackerHost).getCpuUsage();
+  double predictDiskDemand = predictJobDiskDemand(job);
+   
+  Set<Map.Entry<String, NodeResource>> entries = resources.entrySet();
+  for (Map.Entry<String, NodeResource> entry:entries) {
+    String host = entry.getKey();
+    NodeResource nodeResource = entry.getValue();
+    double cpu = nodeResource.getCpuUsage();
+    double disk = nodeResource.getDisk();
+    if ((int)cpu == 0 && disk + predictDiskDemand > DISKTHRESHOLD && (int)taskTrackerCpuUsage != 0) {
+      diskBottleneck = true;
+    }
+  }
+
+  return diskBottleneck;
+}
 
   public boolean canMeetDeadline(JobInProgress job){
     boolean canMeetDeadline = false;
@@ -539,13 +597,14 @@ class JobQueueTaskScheduler extends TaskScheduler {
           String[] rec = line.split("\t");
           String host = rec[0];
           double cpu = Double.parseDouble(rec[1]);
-          NodeResource nodeResource = new NodeResource(cpu);
+          double disk = Double.parseDouble(rec[2]);
+          NodeResource nodeResource = new NodeResource(cpu, disk);
           synchronized(resources){
             resources.put(host, nodeResource);
             NodeResource nodeResource1 = resources.get(host);
             System.out.printf("???resources address in ReceiveThread():%s %n", Integer.toHexString(System.identityHashCode(resources)));
-            System.out.printf("+++current time:%d, nodeResource1 address:%s, host:%s, cpu usage:%f %n", System.currentTimeMillis(), 
-                             Integer.toHexString(System.identityHashCode(nodeResource1)), host, nodeResource1.getCpuUsage());
+            System.out.printf("+++current time:%d, nodeResource1 address:%s, host:%s, cpu usage:%f, disk:%f %n", System.currentTimeMillis(), 
+                             Integer.toHexString(System.identityHashCode(nodeResource1)), host, nodeResource1.getCpuUsage(), nodeResource1.getDisk());
           }
         }
       } catch(IOException e) {
@@ -596,3 +655,4 @@ class JobQueueTaskScheduler extends TaskScheduler {
     }
 
 }
+

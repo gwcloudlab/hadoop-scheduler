@@ -20,7 +20,16 @@ public class NodeResource {
     this.cpu = cpu;
   }
 
+  public NodeResource(double cpu, double disk) {
+    this.cpu = cpu;
+    this.disk = disk;
+  }
+
   public double getCpuUsage() {
     return cpu;
+  }
+
+  public double getDisk() {
+    return disk;
   }
 }
