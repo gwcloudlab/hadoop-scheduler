@@ -193,8 +193,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
 
     String host = taskTracker.getStatus().getHost();
     NodeResource nodeResource = resources.get(host);
-    System.out.printf("+++current time:%d, nodeResource address:%s, cpu usage:%f %n", System.currentTimeMillis(), 
-                      Integer.toHexString(System.identityHashCode(nodeResource)), nodeResource.getCpuUsage());
+  //  System.out.printf("+++current time:%d, nodeResource address:%s, cpu usage:%f %n", System.currentTimeMillis(), 
+ //                     Integer.toHexString(System.identityHashCode(nodeResource)), nodeResource.getCpuUsage());
     System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
     scheduleMaps:
     for (int i=0; i < availableMapSlots; ++i) {
@@ -203,7 +203,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       JobInProgress maxProgressJob = null;
       synchronized (jobQueue) {
         for (JobInProgress jobTmp : jobQueue) {
-        System.out.printf("!!!JobName=%s Deadline=%d %n", jobTmp.getProfile().getJobName(), jobTmp.getJobDeadline());  
+  //      System.out.printf("!!!JobName=%s Deadline=%d %n", jobTmp.getProfile().getJobName(), jobTmp.getJobDeadline());  
 /*	if(firstJob == null && jobTmp.getStatus().getRunState() == JobStatus.RUNNING ) {
             firstJob = jobTmp;
             j = i + 1;
@@ -213,18 +213,18 @@ class JobQueueTaskScheduler extends TaskScheduler {
             continue;
           }
 	  canMeetDeadline = canMeetDeadline(jobTmp);
-          System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d %n", jobTmp.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
+ //         System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d %n", jobTmp.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
           //add by wei
           if (jobTmp.getStatus().getRunState() == JobStatus.RUNNING) {
             if (!canMeetDeadline) {
               job = jobTmp;
-              j = i + 1;
+     //         j = i + 1;
               break;
             }
 
             if (diskBottleneck(jobTmp, taskTracker)) {
               diskBottleneck = true;
-              break;
+              continue;
             } 
             else {
               if((maxProgressJob == null) || (jobProgress(jobTmp, nodeResource) > jobProgress(maxProgressJob, nodeResource))) {
@@ -238,25 +238,30 @@ class JobQueueTaskScheduler extends TaskScheduler {
           job = jobTmp;
           j = i + 1;
           break;*/
-          j = i + 1;
+   //       j = i + 1;
         }
       
         //add by wei
-        // Check if we found a job
-        if (job == null && diskBottleneck) {
+        // Check if we found a job that could not meet deadline
+        if (job == null) {
+	  if(maxProgressJob != null) {
+	    job = maxProgressJob;
+	  }
+	  else {
+	    // any job we pick will cause IO bottleneck
+	    break;
+	  }
+	}
+	// if we reach here, we have found a job to run
+
      //   job = jobQueue.iterator.next();
      //     job = firstJob;
-          break;
-        } 
-        else { 
-          if(job == null)
-            job = maxProgressJob;
-        }
 
     /*    if(job == null)
           job = maxProgressJob;*/
         
-        System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
+      //  System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
+        System.out.printf("@@@Job %s gets the map free slot from TaskTracker %s %n", job.getProfile().getJobName(), taskTracker.getStatus().getHost());
 
           Task t = null;
           
@@ -501,7 +506,15 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     NodeResource nodeResource = entry.getValue();
     double cpu = nodeResource.getCpuUsage();
     double disk = nodeResource.getDisk();
-    if ((int)cpu == 0 && disk + predictDiskDemand > DISKTHRESHOLD && (int)taskTrackerCpuUsage != 0) {
+    boolean isDedicated = false;
+    boolean trackerIsShared = false;
+    if((int)taskTrackerCpuUsage != 0){
+        trackerIsShared = true;
+    }
+    if(cpu == 0) {
+	isDedicated = true;
+    }
+    if (isDedicated && trackerIsShared && disk + predictDiskDemand > DISKTHRESHOLD) {
       diskBottleneck = true;
     }
   }
@@ -528,8 +541,8 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
       double predictMapTaskExecTime = predictMapTaskExecTime(job, nodeResouce);      
 //      taskNums[i] = (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
       totalTaskNums += (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
-      System.out.printf("AAAjobName=%s, host=%s, slotsNum=%d, TaskExecTime=%f, pendingTasks=%d, TaskNums=%d %n", job.getProfile().getJobName(), 
-                        host, slotsNum, predictMapTaskExecTime, pendingMapTasks, (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum);
+//      System.out.printf("AAAjobName=%s, host=%s, slotsNum=%d, TaskExecTime=%f, pendingTasks=%d, TaskNums=%d %n", job.getProfile().getJobName(), 
+//                        host, slotsNum, predictMapTaskExecTime, pendingMapTasks, (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum);
 //      i++;      
     }
 
@@ -602,9 +615,9 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
           synchronized(resources){
             resources.put(host, nodeResource);
             NodeResource nodeResource1 = resources.get(host);
-            System.out.printf("???resources address in ReceiveThread():%s %n", Integer.toHexString(System.identityHashCode(resources)));
-            System.out.printf("+++current time:%d, nodeResource1 address:%s, host:%s, cpu usage:%f, disk:%f %n", System.currentTimeMillis(), 
-                             Integer.toHexString(System.identityHashCode(nodeResource1)), host, nodeResource1.getCpuUsage(), nodeResource1.getDisk());
+  //          System.out.printf("???resources address in ReceiveThread():%s %n", Integer.toHexString(System.identityHashCode(resources)));
+  //          System.out.printf("+++current time:%d, nodeResource1 address:%s, host:%s, cpu usage:%f, disk:%f %n", System.currentTimeMillis(), 
+  //                           Integer.toHexString(System.identityHashCode(nodeResource1)), host, nodeResource1.getCpuUsage(), nodeResource1.getDisk());
           }
         }
       } catch(IOException e) {

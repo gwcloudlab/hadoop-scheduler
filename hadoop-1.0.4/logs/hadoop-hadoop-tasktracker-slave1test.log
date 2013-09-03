@@ -1,28 +1,4 @@
-2013-08-19 13:47:21,380 ERROR org.apache.hadoop.mapred.TaskTracker: Caught exception: java.io.IOException: Call to mastertest/192.168.1.222:9001 failed on local exception: java.io.IOException: Connection reset by peer
-	at org.apache.hadoop.ipc.Client.wrapException(Client.java:1107)
-	at org.apache.hadoop.ipc.Client.call(Client.java:1075)
-	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:225)
-	at org.apache.hadoop.mapred.$Proxy5.heartbeat(Unknown Source)
-	at org.apache.hadoop.mapred.TaskTracker.transmitHeartBeat(TaskTracker.java:1857)
-	at org.apache.hadoop.mapred.TaskTracker.offerService(TaskTracker.java:1653)
-	at org.apache.hadoop.mapred.TaskTracker.run(TaskTracker.java:2503)
-	at org.apache.hadoop.mapred.TaskTracker.main(TaskTracker.java:3744)
-Caused by: java.io.IOException: Connection reset by peer
-	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:198)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:359)
-	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
-	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
-	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
-	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
-	at java.io.FilterInputStream.read(FilterInputStream.java:133)
-	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:342)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:804)
-	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:749)
-
-2013-08-19 13:47:21,381 INFO org.apache.hadoop.mapred.TaskTracker: Resending 'status' to 'mastertest' with reponseId '12692
+2013-09-01 00:17:32,290 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308291416_0041
+2013-09-01 00:17:32,294 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308291416_0040
+2013-09-01 00:17:32,299 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308291416_0038
+2013-09-01 00:17:32,303 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308291416_0039
