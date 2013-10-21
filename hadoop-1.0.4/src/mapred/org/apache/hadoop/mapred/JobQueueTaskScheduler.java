@@ -538,7 +538,9 @@ class JobQueueTaskScheduler extends TaskScheduler {
 
 public double predictTaskDiskDemand(JobInProgress job, TaskTracker taskTracker) {
   String jobName = job.getProfile().getJobName();
-  double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResouce);      
+  String taskTrackerHost = taskTracker.getStatus().getHost();
+  NodeResource nodeResource = resources.get(taskTrackerHost);
+  double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource);      
   double diskDemand = 0.0;
   double diskDemandwithFullCpu = 0.0; 
     if (jobName.equals("PiEstimator")) {
@@ -602,8 +604,8 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     for (Map.Entry<String, Integer> entry:entries) {
       String host = entry.getKey();
       Integer slotsNum = entry.getValue();
-      NodeResource nodeResouce = resources.get(host);
-      double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResouce);      
+      NodeResource nodeResource = resources.get(host);
+      double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource);      
       double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTct; 
 //      taskNums[i] = (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
       totalTaskNums += (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
