@@ -1,49 +1,219 @@
 $$$The total map free slots in TaskTracker mastertest is 0 
 $$$The total map free slots in TaskTracker mastertest is 0 
-$$$The total map free slots in TaskTracker mastertest is 0 
-###current time: 1382367421842, job name: PiEstimator, job startTime: 1382367421795, job launchTime: 0, job relativeDeadline: 0, job deadline: 1382367421795
+###current time: 1382369101927, job name: PiEstimator, job startTime: 1382369101877, job launchTime: 0, job relativeDeadline: 0, job deadline: 1382369101877
 $$$The total map free slots in TaskTracker mastertest is -1 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000101_0, Type=SC_MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367423823, FinishTime=1382367428197, ExecTime=4374 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000101_0, Type=SC_MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369103590, FinishTime=1382369107976, ExecTime=4386 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
 $$$The total map free slots in TaskTracker mastertest is 0 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367429453, FinishTime=1382367433855, ExecTime=4402 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369109203, FinishTime=1382369113646, ExecTime=4443 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
 $$$The total map free slots in TaskTracker mastertest is 0 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367435471, FinishTime=1382367439864, ExecTime=4393 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369115223, FinishTime=1382369119600, ExecTime=4377 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
 $$$The total map free slots in TaskTracker mastertest is 0 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367441489, FinishTime=1382367445844, ExecTime=4355 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369121242, FinishTime=1382369125666, ExecTime=4424 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
 $$$The total map free slots in TaskTracker mastertest is 0 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367447501, FinishTime=1382367451934, ExecTime=4433 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369127253, FinishTime=1382369131640, ExecTime=4387 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
 $$$The total map free slots in TaskTracker mastertest is 0 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367453511, FinishTime=1382367457896, ExecTime=4385 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369133264, FinishTime=1382369137668, ExecTime=4404 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367459539, FinishTime=1382367465274, ExecTime=5735 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369139295, FinishTime=1382369144668, ExecTime=5373 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367465545, FinishTime=1382367469931, ExecTime=4386 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369145292, FinishTime=1382369149644, ExecTime=4352 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367471552, FinishTime=1382367475960, ExecTime=4408 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369151301, FinishTime=1382369155676, ExecTime=4375 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367477562, FinishTime=1382367481963, ExecTime=4401 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369157310, FinishTime=1382369161676, ExecTime=4366 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367483570, FinishTime=1382367487966, ExecTime=4396 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369163319, FinishTime=1382369167675, ExecTime=4356 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367489579, FinishTime=1382367493976, ExecTime=4397 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369169328, FinishTime=1382369173734, ExecTime=4406 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
-JobName=PiEstimator, ID=attempt_201310211456_0001_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382367495586, FinishTime=1382367499982, ExecTime=4396 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369175337, FinishTime=1382369179711, ExecTime=4374 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369181344, FinishTime=1382369185736, ExecTime=4392 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369187353, FinishTime=1382369191838, ExecTime=4485 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369193362, FinishTime=1382369197756, ExecTime=4394 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369199371, FinishTime=1382369203728, ExecTime=4357 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000016_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369205380, FinishTime=1382369209772, ExecTime=4392 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000017_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369211389, FinishTime=1382369215758, ExecTime=4369 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000018_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369217398, FinishTime=1382369221778, ExecTime=4380 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000019_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369223407, FinishTime=1382369227771, ExecTime=4364 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000020_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369229416, FinishTime=1382369233752, ExecTime=4336 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000021_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369235424, FinishTime=1382369239808, ExecTime=4384 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000022_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369241432, FinishTime=1382369245823, ExecTime=4391 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000023_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369247442, FinishTime=1382369251837, ExecTime=4395 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000024_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369253450, FinishTime=1382369257813, ExecTime=4363 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000025_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369259459, FinishTime=1382369263837, ExecTime=4378 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000026_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369265468, FinishTime=1382369269885, ExecTime=4417 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000027_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369271476, FinishTime=1382369275848, ExecTime=4372 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000028_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369277486, FinishTime=1382369281822, ExecTime=4336 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000029_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369283495, FinishTime=1382369287916, ExecTime=4421 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000030_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369289503, FinishTime=1382369293903, ExecTime=4400 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000031_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369295513, FinishTime=1382369299919, ExecTime=4406 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000032_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369301522, FinishTime=1382369305892, ExecTime=4370 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000033_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369307532, FinishTime=1382369311932, ExecTime=4400 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000034_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369313540, FinishTime=1382369317963, ExecTime=4423 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000035_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369319549, FinishTime=1382369323891, ExecTime=4342 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000036_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369325557, FinishTime=1382369330005, ExecTime=4448 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000037_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369331565, FinishTime=1382369335931, ExecTime=4366 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000038_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369337574, FinishTime=1382369341959, ExecTime=4385 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000039_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369343582, FinishTime=1382369348011, ExecTime=4429 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000040_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369349591, FinishTime=1382369353995, ExecTime=4404 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000041_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369355599, FinishTime=1382369359971, ExecTime=4372 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000042_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369361608, FinishTime=1382369365979, ExecTime=4371 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000043_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369367617, FinishTime=1382369372003, ExecTime=4386 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000044_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369373625, FinishTime=1382369378019, ExecTime=4394 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000045_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369379633, FinishTime=1382369384027, ExecTime=4394 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000046_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369385642, FinishTime=1382369390035, ExecTime=4393 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000047_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369391652, FinishTime=1382369396099, ExecTime=4447 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000048_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369397661, FinishTime=1382369402019, ExecTime=4358 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000049_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369403670, FinishTime=1382369408067, ExecTime=4397 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000050_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369409679, FinishTime=1382369414073, ExecTime=4394 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000051_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369415688, FinishTime=1382369420031, ExecTime=4343 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000052_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369421695, FinishTime=1382369426097, ExecTime=4402 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000053_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369427704, FinishTime=1382369432071, ExecTime=4367 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000054_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369433723, FinishTime=1382369438144, ExecTime=4421 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000055_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369439732, FinishTime=1382369444193, ExecTime=4461 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000056_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369445741, FinishTime=1382369450167, ExecTime=4426 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000057_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369451748, FinishTime=1382369456088, ExecTime=4340 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000058_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369457757, FinishTime=1382369462163, ExecTime=4406 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000059_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369463765, FinishTime=1382369468175, ExecTime=4410 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000060_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369469773, FinishTime=1382369474187, ExecTime=4414 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000061_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369475782, FinishTime=1382369480194, ExecTime=4412 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000062_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369481790, FinishTime=1382369486212, ExecTime=4422 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000063_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369487799, FinishTime=1382369492207, ExecTime=4408 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000064_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369493808, FinishTime=1382369498246, ExecTime=4438 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000065_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369499817, FinishTime=1382369504278, ExecTime=4461 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000066_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369505825, FinishTime=1382369510235, ExecTime=4410 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000067_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369511833, FinishTime=1382369516215, ExecTime=4382 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+@@@Job PiEstimator gets the map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201310211524_0001_m_000068_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1382369517842, FinishTime=1382369522231, ExecTime=4389 
  $$$The total map free slots in TaskTracker mastertest is 1 
 @@@Job PiEstimator gets the map free slot from TaskTracker mastertest 

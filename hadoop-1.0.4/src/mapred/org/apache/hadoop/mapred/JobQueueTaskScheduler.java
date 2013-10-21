@@ -60,12 +60,12 @@ class JobQueueTaskScheduler extends TaskScheduler {
     this.jobQueueJobInProgressListener = new JobQueueJobInProgressListener();
   }
 
-  public void initResources() {
+/*  public void initResources() {
     NodeResource nodeMasterTest = new NodeResource(0, 0);
     resources.put("mastertest", nodeMasterTest);
     NodeResource nodeSlave1Test = new NodeResource(0, 0);
     resources.put("slave1test", nodeSlave1Test);
-  }
+  }*/
 
 
   
@@ -601,6 +601,29 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     return canMeetDeadline;  
   
  }
+
+public void initResources() {
+   String fileName="/home/hadoop/nodes.txt";
+   File file=new File(fileName);
+   BufferedReader br = null;
+   String node="";
+   try {
+     br=new BufferedReader(new FileReader(file));
+   } catch (FileNotFoundException e) {
+     LOG.error("Can not find resource.txt file", e);
+   }
+
+   NodeResource nodeResource = new NodeResource(0, 0);
+   try {
+     while((node=br.readLine())!=null){
+        resources.put(node, nodeResource);
+     }
+
+  } catch (IOException e1) {
+     LOG.error("Exception in reading resource.txt file", e1);
+  }
+
+}
 
  public void updateNodeResources() {
    String fileName="/home/hadoop/resource.txt";
