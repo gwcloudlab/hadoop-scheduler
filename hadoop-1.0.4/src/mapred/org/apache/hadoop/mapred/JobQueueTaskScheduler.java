@@ -51,7 +51,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
   private float padFraction;
     
   //add by wei
-  protected static double DISKTHRESHOLD = 500;
+  protected static double DISKTHRESHOLD = 103000;
   protected static  Map<String, NodeResource> resources
     = new HashMap<String, NodeResource>();
   protected volatile boolean running = false;
@@ -230,7 +230,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
               continue;
             } 
             else {
-              if((maxProgressJob == null) || (predictMapNormalizedTCT(jobTmp, nodeResource) < predictMapNormalizedTCT(maxProgressJob, nodeResource))) {
+              if((maxProgressJob == null) || (predictMapNormalizedTct(jobTmp, nodeResource) < predictMapNormalizedTct(maxProgressJob, nodeResource))) {
                 maxProgressJob = jobTmp; 
                 diskBottleneck = false;
               }
@@ -444,8 +444,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
     return dedicatedMapTaskExecTime;
   }
 
-  public double predictMapNormalizedTCT(JobInProgress job, NodeResource nodeResource) {
-    double mapNormalizedTCT = 0;
+  public double predictMapNormalizedTct(JobInProgress job, NodeResource nodeResource) {
+    double mapNormalizedTct = 0;
     double webCpuUsage = nodeResource.getCpuUsage();
     double a = 0;
     double b = 0;
@@ -486,8 +486,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
        d = 0.04242;  
      }
 
-    mapNormalizedTCT = a * Math.exp(b * webCpuUsage) + c * Math.exp(d * webCpuUsage);
-    return mapNormalizedTCT;
+    mapNormalizedTct = a * Math.exp(b * webCpuUsage) + c * Math.exp(d * webCpuUsage);
+    return mapNormalizedTct;
   }
 
 /*  public double jobProgress(JobInProgress job, NodeResource nodeResource){
@@ -522,7 +522,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
   
  }*/
 
-public double predictJobDiskDemand(JobInProgress job) {
+/*public double predictJobDiskDemand(JobInProgress job) {
   String jobName = job.getProfile().getJobName();
   double diskDemand = 0.0;
     if (jobName.equals("PiEstimator")) {
@@ -534,13 +534,40 @@ public double predictJobDiskDemand(JobInProgress job) {
     }   
     return diskDemand; 
 
+}*/
+
+public double predictTaskDiskDemand(JobInProgress job, TaskTracker taskTracker) {
+  String jobName = job.getProfile().getJobName();
+  double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResouce);      
+  double diskDemand = 0.0;
+  double diskDemandwithFullCpu = 0.0; 
+    if (jobName.equals("PiEstimator")) {
+      diskDemandwithFullCpu = 0;
+    }  else if (jobName.equals("word count")) {
+      diskDemandwithFullCpu = 8314.666667;
+    }  else if (jobName.equals("TeraSort")) {
+      diskDemandwithFullCpu = 51149.33333;
+    }  else if (jobName.equals("sorter")) {
+      diskDemandwithFullCpu = 71728 ;
+    }  else if (jobName.equals("grep-search")) {
+      diskDemandwithFullCpu = 27373.33333;
+    }  else if (jobName.equals("grep-sort")) {
+      diskDemandwithFullCpu = 26256;
+    }
+    diskDemand = diskDemandwithFullCpu / predictMapNormalizedTct;
+    return diskDemand; 
 }
 
 public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
   boolean diskBottleneck = false;
   String taskTrackerHost = taskTracker.getStatus().getHost();
   double taskTrackerCpuUsage = resources.get(taskTrackerHost).getCpuUsage();
-  double predictDiskDemand = predictJobDiskDemand(job);
+  boolean trackerIsShared = false;
+  if((int)taskTrackerCpuUsage != 0){
+    trackerIsShared = true;
+  }
+
+  double predictDiskDemand = predictTaskDiskDemand(job, taskTracker);
    
   Set<Map.Entry<String, NodeResource>> entries = resources.entrySet();
   for (Map.Entry<String, NodeResource> entry:entries) {
@@ -549,10 +576,6 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     double cpu = nodeResource.getCpuUsage();
     double disk = nodeResource.getDisk();
     boolean isDedicated = false;
-    boolean trackerIsShared = false;
-    if((int)taskTrackerCpuUsage != 0){
-        trackerIsShared = true;
-    }
     if(cpu == 0) {
 	isDedicated = true;
     }
@@ -580,8 +603,8 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
       String host = entry.getKey();
       Integer slotsNum = entry.getValue();
       NodeResource nodeResouce = resources.get(host);
-      double predictMapNormalizedTCT = predictMapNormalizedTCT(job, nodeResouce);      
-      double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTCT; 
+      double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResouce);      
+      double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTct; 
 //      taskNums[i] = (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
       totalTaskNums += (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
 //      System.out.printf("AAAjobName=%s, host=%s, slotsNum=%d, TaskExecTime=%f, pendingTasks=%d, TaskNums=%d %n", job.getProfile().getJobName(), 

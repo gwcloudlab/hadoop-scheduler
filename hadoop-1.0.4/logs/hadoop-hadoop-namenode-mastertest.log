@@ -2546,3 +2546,49 @@ The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode 
 2013-10-21 15:29:29,396 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 343 Total time for transactions(ms): 7Number of transactions batched in Syncs: 1 Number of syncs: 230 SyncTimes(ms): 7142 
 2013-10-21 15:29:31,129 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
 2013-10-21 15:29:31,129 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 100 
+2013-10-21 15:35:13,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-10-21 15:35:13,676 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/out/reduce-out. blk_-2772266499300675371_4066
+2013-10-21 15:35:13,708 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-2772266499300675371_4066 size 118
+2013-10-21 15:35:13,710 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/out/reduce-out from client DFSClient_attempt_201310211524_0001_r_000000_0
+2013-10-21 15:35:13,710 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/out/reduce-out is closed by DFSClient_attempt_201310211524_0001_r_000000_0
+2013-10-21 15:35:13,741 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201310211524_0001_r_000000_0/part-00000. blk_-5703959108586548971_4066
+2013-10-21 15:35:13,744 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5703959108586548971_4066 size 97
+2013-10-21 15:35:13,746 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201310211524_0001_r_000000_0/part-00000 from client DFSClient_attempt_201310211524_0001_r_000000_0
+2013-10-21 15:35:13,746 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/out/_temporary/_attempt_201310211524_0001_r_000000_0/part-00000 is closed by DFSClient_attempt_201310211524_0001_r_000000_0
+2013-10-21 15:35:23,643 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/out/_SUCCESS from client DFSClient_attempt_201310211524_0001_m_000100_0
+2013-10-21 15:35:23,643 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/out/_SUCCESS is closed by DFSClient_attempt_201310211524_0001_m_000100_0
+2013-10-21 15:35:23,675 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4508070355617458362 is added to invalidSet of 192.168.1.233:50010
+2013-10-21 15:35:23,675 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3528607476652768046 is added to invalidSet of 192.168.1.233:50010
+2013-10-21 15:35:23,675 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3642302566877015360 is added to invalidSet of 192.168.1.233:50010
+2013-10-21 15:35:23,675 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-1385938178788708780 is added to invalidSet of 192.168.1.233:50010
+2013-10-21 15:35:24,085 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.233:50010 to delete  blk_-1385938178788708780_4061 blk_3528607476652768046_4059 blk_-4508070355617458362_4058 blk_3642302566877015360_4060
+2013-10-21 15:35:28,164 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3293346452853036969_4064 size 287506
+2013-10-21 15:35:28,168 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/out/_logs/history/job_201310211524_0001_1382369101877_hadoop_PiEstimator from client DFSClient_1110777313
+2013-10-21 15:35:28,168 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/out/_logs/history/job_201310211524_0001_1382369101877_hadoop_PiEstimator is closed by DFSClient_1110777313
+2013-10-21 15:35:28,220 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6762153745272170923 is added to invalidSet of 192.168.1.233:50010
+2013-10-21 15:35:30,086 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.233:50010 to delete  blk_6762153745272170923_4064
+2013-10-21 16:21:01,879 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 457, processing time: 4 msecs
+2013-10-21 16:29:31,690 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
+2013-10-21 16:29:31,690 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 16 Total time for transactions(ms): 0Number of transactions batched in Syncs: 1 Number of syncs: 13 SyncTimes(ms): 482 
+2013-10-21 16:29:32,838 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
+2013-10-21 16:29:32,838 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 91 
+2013-10-21 17:21:00,068 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 457, processing time: 2 msecs
+2013-10-21 17:29:33,383 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
+2013-10-21 17:29:33,383 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-10-21 17:29:34,616 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
+2013-10-21 17:29:34,616 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-10-21 18:21:01,267 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 457, processing time: 1 msecs
+2013-10-21 18:29:35,160 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
+2013-10-21 18:29:35,160 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-10-21 18:29:36,384 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
+2013-10-21 18:29:36,384 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-10-21 19:21:02,472 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 457, processing time: 2 msecs
+2013-10-21 19:29:36,997 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
+2013-10-21 19:29:36,997 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-10-21 19:29:38,111 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
+2013-10-21 19:29:38,112 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 77 
+2013-10-21 20:21:00,675 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 457, processing time: 1 msecs
+2013-10-21 20:29:38,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
+2013-10-21 20:29:38,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-10-21 20:29:39,813 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
+2013-10-21 20:29:39,813 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
