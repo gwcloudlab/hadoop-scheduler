@@ -26,6 +26,9 @@ import java.lang.*;
 import java.util.*;
 import java.net.*;
 
+//add by wei
+//import java.util.Math;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
@@ -227,7 +230,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
               continue;
             } 
             else {
-              if((maxProgressJob == null) || (jobProgress(jobTmp, nodeResource) > jobProgress(maxProgressJob, nodeResource))) {
+              if((maxProgressJob == null) || (predictMapNormalizedTCT(jobTmp, nodeResource) < predictMapNormalizedTCT(maxProgressJob, nodeResource))) {
                 maxProgressJob = jobTmp; 
                 diskBottleneck = false;
               }
@@ -426,29 +429,68 @@ class JobQueueTaskScheduler extends TaskScheduler {
     double dedicatedMapTaskExecTime = 0;
     String jobName = job.getProfile().getJobName();
     if (jobName.equals("PiEstimator")) {
-      dedicatedMapTaskExecTime = 5;
+      dedicatedMapTaskExecTime = 4567.62;
     }  else if (jobName.equals("word count")) {
-    	  dedicatedMapTaskExecTime = 40;
+    	  dedicatedMapTaskExecTime = 39239.4;
     }  else if (jobName.equals("TeraSort")) {
-          dedicatedMapTaskExecTime = 7.5;
+          dedicatedMapTaskExecTime = 12278.45;
+    }  else if (jobName.equals("sorter")) {
+    	  dedicatedMapTaskExecTime = 9665.96;
+    }  else if (jobName.equals("grep-search")) {
+    	  dedicatedMapTaskExecTime = 11484.4;
+    }  else if (jobName.equals("grep-sort")) {
+    	  dedicatedMapTaskExecTime = 5175.125;
     }
     return dedicatedMapTaskExecTime;
   }
 
-  public double predictMapTaskExecTime(JobInProgress job, NodeResource nodeResource) {
-    double mapTaskExecTime = 0;
+  public double predictMapNormalizedTCT(JobInProgress job, NodeResource nodeResource) {
+    double mapNormalizedTCT = 0;
+    double webCpuUsage = nodeResource.getCpuUsage();
+    double a = 0;
+    double b = 0;
+    double c = 0;
+    double d = 0;
     String jobName = job.getProfile().getJobName();
     if (jobName.equals("PiEstimator")) {
-      mapTaskExecTime = 3 * nodeResource.getCpuUsage() + 5;
+       a = 1.004;  
+       b = 0.001889;  
+       c = 0.007551;  
+       d = 0.03663;   
     }  else if (jobName.equals("word count")) {
-          mapTaskExecTime = 2 * nodeResource.getCpuUsage() + 40;
+       a = 0.9472;  
+       b = 0.0076;  
+       c = 0.0001143;  
+       d = 0.06541;  
     }  else if (jobName.equals("TeraSort")) {
-          mapTaskExecTime = 0.1 * nodeResource.getCpuUsage() + 7.5;
-    }
-    return mapTaskExecTime;
+
+       a = 1.118;  
+       b = 0.004328;  
+       c = 0.002235;  
+       d = 0.04902;
+     } else if (jobName.equals("sorter")) {
+       a = 1.235;  
+       b = 0.003595;  
+       c = 0.07363;  
+       d = 0.02306;  
+
+     } else if (jobName.equals("grep-search")) {
+       a = 0.9232;  
+       b = 0.005957;  
+       c = 0.001579;  
+       d = 0.04666;  
+     } else if (jobName.equals("grep-sort")) {
+       a = 0.929;  
+       b = 0.002232;  
+       c = 0.002356;  
+       d = 0.04242;  
+     }
+
+    mapNormalizedTCT = a * Math.exp(b * webCpuUsage) + c * Math.exp(d * webCpuUsage);
+    return mapNormalizedTCT;
   }
 
-  public double jobProgress(JobInProgress job, NodeResource nodeResource){
+/*  public double jobProgress(JobInProgress job, NodeResource nodeResource){
     double jobProgress = 0;
 
     NodeResource dedicatedNodeResource =  new NodeResource(0, 0);
@@ -456,7 +498,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
 
     return jobProgress;
 
-  }
+  }*/
                                  
 /*  public boolean canMeetDeadline(JobInProgress job){
     boolean canMeetDeadline;
@@ -538,7 +580,8 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
       String host = entry.getKey();
       Integer slotsNum = entry.getValue();
       NodeResource nodeResouce = resources.get(host);
-      double predictMapTaskExecTime = predictMapTaskExecTime(job, nodeResouce);      
+      double predictMapNormalizedTCT = predictMapNormalizedTCT(job, nodeResouce);      
+      double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTCT; 
 //      taskNums[i] = (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
       totalTaskNums += (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
 //      System.out.printf("AAAjobName=%s, host=%s, slotsNum=%d, TaskExecTime=%f, pendingTasks=%d, TaskNums=%d %n", job.getProfile().getJobName(), 

@@ -154,8 +154,8 @@ class EagerTaskInitializationListener extends JobInProgressListener {
       Collections.sort(jobInitQueue, comp);
       // add by wei
       for (JobInProgress job : jobInitQueue){
-	System.out.printf("###current time: %d, job name: %s, job startTime: %d, job relativeDeadline: %d, job deadline: %d%n", 
-                         System.currentTimeMillis(), job.getProfile().getJobName(), job.getStartTime(), job.getJobRelativeDeadline(), job.getJobDeadline());
+	System.out.printf("###current time: %d, job name: %s, job startTime: %d, job launchTime: %d, job relativeDeadline: %d, job deadline: %d%n", 
+                         System.currentTimeMillis(), job.getProfile().getJobName(), job.getStartTime(), job.getLaunchTime(), job.getJobRelativeDeadline(), job.getJobDeadline());
       }
     }
   }

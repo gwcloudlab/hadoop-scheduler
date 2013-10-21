@@ -437,6 +437,7 @@ public class JobInProgress {
       this.relativeDeadline = conf.getJobRelativeDeadline();
       this.status.setJobRelativeDeadline(this.relativeDeadline);
       this.deadLine = this.startTime + this.relativeDeadline * 1000;
+      //this.deadLine = this.getLaunchTime() + this.relativeDeadline * 1000;
       this.status.setJobDeadline(this.deadLine);
 
       String queueName = conf.getQueueName();

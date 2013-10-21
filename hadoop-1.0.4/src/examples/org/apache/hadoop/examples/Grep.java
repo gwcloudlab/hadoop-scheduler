@@ -70,6 +70,7 @@ public class Grep extends Configured implements Tool {
 
       JobConf sortJob = new JobConf(getConf(), Grep.class);
       sortJob.setJobName("grep-sort");
+      sortJob.setInt("mapred.job.relative.deadline", 500);
 
       FileInputFormat.setInputPaths(sortJob, tempDir);
       sortJob.setInputFormat(SequenceFileInputFormat.class);
