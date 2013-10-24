@@ -52,6 +52,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
     
   //add by wei
   protected static double DISKTHRESHOLD = 103000;
+  protected static int REPLICATION = 3;
   protected static  Map<String, NodeResource> resources
     = new HashMap<String, NodeResource>();
   protected volatile boolean running = false;
@@ -556,7 +557,7 @@ public double predictTaskDiskDemand(JobInProgress job, TaskTracker taskTracker) 
     }  else if (jobName.equals("grep-sort")) {
       diskDemandwithFullCpu = 26256;
     }
-    diskDemand = diskDemandwithFullCpu / predictMapNormalizedTct;
+    diskDemand = diskDemandwithFullCpu / (predictMapNormalizedTct * REPLICATION);
     return diskDemand; 
 }
 
