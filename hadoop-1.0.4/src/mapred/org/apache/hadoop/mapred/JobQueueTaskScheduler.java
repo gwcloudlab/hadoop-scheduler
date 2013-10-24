@@ -216,46 +216,35 @@ class JobQueueTaskScheduler extends TaskScheduler {
           if (jobTmp.getStatus().getRunState() != JobStatus.RUNNING) {
             continue;
           }
-	  canMeetDeadline = canMeetDeadline(jobTmp);
+          canMeetDeadline = canMeetDeadline(jobTmp);
  //         System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d %n", jobTmp.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
           //add by wei
-          if (jobTmp.getStatus().getRunState() == JobStatus.RUNNING) {
-            if (!canMeetDeadline) {
-              job = jobTmp;
+          if (!canMeetDeadline) {
+            /* Always pick a job if it cannot meet its deadline, ignoring potential IO bottleneck */
+            job = jobTmp;
      //         j = i + 1;
-              break;
-            }
-
-            if (diskBottleneck(jobTmp, taskTracker)) {
-              diskBottleneck = true;
-              continue;
-            } 
-            else {
-              if((maxProgressJob == null) || (predictMapNormalizedTct(jobTmp, nodeResource) < predictMapNormalizedTct(maxProgressJob, nodeResource))) {
-                maxProgressJob = jobTmp; 
-                diskBottleneck = false;
-              }
-	    }
+            break;
           }
-     /*     if(jobTmp.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline)
-            continue;
-          job = jobTmp;
-          j = i + 1;
-          break;*/
-   //       j = i + 1;
+          else if (!diskBottleneck(jobTmp, taskTracker)) {
+              if((maxProgressJob == null) || 
+                  (predictMapNormalizedTct(jobTmp, nodeResource) < predictMapNormalizedTct(maxProgressJob, nodeResource))) {
+                /* This job does not cause IO bottleneck and will make the most progress of those seen so far. */
+                maxProgressJob = jobTmp; 
+              }
+	        }
         }
       
         //add by wei
         // Check if we found a job that could not meet deadline
-        if (job == null) {
-	  if(maxProgressJob != null) {
-	    job = maxProgressJob;
-	  }
-	  else {
-	    // any job we pick will cause IO bottleneck
-	    break;
-	  }
-	}
+        if (job == null) { /* ALl jobs can meet deadlin */
+      	  if(maxProgressJob != null) {
+      	    job = maxProgressJob; /* Pick the job that will make the most progress */
+      	  }
+      	  else {
+      	    // any job we pick will cause IO bottleneck
+      	    break;
+      	  }
+	      }
 	// if we reach here, we have found a job to run
 
      //   job = jobQueue.iterator.next();
@@ -562,13 +551,8 @@ public double predictTaskDiskDemand(JobInProgress job, TaskTracker taskTracker) 
 }
 
 public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
-  boolean diskBottleneck = false;
   String taskTrackerHost = taskTracker.getStatus().getHost();
   double taskTrackerCpuUsage = resources.get(taskTrackerHost).getCpuUsage();
-  boolean trackerIsShared = false;
-  if((int)taskTrackerCpuUsage != 0){
-    trackerIsShared = true;
-  }
 
   double predictDiskDemand = predictTaskDiskDemand(job, taskTracker);
    
@@ -580,16 +564,17 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     double disk = nodeResource.getDisk();
     boolean isDedicated = false;
     if(cpu == 0) {
-	isDedicated = true;
+	    isDedicated = true;
     }
-    if (isDedicated && trackerIsShared && disk + predictDiskDemand > DISKTHRESHOLD) {
-      diskBottleneck = true;
+    if (isDedicated && disk + predictDiskDemand > DISKTHRESHOLD) {
+      return true;
     }
   }
 
-  return diskBottleneck;
+  return false;
 }
 
+  /* Can job meet its deadline with its currently allocated slots? */
   public boolean canMeetDeadline(JobInProgress job){
     boolean canMeetDeadline = false;
     int pendingMapTasks;
