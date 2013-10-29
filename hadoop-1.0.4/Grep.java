@@ -67,8 +67,8 @@ public class Grep extends Configured implements Tool {
       grepJob.setOutputValueClass(LongWritable.class);
 
       JobClient.runJob(grepJob);
-
-      JobConf sortJob = new JobConf(getConf(), Grep.class);
+       return 0;
+      /*JobConf sortJob = new JobConf(getConf(), Grep.class);
       sortJob.setJobName("grep-sort");
       sortJob.setInt("mapred.job.relative.deadline", 0);
       if (args.length == 4) {
@@ -79,13 +79,14 @@ public class Grep extends Configured implements Tool {
       sortJob.setInputFormat(SequenceFileInputFormat.class);
 
       sortJob.setMapperClass(InverseMapper.class);
-
-      sortJob.setNumReduceTasks(1);                 // write a single file
+      
+      sortJob.setNumReduceTasks(0);                 // write a single file
       FileOutputFormat.setOutputPath(sortJob, new Path(args[1]));
       sortJob.setOutputKeyComparatorClass           // sort by decreasing freq
       (LongWritable.DecreasingComparator.class);
 
-      JobClient.runJob(sortJob);
+      JobClient.runJob(sortJob);*/
+      System.out.println("after monification%n");
     }
     finally {
       FileSystem.get(grepJob).delete(tempDir, true);

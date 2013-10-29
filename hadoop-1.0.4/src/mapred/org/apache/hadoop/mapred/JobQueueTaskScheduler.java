@@ -199,7 +199,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
     NodeResource nodeResource = resources.get(host);
   //  System.out.printf("+++current time:%d, nodeResource address:%s, cpu usage:%f %n", System.currentTimeMillis(), 
  //                     Integer.toHexString(System.identityHashCode(nodeResource)), nodeResource.getCpuUsage());
-    System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
+//    System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
     scheduleMaps:
     for (int i=0; i < availableMapSlots; ++i) {
       JobInProgress job = null;
@@ -582,6 +582,10 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
 //    int[] taskNums = new int[100];
     int totalTaskNums = 0;
 //    int i = 0;
+    int totalOccupiedSlots = 0;
+    double overallTct = 0.0;
+    double tmpTct = 0.0;
+    double predictMapPhaseJct = 0.0;
 
     pendingMapTasks = job.pendingMaps();
     remainingTime = (job.getJobDeadline() - System.currentTimeMillis());
@@ -590,16 +594,25 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     for (Map.Entry<String, Integer> entry:entries) {
       String host = entry.getKey();
       Integer slotsNum = entry.getValue();
+      totalOccupiedSlots += slotsNum;
       NodeResource nodeResource = resources.get(host);
       double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource);      
       double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTct; 
+      tmpTct += predictMapTaskExecTime * slotsNum; 
 //      taskNums[i] = (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
-      totalTaskNums += (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
+      totalTaskNums += (int)(remainingTime / predictMapTaskExecTime ) * slotsNum;
 //      System.out.printf("AAAjobName=%s, host=%s, slotsNum=%d, TaskExecTime=%f, pendingTasks=%d, TaskNums=%d %n", job.getProfile().getJobName(), 
 //                        host, slotsNum, predictMapTaskExecTime, pendingMapTasks, (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum);
 //      i++;      
     }
 
+    if ( totalOccupiedSlots != 0) {
+
+      predictMapPhaseJct = System.currentTimeMillis() - job.getStartTime() + pendingMapTasks * tmpTct / (totalOccupiedSlots * totalOccupiedSlots);
+      System.out.printf("time=%d, jobName=%s, predictMapPhaseJct=%f %n", System.currentTimeMillis(), job.getProfile().getJobName(), predictMapPhaseJct);
+
+    }
+     
 /*    for (i = 0; i < taskNums.length; i++) {
       totalTaskNums += taskNums[i];
     }*/

@@ -1,3 +1,25 @@
-echo time ./bin/hadoop jar hadoop-examples-1.0.4.jar pi  -D mapred.job.relative.deadline=$1 100 1000000
-./bin/hadoop fs -rmr /zhangwei1984/wordcount/output/output_1G
-./bin/hadoop jar wordcount-zhangwei1984.jar WordCount  -D mapred.job.relative.deadline=$1 /zhangwei1984/wordcount/input/dir_1G /zhangwei1984/wordcount/output/output_1G
+#!/bin/bash
+
+usage()
+{
+    echo $0 "deadline, <GB number | all>"
+    exit 1
+}
+
+if [ -z $2 ] ; then
+    usage
+fi
+
+if [ "$2" == "all" ] ; then
+    for((i=1; i<=5; i++)) ; do
+        ./bin/hadoop dfs -rmr /zhangwei1984/wordcount/output_${i}G
+
+        echo time ./bin/hadoop jar hadoop-examples-1.0.4.jar wordcount /zhangwei1984/wordcount/input/${i}G_input /zhangwei1984/wordcount/output/${i}G_output
+        time ./bin/hadoop jar hadoop-examples-1.0.4.jar wordcount /zhangwei1984/wordcount/input/${i}G_input /zhangwei1984/wordcount/output/${i}G_output
+    done
+else
+    echo time ./bin/hadoop jar hadoop-examples-1.0.4.jar wordcount -D mapred.job.relative.deadline=$1 /zhangwei1984/wordcount/input/${2}G_input /zhangwei1984/wordcount/output/${2}G_output
+    ./bin/hadoop dfs -rmr /zhangwei1984/wordcount/output/${2}G_output
+    time ./bin/hadoop jar hadoop-examples-1.0.4.jar wordcount -D mapred.job.relative.deadline=$1 /zhangwei1984/wordcount/input/${2}G_input /zhangwei1984/wordcount/output/${2}G_output
+
+fi
