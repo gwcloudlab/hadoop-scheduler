@@ -1,80 +1,727 @@
-2013-10-24 00:14:14,465 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 00:18:21,456 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 00:18:21,457 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 00:18:22,679 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 00:18:22,680 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 74 
-2013-10-24 01:14:12,704 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 01:18:23,155 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 01:18:23,155 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 01:18:24,396 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 01:18:24,396 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 91 
-2013-10-24 02:14:13,944 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 02:18:24,921 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 02:18:24,921 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 02:18:26,094 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 02:18:26,094 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 82 
-2013-10-24 03:14:15,184 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 03:18:26,576 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 03:18:26,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 03:18:27,751 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 03:18:27,751 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
-2013-10-24 04:14:13,424 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 04:18:28,275 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 04:18:28,276 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 04:18:29,540 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 04:18:29,540 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
-2013-10-24 05:14:14,664 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 05:18:30,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 05:18:30,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 05:18:31,230 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 05:18:31,230 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
-2013-10-24 06:14:12,904 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 06:18:31,763 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 06:18:31,763 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 06:18:32,946 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 06:18:32,946 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 91 
-2013-10-24 07:14:14,144 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 07:18:33,420 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 07:18:33,421 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 07:18:34,652 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 07:18:34,652 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
-2013-10-24 08:14:15,384 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 08:18:35,201 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 08:18:35,201 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 08:18:36,450 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 08:18:36,451 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
-2013-10-24 09:14:13,624 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 09:18:36,924 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 09:18:36,925 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 09:18:38,064 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 09:18:38,064 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
-2013-10-24 10:14:14,864 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 10:18:38,605 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 10:18:38,605 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 10:18:39,837 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 10:18:39,837 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
-2013-10-24 11:14:13,104 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 11:18:40,328 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 11:18:40,328 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 11:18:41,602 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 11:18:41,602 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 100 
-2013-10-24 12:14:14,344 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 12:18:42,158 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 12:18:42,158 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 12:18:43,416 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 12:18:43,416 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
-2013-10-24 13:14:12,584 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 13:18:43,891 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 13:18:43,891 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 13:18:45,064 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 13:18:45,064 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
-2013-10-24 14:14:13,824 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 14:18:45,555 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 14:18:45,556 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 14:18:46,771 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 14:18:46,771 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
-2013-10-24 15:14:15,064 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 353, processing time: 1 msecs
-2013-10-24 15:18:47,247 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.233
-2013-10-24 15:18:47,247 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
-2013-10-24 15:18:48,421 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.233
-2013-10-24 15:18:48,421 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-11-01 02:36:38,682 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = mastertest/192.168.1.233
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.4-SNAPSHOT
+STARTUP_MSG:   build =  -r ; compiled by 'hadoop' on Fri Nov  1 02:32:50 UTC 2013
+************************************************************/
+2013-11-01 02:36:38,856 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2013-11-01 02:36:38,867 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2013-11-01 02:36:38,868 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2013-11-01 02:36:38,868 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2013-11-01 02:36:39,147 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2013-11-01 02:36:39,160 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-11-01 02:36:39,167 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2013-11-01 02:36:39,168 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2013-11-01 02:36:39,194 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2013-11-01 02:36:39,194 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 17.77875 MB
+2013-11-01 02:36:39,194 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2013-11-01 02:36:39,195 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2013-11-01 02:36:39,218 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hadoop
+2013-11-01 02:36:39,218 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2013-11-01 02:36:39,218 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2013-11-01 02:36:39,224 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2013-11-01 02:36:39,224 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2013-11-01 02:36:39,516 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2013-11-01 02:36:39,540 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2013-11-01 02:36:39,559 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 440
+2013-11-01 02:36:39,649 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2013-11-01 02:36:39,650 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 61013 loaded in 0 seconds.
+2013-11-01 02:36:39,785 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Invalid opcode, reached end of edit log Number of transactions found 429
+2013-11-01 02:36:39,786 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/hadoop/hdfs/name/current/edits of size 1049092 edits # 429 loaded in 0 seconds.
+2013-11-01 02:36:39,834 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62361 saved in 0 seconds.
+2013-11-01 02:36:40,358 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62361 saved in 0 seconds.
+2013-11-01 02:36:40,729 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 6 entries 80 lookups
+2013-11-01 02:36:40,729 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 1518 msecs
+2013-11-01 02:36:40,739 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The ratio of reported blocks 0.0000 has not reached the threshold 0.9990. Safe mode will be turned off automatically.
+2013-11-01 02:36:40,755 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2013-11-01 02:36:40,764 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2013-11-01 02:36:40,807 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort9000 registered.
+2013-11-01 02:36:40,808 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort9000 registered.
+2013-11-01 02:36:40,816 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: mastertest/192.168.1.233:9000
+2013-11-01 02:36:40,816 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2013-11-01 02:36:41,019 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2013-11-01 02:36:41,088 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2013-11-01 02:36:41,096 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = false
+2013-11-01 02:36:41,102 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2013-11-01 02:36:41,103 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2013-11-01 02:36:41,103 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2013-11-01 02:36:41,103 INFO org.mortbay.log: jetty-6.1.26
+2013-11-01 02:36:41,782 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50070
+2013-11-01 02:36:41,783 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:50070
+2013-11-01 02:36:41,788 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2013-11-01 02:36:41,796 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9000: starting
+2013-11-01 02:36:41,801 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9000: starting
+2013-11-01 02:36:41,807 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000: starting
+2013-11-01 02:36:41,819 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9000: starting
+2013-11-01 02:36:41,819 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9000: starting
+2013-11-01 02:36:41,822 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9000: starting
+2013-11-01 02:36:41,822 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9000: starting
+2013-11-01 02:36:41,827 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9000: starting
+2013-11-01 02:36:41,829 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9000: starting
+2013-11-01 02:36:41,864 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9000: starting
+2013-11-01 02:36:41,878 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9000: starting
+2013-11-01 02:36:44,221 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.1.233:50010 storage DS-1688127837-192.168.1.222-50010-1377630573277
+2013-11-01 02:36:44,224 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.1.233:50010
+2013-11-01 02:36:44,383 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 29 seconds.
+2013-11-01 02:36:44,383 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.processReport: block blk_6114108243640742216_5115 on 192.168.1.233:50010 size 10476 does not belong to any file.
+2013-11-01 02:36:44,383 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6114108243640742216 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:36:44,383 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.233:50010, blocks: 500, processing time: 24 msecs
+2013-11-01 02:36:46,838 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:hadoop cause:org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 27 seconds.
+2013-11-01 02:36:46,839 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9000, call delete(/home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system, true) from 192.168.1.233:41837: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 27 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system. Name node is in safe mode.
+The ratio of reported blocks 1.0000 has reached the threshold 0.9990. Safe mode will be turned off automatically in 27 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1994)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1974)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:792)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:563)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1388)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1384)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1121)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1382)
+2013-11-01 02:36:51,369 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 499
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 483
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 33 msec
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 12 secs.
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2013-11-01 02:36:51,370 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 483 blocks
+2013-11-01 02:36:51,392 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is already OFF.
+2013-11-01 02:36:52,760 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 1 msec
+2013-11-01 02:36:52,760 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.233:50010 to delete  blk_6114108243640742216_5115
+2013-11-01 02:36:52,760 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 1 blocks in 0 msec
+2013-11-01 02:36:52,760 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 1 blocks in 0 msec processing time, 0 msec clock time, 1 cycles
+2013-11-01 02:36:56,848 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4336368284861595885 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:36:56,848 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7025641528004882458 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:36:56,848 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8978349915757364949 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:36:57,119 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/jobtracker.info. blk_3651608007340526533_5116
+2013-11-01 02:36:57,163 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3651608007340526533_5116 size 4
+2013-11-01 02:36:57,183 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/jobtracker.info from client DFSClient_-1871171838
+2013-11-01 02:36:57,184 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/jobtracker.info is closed by DFSClient_-1871171838
+2013-11-01 02:36:58,761 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.233:50010 to delete  blk_-8978349915757364949_4992 blk_-7025641528004882458_5106 blk_4336368284861595885_5099
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7426134059687757041 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1891959411002522215 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4937971152054410168 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-1765670128619932535 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5043856790779140059 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4808797851173141425 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3879372462050340358 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6635610233846080295 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2234776904098685054 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,388 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4132490335301075298 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4885424995654326484 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8462744119982815714 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3806125298952098150 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5365160044999756695 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7241111368380160987 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-318416102079375360 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6795750339798181716 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3939855024383694838 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5579055332154229621 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5040690459010715194 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3856266745458391176 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5240899606080635993 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7925914961327032029 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2373701136978915070 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_36537654495524950 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5683113226735994862 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1517261356657532320 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4766106630153161842 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3986330890615062456 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2500514497732311500 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,389 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5524463513537505793 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3018143646114884765 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3512297331895764774 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_193757760055342148 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2149709479827004095 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5999403487082993682 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-9116571956761609393 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5400745189943685578 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5729411968297370414 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_8820444297236288687 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4178719581895108393 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-682880476518969175 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5934311348780475757 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4794766042363628832 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6441378167757723199 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_8635852213184077708 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8916235812721016275 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5024039234898618675 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-504284163273023249 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_7955372749838311579 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_7694265169979111455 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3011628113024056064 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-526950814749573214 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4067558073481091769 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2551197425283626974 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1228688983169280929 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1876814715378106793 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4943134029223090032 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-254349942501281783 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4768099377218881317 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_8922995499107002608 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-105253670242765661 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6663579096934003343 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2035188892080198427 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-433334054409714308 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_8017954541558092444 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6026317702083486776 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4682934078192685553 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7962829856344310344 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4761477636287571192 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1253502513429802383 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3276681845826144860 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8575136251290526368 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2386417600557810422 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-165945153312316574 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6833585852284016275 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6228514033419018964 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5958633147264435411 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5498711266745051762 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3741376578838285139 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-444372669442239312 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5296462511553771883 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4923077810784383951 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2394981325203813265 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8617590844622213684 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6330755076873861748 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1418057680512923268 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1331556901558207516 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7815171230988818720 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-917131544641323388 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4622215023351313207 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_8484368000282375825 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4536730881034158960 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,392 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1889161087071853819 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2953396812130659203 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8840834529422455439 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6407720895971930967 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2354385873150706339 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2493202508121599996 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5716900251758497108 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:00,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6183000515483543985 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:01,762 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.233:50010 to delete  blk_-5043856790779140059_5005 blk_2035188892080198427_5059 blk_1889161087071853819_5086 blk_193757760055342148_5032 blk_5579055332154229621_5018 blk_-8462744119982815714_5012 blk_5240899606080635993_5021 blk_4067558073481091769_5050 blk_-7241111368380160987_5014 blk_1517261356657532320_5025 blk_1418057680512923268_5080 blk_5040690459010715194_5019 blk_5716900251758497108_5092 blk_4622215023351313207_5083 blk_1228688983169280929_5052 blk_1253502513429802383_5065 blk_-8840834529422455439_5088 blk_6441378167757723199_5042 blk_6183000515483543985_5098 blk_1876814715378106793_4999 blk_2234776904098685054_5009 blk_2500514497732311500_5028 blk_4923077810784383951_5076 blk_-917131544641323388_5002 blk_36537654495524950_5023 blk_4766106630153161842_5026 blk_-2493202508121599996_5091 blk_7955372749838311579_5046 blk_-6026317702083486776_5062 blk_-8617590844622213684_5078 blk_-9116571956761609393_5034 blk_-4768099377218881317_5055 blk_-105253670242765661_5057 blk_2149709479827004095_4997 blk_-254349942501281783_5054 blk_-2953396812130659203_5087 blk_8635852213184077708_4998 blk_-6635610233846080295_5008 blk_-444372669442239312_5074 blk_-165945153312316574_5069 blk_3741376578838285139_5073 blk_3276681845826144860_5066 blk_5024039234898618675_5044 blk_-5958633147264435411_5072 blk_8484368000282375825_5084 blk_-5999403487082993682_5033 blk_4132490335301075298_5010 blk_4885424995654326484_5011 blk_-1765670128619932535_5004 blk_3011628113024056064_5048 blk_2551197425283626974_5051 blk_-4937971152054410168_5003 blk_-2386417600557810422_5068 blk_-6330755076873861748_5079 blk_5400745189943685578_5035 blk_-5498711266745051762_5001 blk_-8916235812721016275_5043 blk_-8575136251290526368_5067 blk_-5934311348780475757_5040 blk_6228514033419018964_5071 blk_-3939855024383694838_5017 blk_-6833585852284016275_5070 blk_-6795750339798181716_5016 blk_-7925914961327032029_5022 blk_-6663579096934003343_5058 blk_1331556901558207516_5081 blk_-4943134029223090032_5053 blk_-4536730881034158960_5085 blk_-2373701136978915070_4996 blk_-7815171230988818720_5082 blk_-4682934078192685553_5000 blk_5296462511553771883_5075 blk_-2394981325203813265_5077 blk_3856266745458391176_5020 blk_-526950814749573214_5049 blk_-4794766042363628832_5041 blk_-504284163273023249_5045 blk_-682880476518969175_5039 blk_-4808797851173141425_5006 blk_4178719581895108393_5038 blk_6407720895971930967_5089 blk_-3806125298952098150_4995 blk_-4761477636287571192_5064 blk_-433334054409714308_5060 blk_-5365160044999756695_5013 blk_-7426134059687757041_4993 blk_7694265169979111455_5047 blk_-7962829856344310344_5063 blk_3986330890615062456_5027 blk_3018143646114884765_5030 blk_-318416102079375360_5015 blk_5729411968297370414_5036 blk_5524463513537505793_5029 blk_2354385873150706339_5090 blk_5683113226735994862_5024 blk_1891959411002522215_4994 blk_8820444297236288687_5037 blk_-3879372462050340358_5007 blk_8922995499107002608_5056 blk_-3512297331895764774_5031
+2013-11-01 02:37:01,849 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part0. blk_-6187152729848791598_5117
+2013-11-01 02:37:01,886 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6187152729848791598_5117 size 118
+2013-11-01 02:37:01,889 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part0 from client DFSClient_-1141966026
+2013-11-01 02:37:01,889 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part0 is closed by DFSClient_-1141966026
+2013-11-01 02:37:01,938 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part1. blk_-6693520001465487428_5118
+2013-11-01 02:37:01,942 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6693520001465487428_5118 size 118
+2013-11-01 02:37:01,943 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part1 from client DFSClient_-1141966026
+2013-11-01 02:37:01,943 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part1 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,068 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part2. blk_4733100921249732198_5119
+2013-11-01 02:37:02,072 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_4733100921249732198_5119 size 118
+2013-11-01 02:37:02,073 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part2 from client DFSClient_-1141966026
+2013-11-01 02:37:02,073 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part2 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,118 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part3. blk_-1067847441009727533_5120
+2013-11-01 02:37:02,122 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-1067847441009727533_5120 size 118
+2013-11-01 02:37:02,123 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part3 from client DFSClient_-1141966026
+2013-11-01 02:37:02,124 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part3 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,169 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part4. blk_-2626991236529166568_5121
+2013-11-01 02:37:02,176 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-2626991236529166568_5121 size 118
+2013-11-01 02:37:02,182 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part4 from client DFSClient_-1141966026
+2013-11-01 02:37:02,182 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part4 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,235 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part5. blk_4603195486602185689_5122
+2013-11-01 02:37:02,239 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_4603195486602185689_5122 size 118
+2013-11-01 02:37:02,240 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part5 from client DFSClient_-1141966026
+2013-11-01 02:37:02,240 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part5 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,294 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part6. blk_3161991882643278828_5123
+2013-11-01 02:37:02,299 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3161991882643278828_5123 size 118
+2013-11-01 02:37:02,300 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part6 from client DFSClient_-1141966026
+2013-11-01 02:37:02,300 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part6 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,369 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part7. blk_-5603710684666575652_5124
+2013-11-01 02:37:02,372 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5603710684666575652_5124 size 118
+2013-11-01 02:37:02,374 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part7 from client DFSClient_-1141966026
+2013-11-01 02:37:02,374 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part7 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part8. blk_-3060391659456189351_5125
+2013-11-01 02:37:02,439 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3060391659456189351_5125 size 118
+2013-11-01 02:37:02,442 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part8 from client DFSClient_-1141966026
+2013-11-01 02:37:02,442 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part8 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,511 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part9. blk_-5701846092940158497_5126
+2013-11-01 02:37:02,515 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5701846092940158497_5126 size 118
+2013-11-01 02:37:02,516 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part9 from client DFSClient_-1141966026
+2013-11-01 02:37:02,517 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part9 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,662 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part10. blk_5408882788658084121_5127
+2013-11-01 02:37:02,665 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_5408882788658084121_5127 size 118
+2013-11-01 02:37:02,667 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part10 from client DFSClient_-1141966026
+2013-11-01 02:37:02,667 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part10 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,737 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part11. blk_-5294844457341955126_5128
+2013-11-01 02:37:02,740 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5294844457341955126_5128 size 118
+2013-11-01 02:37:02,741 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part11 from client DFSClient_-1141966026
+2013-11-01 02:37:02,741 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part11 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,806 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part12. blk_6786684935146795840_5129
+2013-11-01 02:37:02,809 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6786684935146795840_5129 size 118
+2013-11-01 02:37:02,810 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part12 from client DFSClient_-1141966026
+2013-11-01 02:37:02,811 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part12 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,880 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part13. blk_-5438536536136848223_5130
+2013-11-01 02:37:02,883 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5438536536136848223_5130 size 118
+2013-11-01 02:37:02,883 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part13 from client DFSClient_-1141966026
+2013-11-01 02:37:02,884 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part13 is closed by DFSClient_-1141966026
+2013-11-01 02:37:02,947 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part14. blk_304845934634766480_5131
+2013-11-01 02:37:02,950 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_304845934634766480_5131 size 118
+2013-11-01 02:37:02,960 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part14 from client DFSClient_-1141966026
+2013-11-01 02:37:02,960 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part14 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,030 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part15. blk_-6714796210916360711_5132
+2013-11-01 02:37:03,034 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6714796210916360711_5132 size 118
+2013-11-01 02:37:03,035 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part15 from client DFSClient_-1141966026
+2013-11-01 02:37:03,035 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part15 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,104 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part16. blk_-6766120163333091061_5133
+2013-11-01 02:37:03,108 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6766120163333091061_5133 size 118
+2013-11-01 02:37:03,109 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part16 from client DFSClient_-1141966026
+2013-11-01 02:37:03,109 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part16 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,171 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part17. blk_-1819556675884047706_5134
+2013-11-01 02:37:03,175 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-1819556675884047706_5134 size 118
+2013-11-01 02:37:03,175 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part17 from client DFSClient_-1141966026
+2013-11-01 02:37:03,175 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part17 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part18. blk_-5993712203517027896_5135
+2013-11-01 02:37:03,248 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5993712203517027896_5135 size 118
+2013-11-01 02:37:03,249 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part18 from client DFSClient_-1141966026
+2013-11-01 02:37:03,249 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part18 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,313 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part19. blk_-4119955048610611271_5136
+2013-11-01 02:37:03,316 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-4119955048610611271_5136 size 118
+2013-11-01 02:37:03,317 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part19 from client DFSClient_-1141966026
+2013-11-01 02:37:03,317 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part19 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,380 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part20. blk_7847512212417145098_5137
+2013-11-01 02:37:03,383 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_7847512212417145098_5137 size 118
+2013-11-01 02:37:03,384 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part20 from client DFSClient_-1141966026
+2013-11-01 02:37:03,384 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part20 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,447 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part21. blk_9082055888195889321_5138
+2013-11-01 02:37:03,454 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_9082055888195889321_5138 size 118
+2013-11-01 02:37:03,455 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part21 from client DFSClient_-1141966026
+2013-11-01 02:37:03,455 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part21 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,522 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part22. blk_3727434230448011150_5139
+2013-11-01 02:37:03,525 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3727434230448011150_5139 size 118
+2013-11-01 02:37:03,525 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part22 from client DFSClient_-1141966026
+2013-11-01 02:37:03,526 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part22 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,672 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part23. blk_-3061075176152771889_5140
+2013-11-01 02:37:03,675 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3061075176152771889_5140 size 118
+2013-11-01 02:37:03,681 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part23 from client DFSClient_-1141966026
+2013-11-01 02:37:03,681 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part23 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,730 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part24. blk_-5657490772194223325_5141
+2013-11-01 02:37:03,734 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5657490772194223325_5141 size 118
+2013-11-01 02:37:03,735 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part24 from client DFSClient_-1141966026
+2013-11-01 02:37:03,735 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part24 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,781 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part25. blk_-7085429993027613673_5142
+2013-11-01 02:37:03,785 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7085429993027613673_5142 size 118
+2013-11-01 02:37:03,785 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part25 from client DFSClient_-1141966026
+2013-11-01 02:37:03,786 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part25 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,832 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part26. blk_6520575803256209024_5143
+2013-11-01 02:37:03,838 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6520575803256209024_5143 size 118
+2013-11-01 02:37:03,838 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part26 from client DFSClient_-1141966026
+2013-11-01 02:37:03,838 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part26 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,891 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part27. blk_6782178075116464372_5144
+2013-11-01 02:37:03,894 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6782178075116464372_5144 size 118
+2013-11-01 02:37:03,894 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part27 from client DFSClient_-1141966026
+2013-11-01 02:37:03,895 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part27 is closed by DFSClient_-1141966026
+2013-11-01 02:37:03,941 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part28. blk_-3356805769094331823_5145
+2013-11-01 02:37:03,947 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3356805769094331823_5145 size 118
+2013-11-01 02:37:03,948 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part28 from client DFSClient_-1141966026
+2013-11-01 02:37:03,948 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part28 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,008 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part29. blk_953932580248149396_5146
+2013-11-01 02:37:04,012 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_953932580248149396_5146 size 118
+2013-11-01 02:37:04,013 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part29 from client DFSClient_-1141966026
+2013-11-01 02:37:04,013 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part29 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,066 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part30. blk_2613127792217316242_5147
+2013-11-01 02:37:04,069 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_2613127792217316242_5147 size 118
+2013-11-01 02:37:04,070 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part30 from client DFSClient_-1141966026
+2013-11-01 02:37:04,070 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part30 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,116 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part31. blk_5276398244629296725_5148
+2013-11-01 02:37:04,119 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_5276398244629296725_5148 size 118
+2013-11-01 02:37:04,120 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part31 from client DFSClient_-1141966026
+2013-11-01 02:37:04,120 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part31 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,175 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part32. blk_-4516041709051886816_5149
+2013-11-01 02:37:04,178 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-4516041709051886816_5149 size 118
+2013-11-01 02:37:04,178 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part32 from client DFSClient_-1141966026
+2013-11-01 02:37:04,179 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part32 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,225 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part33. blk_2172116849627882358_5150
+2013-11-01 02:37:04,228 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_2172116849627882358_5150 size 118
+2013-11-01 02:37:04,235 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part33 from client DFSClient_-1141966026
+2013-11-01 02:37:04,236 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part33 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,283 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part34. blk_8249159140595714701_5151
+2013-11-01 02:37:04,286 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_8249159140595714701_5151 size 118
+2013-11-01 02:37:04,287 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part34 from client DFSClient_-1141966026
+2013-11-01 02:37:04,287 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part34 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,334 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part35. blk_-2758562802969064431_5152
+2013-11-01 02:37:04,336 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-2758562802969064431_5152 size 118
+2013-11-01 02:37:04,337 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part35 from client DFSClient_-1141966026
+2013-11-01 02:37:04,337 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part35 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,467 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part36. blk_6792514465615391283_5153
+2013-11-01 02:37:04,470 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6792514465615391283_5153 size 118
+2013-11-01 02:37:04,471 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part36 from client DFSClient_-1141966026
+2013-11-01 02:37:04,471 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part36 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,517 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part37. blk_5175456140341419080_5154
+2013-11-01 02:37:04,521 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_5175456140341419080_5154 size 118
+2013-11-01 02:37:04,521 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part37 from client DFSClient_-1141966026
+2013-11-01 02:37:04,521 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part37 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,568 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part38. blk_2400427248666238091_5155
+2013-11-01 02:37:04,576 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_2400427248666238091_5155 size 118
+2013-11-01 02:37:04,577 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part38 from client DFSClient_-1141966026
+2013-11-01 02:37:04,577 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part38 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,626 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part39. blk_3852827330131215039_5156
+2013-11-01 02:37:04,629 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3852827330131215039_5156 size 118
+2013-11-01 02:37:04,631 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part39 from client DFSClient_-1141966026
+2013-11-01 02:37:04,632 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part39 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,684 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part40. blk_449491073847073471_5157
+2013-11-01 02:37:04,687 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_449491073847073471_5157 size 118
+2013-11-01 02:37:04,688 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part40 from client DFSClient_-1141966026
+2013-11-01 02:37:04,688 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part40 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,735 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part41. blk_-8372337141296869047_5158
+2013-11-01 02:37:04,738 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-8372337141296869047_5158 size 118
+2013-11-01 02:37:04,739 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part41 from client DFSClient_-1141966026
+2013-11-01 02:37:04,739 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part41 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,763 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.233:50010 to delete  blk_8017954541558092444_5061
+2013-11-01 02:37:04,785 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part42. blk_6365566815052533373_5159
+2013-11-01 02:37:04,788 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6365566815052533373_5159 size 118
+2013-11-01 02:37:04,789 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part42 from client DFSClient_-1141966026
+2013-11-01 02:37:04,789 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part42 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,835 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part43. blk_5041679628486456549_5160
+2013-11-01 02:37:04,839 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_5041679628486456549_5160 size 118
+2013-11-01 02:37:04,840 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part43 from client DFSClient_-1141966026
+2013-11-01 02:37:04,841 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part43 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,885 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part44. blk_-3709838643928576755_5161
+2013-11-01 02:37:04,888 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3709838643928576755_5161 size 118
+2013-11-01 02:37:04,890 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part44 from client DFSClient_-1141966026
+2013-11-01 02:37:04,890 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part44 is closed by DFSClient_-1141966026
+2013-11-01 02:37:04,944 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part45. blk_211593577792633067_5162
+2013-11-01 02:37:04,947 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_211593577792633067_5162 size 118
+2013-11-01 02:37:04,948 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part45 from client DFSClient_-1141966026
+2013-11-01 02:37:04,949 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part45 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,011 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part46. blk_3316854263058493349_5163
+2013-11-01 02:37:05,015 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3316854263058493349_5163 size 118
+2013-11-01 02:37:05,015 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part46 from client DFSClient_-1141966026
+2013-11-01 02:37:05,015 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part46 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,077 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part47. blk_-3072770080663926398_5164
+2013-11-01 02:37:05,081 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3072770080663926398_5164 size 118
+2013-11-01 02:37:05,082 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part47 from client DFSClient_-1141966026
+2013-11-01 02:37:05,083 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part47 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,144 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part48. blk_8099710968985345276_5165
+2013-11-01 02:37:05,148 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_8099710968985345276_5165 size 118
+2013-11-01 02:37:05,149 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part48 from client DFSClient_-1141966026
+2013-11-01 02:37:05,149 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part48 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,278 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part49. blk_954942974957234516_5166
+2013-11-01 02:37:05,281 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_954942974957234516_5166 size 118
+2013-11-01 02:37:05,282 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part49 from client DFSClient_-1141966026
+2013-11-01 02:37:05,283 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part49 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,345 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part50. blk_3382359794931931164_5167
+2013-11-01 02:37:05,348 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3382359794931931164_5167 size 118
+2013-11-01 02:37:05,350 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part50 from client DFSClient_-1141966026
+2013-11-01 02:37:05,350 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part50 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,412 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part51. blk_2923125109245513349_5168
+2013-11-01 02:37:05,415 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_2923125109245513349_5168 size 118
+2013-11-01 02:37:05,416 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part51 from client DFSClient_-1141966026
+2013-11-01 02:37:05,416 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part51 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,478 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part52. blk_-7816241955072628612_5169
+2013-11-01 02:37:05,482 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7816241955072628612_5169 size 118
+2013-11-01 02:37:05,483 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part52 from client DFSClient_-1141966026
+2013-11-01 02:37:05,483 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part52 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,545 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part53. blk_9113960047237716704_5170
+2013-11-01 02:37:05,549 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_9113960047237716704_5170 size 118
+2013-11-01 02:37:05,550 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part53 from client DFSClient_-1141966026
+2013-11-01 02:37:05,550 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part53 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,612 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part54. blk_-3188726182820810931_5171
+2013-11-01 02:37:05,616 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3188726182820810931_5171 size 118
+2013-11-01 02:37:05,617 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part54 from client DFSClient_-1141966026
+2013-11-01 02:37:05,617 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part54 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,679 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part55. blk_-325534383540739245_5172
+2013-11-01 02:37:05,700 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-325534383540739245_5172 size 118
+2013-11-01 02:37:05,701 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part55 from client DFSClient_-1141966026
+2013-11-01 02:37:05,701 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part55 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,775 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part56. blk_-8442614946001158636_5173
+2013-11-01 02:37:05,779 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-8442614946001158636_5173 size 118
+2013-11-01 02:37:05,780 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part56 from client DFSClient_-1141966026
+2013-11-01 02:37:05,780 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part56 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,846 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part57. blk_-3957489490850415971_5174
+2013-11-01 02:37:05,850 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3957489490850415971_5174 size 118
+2013-11-01 02:37:05,851 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part57 from client DFSClient_-1141966026
+2013-11-01 02:37:05,851 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part57 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,913 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part58. blk_8324297765659296376_5175
+2013-11-01 02:37:05,917 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_8324297765659296376_5175 size 118
+2013-11-01 02:37:05,919 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part58 from client DFSClient_-1141966026
+2013-11-01 02:37:05,919 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part58 is closed by DFSClient_-1141966026
+2013-11-01 02:37:05,988 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part59. blk_-5739356196607839419_5176
+2013-11-01 02:37:05,992 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5739356196607839419_5176 size 118
+2013-11-01 02:37:05,994 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part59 from client DFSClient_-1141966026
+2013-11-01 02:37:05,994 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part59 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,064 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part60. blk_-8365700252969952420_5177
+2013-11-01 02:37:06,067 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-8365700252969952420_5177 size 118
+2013-11-01 02:37:06,069 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part60 from client DFSClient_-1141966026
+2013-11-01 02:37:06,069 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part60 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,239 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part61. blk_-7334242344949330739_5178
+2013-11-01 02:37:06,247 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7334242344949330739_5178 size 118
+2013-11-01 02:37:06,249 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part61 from client DFSClient_-1141966026
+2013-11-01 02:37:06,249 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part61 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,314 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part62. blk_-3902394059694953680_5179
+2013-11-01 02:37:06,318 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3902394059694953680_5179 size 118
+2013-11-01 02:37:06,319 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part62 from client DFSClient_-1141966026
+2013-11-01 02:37:06,319 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part62 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,381 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part63. blk_-5198062562089615321_5180
+2013-11-01 02:37:06,384 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5198062562089615321_5180 size 118
+2013-11-01 02:37:06,386 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part63 from client DFSClient_-1141966026
+2013-11-01 02:37:06,386 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part63 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,448 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part64. blk_-1857099607508681852_5181
+2013-11-01 02:37:06,451 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-1857099607508681852_5181 size 118
+2013-11-01 02:37:06,452 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part64 from client DFSClient_-1141966026
+2013-11-01 02:37:06,452 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part64 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,498 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part65. blk_-7979021676351643800_5182
+2013-11-01 02:37:06,500 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7979021676351643800_5182 size 118
+2013-11-01 02:37:06,502 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part65 from client DFSClient_-1141966026
+2013-11-01 02:37:06,502 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part65 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,548 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part66. blk_-4996649363850803746_5183
+2013-11-01 02:37:06,551 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-4996649363850803746_5183 size 118
+2013-11-01 02:37:06,555 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part66 from client DFSClient_-1141966026
+2013-11-01 02:37:06,555 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part66 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,606 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part67. blk_-5504145149731586885_5184
+2013-11-01 02:37:06,610 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5504145149731586885_5184 size 118
+2013-11-01 02:37:06,611 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part67 from client DFSClient_-1141966026
+2013-11-01 02:37:06,611 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part67 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,656 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part68. blk_7966603430870971852_5185
+2013-11-01 02:37:06,660 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_7966603430870971852_5185 size 118
+2013-11-01 02:37:06,660 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part68 from client DFSClient_-1141966026
+2013-11-01 02:37:06,661 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part68 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,707 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part69. blk_-4784191915160122217_5186
+2013-11-01 02:37:06,710 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-4784191915160122217_5186 size 118
+2013-11-01 02:37:06,711 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part69 from client DFSClient_-1141966026
+2013-11-01 02:37:06,711 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part69 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,761 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part70. blk_-7492636921264228293_5187
+2013-11-01 02:37:06,768 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7492636921264228293_5187 size 118
+2013-11-01 02:37:06,769 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part70 from client DFSClient_-1141966026
+2013-11-01 02:37:06,769 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part70 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,817 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part71. blk_-7429933211029309644_5188
+2013-11-01 02:37:06,820 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7429933211029309644_5188 size 118
+2013-11-01 02:37:06,821 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part71 from client DFSClient_-1141966026
+2013-11-01 02:37:06,821 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part71 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,867 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part72. blk_4648292833830874122_5189
+2013-11-01 02:37:06,870 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_4648292833830874122_5189 size 118
+2013-11-01 02:37:06,870 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part72 from client DFSClient_-1141966026
+2013-11-01 02:37:06,871 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part72 is closed by DFSClient_-1141966026
+2013-11-01 02:37:06,917 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part73. blk_6181420711328845114_5190
+2013-11-01 02:37:06,921 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6181420711328845114_5190 size 118
+2013-11-01 02:37:06,922 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part73 from client DFSClient_-1141966026
+2013-11-01 02:37:06,922 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part73 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,034 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part74. blk_-3453260975913170982_5191
+2013-11-01 02:37:07,037 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3453260975913170982_5191 size 118
+2013-11-01 02:37:07,038 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part74 from client DFSClient_-1141966026
+2013-11-01 02:37:07,038 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part74 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,084 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part75. blk_2734489183962682299_5192
+2013-11-01 02:37:07,088 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_2734489183962682299_5192 size 118
+2013-11-01 02:37:07,089 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part75 from client DFSClient_-1141966026
+2013-11-01 02:37:07,089 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part75 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,143 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part76. blk_-9154726161164383961_5193
+2013-11-01 02:37:07,146 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-9154726161164383961_5193 size 118
+2013-11-01 02:37:07,147 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part76 from client DFSClient_-1141966026
+2013-11-01 02:37:07,147 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part76 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,193 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part77. blk_-6093360359484974237_5194
+2013-11-01 02:37:07,196 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6093360359484974237_5194 size 118
+2013-11-01 02:37:07,197 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part77 from client DFSClient_-1141966026
+2013-11-01 02:37:07,198 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part77 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2440628167753111619 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-1526279371794838276 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_860406845804035351 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4040694389639248434 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-96701391633063437 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6647504735540355277 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4600305561064345048 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6107586618798239623 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-901381741535045383 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,208 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-1625302791385781130 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1397091954145319094 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8821425640931960954 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-62419841890460373 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5084729682763193704 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5648669753502813081 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3708962617144980867 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3982694594384093895 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,209 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_7208784985342207666 is added to invalidSet of 192.168.1.233:50010
+2013-11-01 02:37:07,268 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part78. blk_-7785447651401383780_5195
+2013-11-01 02:37:07,273 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7785447651401383780_5195 size 118
+2013-11-01 02:37:07,274 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part78 from client DFSClient_-1141966026
+2013-11-01 02:37:07,275 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part78 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,327 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part79. blk_5785933397863962350_5196
+2013-11-01 02:37:07,330 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_5785933397863962350_5196 size 118
+2013-11-01 02:37:07,331 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part79 from client DFSClient_-1141966026
+2013-11-01 02:37:07,331 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part79 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,377 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part80. blk_-2739041658430943326_5197
+2013-11-01 02:37:07,379 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-2739041658430943326_5197 size 118
+2013-11-01 02:37:07,381 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part80 from client DFSClient_-1141966026
+2013-11-01 02:37:07,381 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part80 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,427 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part81. blk_-5227985393545698087_5198
+2013-11-01 02:37:07,430 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5227985393545698087_5198 size 118
+2013-11-01 02:37:07,431 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part81 from client DFSClient_-1141966026
+2013-11-01 02:37:07,431 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part81 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,477 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part82. blk_-5014704015425934535_5199
+2013-11-01 02:37:07,480 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5014704015425934535_5199 size 118
+2013-11-01 02:37:07,481 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part82 from client DFSClient_-1141966026
+2013-11-01 02:37:07,481 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part82 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,527 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part83. blk_-1254819764364771236_5200
+2013-11-01 02:37:07,530 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-1254819764364771236_5200 size 118
+2013-11-01 02:37:07,531 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part83 from client DFSClient_-1141966026
+2013-11-01 02:37:07,531 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part83 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,586 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part84. blk_-40581631082448885_5201
+2013-11-01 02:37:07,589 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-40581631082448885_5201 size 118
+2013-11-01 02:37:07,590 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part84 from client DFSClient_-1141966026
+2013-11-01 02:37:07,590 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part84 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,652 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part85. blk_-5028824240318018154_5202
+2013-11-01 02:37:07,660 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5028824240318018154_5202 size 118
+2013-11-01 02:37:07,660 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part85 from client DFSClient_-1141966026
+2013-11-01 02:37:07,660 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part85 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,728 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part86. blk_-2639737356882684994_5203
+2013-11-01 02:37:07,732 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-2639737356882684994_5203 size 118
+2013-11-01 02:37:07,732 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part86 from client DFSClient_-1141966026
+2013-11-01 02:37:07,733 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part86 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,763 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.1.233:50010 to delete  blk_-3708962617144980867_5114 blk_860406845804035351_5107 blk_-96701391633063437_5108 blk_-6647504735540355277_5108 blk_7208784985342207666_5114 blk_-1526279371794838276_5115 blk_5648669753502813081_5113 blk_-4600305561064345048_5109 blk_-901381741535045383_5110 blk_-5084729682763193704_5112 blk_-62419841890460373_5112 blk_-2440628167753111619_5105 blk_6107586618798239623_5110 blk_-8821425640931960954_5112 blk_-4040694389639248434_5108 blk_-3982694594384093895_5114 blk_1397091954145319094_5111 blk_-1625302791385781130_5110
+2013-11-01 02:37:07,911 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part87. blk_-4241169251800304374_5204
+2013-11-01 02:37:07,916 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-4241169251800304374_5204 size 118
+2013-11-01 02:37:07,917 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part87 from client DFSClient_-1141966026
+2013-11-01 02:37:07,917 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part87 is closed by DFSClient_-1141966026
+2013-11-01 02:37:07,986 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part88. blk_-6256664178301755511_5205
+2013-11-01 02:37:07,990 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6256664178301755511_5205 size 118
+2013-11-01 02:37:07,995 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part88 from client DFSClient_-1141966026
+2013-11-01 02:37:07,995 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part88 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,062 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part89. blk_6058660728678941257_5206
+2013-11-01 02:37:08,065 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6058660728678941257_5206 size 118
+2013-11-01 02:37:08,066 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part89 from client DFSClient_-1141966026
+2013-11-01 02:37:08,066 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part89 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,131 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part90. blk_7190891248835207177_5207
+2013-11-01 02:37:08,134 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_7190891248835207177_5207 size 118
+2013-11-01 02:37:08,135 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part90 from client DFSClient_-1141966026
+2013-11-01 02:37:08,135 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part90 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,204 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part91. blk_5207531847524055537_5208
+2013-11-01 02:37:08,207 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_5207531847524055537_5208 size 118
+2013-11-01 02:37:08,208 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part91 from client DFSClient_-1141966026
+2013-11-01 02:37:08,208 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part91 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,271 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part92. blk_1640105537968686677_5209
+2013-11-01 02:37:08,275 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_1640105537968686677_5209 size 118
+2013-11-01 02:37:08,276 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part92 from client DFSClient_-1141966026
+2013-11-01 02:37:08,276 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part92 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,346 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part93. blk_3047054341196929749_5210
+2013-11-01 02:37:08,364 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3047054341196929749_5210 size 118
+2013-11-01 02:37:08,365 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part93 from client DFSClient_-1141966026
+2013-11-01 02:37:08,366 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part93 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,429 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part94. blk_3130127541871687247_5211
+2013-11-01 02:37:08,441 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_3130127541871687247_5211 size 118
+2013-11-01 02:37:08,443 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part94 from client DFSClient_-1141966026
+2013-11-01 02:37:08,443 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part94 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,513 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part95. blk_-2607873831465206147_5212
+2013-11-01 02:37:08,517 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-2607873831465206147_5212 size 118
+2013-11-01 02:37:08,519 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part95 from client DFSClient_-1141966026
+2013-11-01 02:37:08,519 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part95 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,588 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part96. blk_6787697461208030781_5213
+2013-11-01 02:37:08,603 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6787697461208030781_5213 size 118
+2013-11-01 02:37:08,607 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part96 from client DFSClient_-1141966026
+2013-11-01 02:37:08,607 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part96 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,672 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part97. blk_-6562983648178647856_5214
+2013-11-01 02:37:08,676 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6562983648178647856_5214 size 118
+2013-11-01 02:37:08,677 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part97 from client DFSClient_-1141966026
+2013-11-01 02:37:08,677 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part97 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,747 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part98. blk_-1699905999831207017_5215
+2013-11-01 02:37:08,749 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-1699905999831207017_5215 size 118
+2013-11-01 02:37:08,751 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part98 from client DFSClient_-1141966026
+2013-11-01 02:37:08,751 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part98 is closed by DFSClient_-1141966026
+2013-11-01 02:37:08,814 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/in/part99. blk_1414582028574684943_5216
+2013-11-01 02:37:08,817 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_1414582028574684943_5216 size 118
+2013-11-01 02:37:08,820 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/in/part99 from client DFSClient_-1141966026
+2013-11-01 02:37:08,820 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/in/part99 is closed by DFSClient_-1141966026
+2013-11-01 02:37:09,067 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.jar. blk_9058564829027608866_5217
+2013-11-01 02:37:09,110 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_9058564829027608866_5217 size 142452
+2013-11-01 02:37:09,111 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.jar from client DFSClient_-1994869616
+2013-11-01 02:37:09,111 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.jar is closed by DFSClient_-1994869616
+2013-11-01 02:37:09,155 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.jar. New replication is 10
+2013-11-01 02:37:09,181 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.jar. blk_-7868616763924943355_5218
+2013-11-01 02:37:09,187 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7868616763924943355_5218 size 142452
+2013-11-01 02:37:09,193 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.jar from client DFSClient_-1141966026
+2013-11-01 02:37:09,193 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.jar is closed by DFSClient_-1141966026
+2013-11-01 02:37:09,231 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.jar. New replication is 10
+2013-11-01 02:37:09,359 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.split. New replication is 10
+2013-11-01 02:37:09,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.split. blk_-5284179461076831683_5219
+2013-11-01 02:37:09,397 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-5284179461076831683_5219 size 2132
+2013-11-01 02:37:09,397 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.split from client DFSClient_-1994869616
+2013-11-01 02:37:09,397 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.split is closed by DFSClient_-1994869616
+2013-11-01 02:37:09,475 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.splitmetainfo. blk_9008202307011004284_5221
+2013-11-01 02:37:09,478 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_9008202307011004284_5221 size 347
+2013-11-01 02:37:09,478 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.splitmetainfo from client DFSClient_-1994869616
+2013-11-01 02:37:09,478 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.splitmetainfo is closed by DFSClient_-1994869616
+2013-11-01 02:37:09,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.split. New replication is 10
+2013-11-01 02:37:09,609 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.split. blk_7417101038484514682_5222
+2013-11-01 02:37:09,612 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_7417101038484514682_5222 size 12497
+2013-11-01 02:37:09,615 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.split from client DFSClient_-1141966026
+2013-11-01 02:37:09,615 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.split is closed by DFSClient_-1141966026
+2013-11-01 02:37:09,667 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.xml. blk_-8626345579192809741_5223
+2013-11-01 02:37:09,672 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-8626345579192809741_5223 size 20527
+2013-11-01 02:37:09,673 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.xml from client DFSClient_-1994869616
+2013-11-01 02:37:09,673 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0001/job.xml is closed by DFSClient_-1994869616
+2013-11-01 02:37:09,827 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.splitmetainfo. blk_-3757300706115870608_5223
+2013-11-01 02:37:09,830 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3757300706115870608_5223 size 1606
+2013-11-01 02:37:09,831 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.splitmetainfo from client DFSClient_-1141966026
+2013-11-01 02:37:09,831 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.splitmetainfo is closed by DFSClient_-1141966026
+2013-11-01 02:37:09,986 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.xml. blk_-4244698919677756019_5225
+2013-11-01 02:37:09,990 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-4244698919677756019_5225 size 20616
+2013-11-01 02:37:09,991 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.xml from client DFSClient_-1141966026
+2013-11-01 02:37:09,992 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/staging/hadoop/.staging/job_201311010236_0002/job.xml is closed by DFSClient_-1141966026
+2013-11-01 02:37:10,078 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_logs/history/job_201311010236_0001_conf.xml. blk_-7273067007109426_5226
+2013-11-01 02:37:10,086 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7273067007109426_5226 size 20592
+2013-11-01 02:37:10,095 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /zhangwei1984/wordcount/output/1G_output/_logs/history/job_201311010236_0001_conf.xml from client DFSClient_888069632
+2013-11-01 02:37:10,095 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /zhangwei1984/wordcount/output/1G_output/_logs/history/job_201311010236_0001_conf.xml is closed by DFSClient_888069632
+2013-11-01 02:37:10,183 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/job_201311010236_0001/jobToken. blk_-7036320846208977589_5228
+2013-11-01 02:37:10,191 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7036320846208977589_5228 size 106
+2013-11-01 02:37:10,193 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/job_201311010236_0001/jobToken from client DFSClient_-1871171838
+2013-11-01 02:37:10,193 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/job_201311010236_0001/jobToken is closed by DFSClient_-1871171838
+2013-11-01 02:37:10,224 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/hadoop/PiEstimator_TMP_3_141592654/out/_logs/history/job_201311010236_0002_conf.xml. blk_6490401429610817203_5229
+2013-11-01 02:37:10,231 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_6490401429610817203_5229 size 20681
+2013-11-01 02:37:10,231 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/hadoop/PiEstimator_TMP_3_141592654/out/_logs/history/job_201311010236_0002_conf.xml from client DFSClient_-1177212458
+2013-11-01 02:37:10,231 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/hadoop/PiEstimator_TMP_3_141592654/out/_logs/history/job_201311010236_0002_conf.xml is closed by DFSClient_-1177212458
+2013-11-01 02:37:10,293 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/job_201311010236_0002/jobToken. blk_-6568550299511497859_5230
+2013-11-01 02:37:10,296 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-6568550299511497859_5230 size 106
+2013-11-01 02:37:10,297 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/job_201311010236_0002/jobToken from client DFSClient_-1871171838
+2013-11-01 02:37:10,297 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/hadoop/hdfs/tmp/hadoop-hadoop/mapred/system/job_201311010236_0002/jobToken is closed by DFSClient_-1871171838
+2013-11-01 02:37:20,823 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000000_0/part-m-00000. blk_7255476624258351165_5231
+2013-11-01 02:37:24,906 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000001_0/part-m-00001. blk_-3493311922458927499_5232
+2013-11-01 02:37:31,306 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_7255476624258351165_5231 size 67108864
+2013-11-01 02:37:31,316 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000000_0/part-m-00000. blk_-7604565887688630688_5232
+2013-11-01 02:37:31,944 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7604565887688630688_5232 size 4745234
+2013-11-01 02:37:31,946 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000000_0/part-m-00000 from client DFSClient_attempt_201311010236_0001_m_000000_0
+2013-11-01 02:37:31,946 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000000_0/part-m-00000 is closed by DFSClient_attempt_201311010236_0001_m_000000_0
+2013-11-01 02:37:34,999 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3493311922458927499_5232 size 67108864
+2013-11-01 02:37:35,007 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000001_0/part-m-00001. blk_-2934617656725589378_5232
+2013-11-01 02:37:35,573 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-2934617656725589378_5232 size 4744583
+2013-11-01 02:37:35,574 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000001_0/part-m-00001 from client DFSClient_attempt_201311010236_0001_m_000001_0
+2013-11-01 02:37:35,575 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000001_0/part-m-00001 is closed by DFSClient_attempt_201311010236_0001_m_000001_0
+2013-11-01 02:37:37,463 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000002_0/part-m-00002. blk_-8454663178590808328_5233
+2013-11-01 02:37:42,154 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 395 Total time for transactions(ms): 5Number of transactions batched in Syncs: 2 Number of syncs: 262 SyncTimes(ms): 8137 
+2013-11-01 02:37:42,531 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000003_0/part-m-00003. blk_-8038690242241629684_5234
+2013-11-01 02:37:47,459 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-8454663178590808328_5233 size 67108864
+2013-11-01 02:37:47,469 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000002_0/part-m-00002. blk_-3255630602163415008_5234
+2013-11-01 02:37:48,069 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-3255630602163415008_5234 size 4746802
+2013-11-01 02:37:48,070 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000002_0/part-m-00002 from client DFSClient_attempt_201311010236_0001_m_000002_0
+2013-11-01 02:37:48,070 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000002_0/part-m-00002 is closed by DFSClient_attempt_201311010236_0001_m_000002_0
+2013-11-01 02:37:52,485 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-8038690242241629684_5234 size 67108864
+2013-11-01 02:37:52,493 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000003_0/part-m-00003. blk_-9022171211909477068_5234
+2013-11-01 02:37:53,152 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-9022171211909477068_5234 size 4745145
+2013-11-01 02:37:53,153 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000003_0/part-m-00003 from client DFSClient_attempt_201311010236_0001_m_000003_0
+2013-11-01 02:37:53,153 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000003_0/part-m-00003 is closed by DFSClient_attempt_201311010236_0001_m_000003_0
+2013-11-01 02:37:54,361 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000004_0/part-m-00004. blk_-4280119174599039292_5235
+2013-11-01 02:38:00,470 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000005_0/part-m-00005. blk_7652530420664368222_5236
+2013-11-01 02:38:05,021 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-4280119174599039292_5235 size 67108864
+2013-11-01 02:38:05,032 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000004_0/part-m-00004. blk_-7243903954687856012_5236
+2013-11-01 02:38:05,700 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-7243903954687856012_5236 size 4745041
+2013-11-01 02:38:05,701 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000004_0/part-m-00004 from client DFSClient_attempt_201311010236_0001_m_000004_0
+2013-11-01 02:38:05,701 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000004_0/part-m-00004 is closed by DFSClient_attempt_201311010236_0001_m_000004_0
+2013-11-01 02:38:10,879 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_7652530420664368222_5236 size 67108864
+2013-11-01 02:38:10,889 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000005_0/part-m-00005. blk_-1518848541940209096_5236
+2013-11-01 02:38:11,677 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.1.233:50010 is added to blk_-1518848541940209096_5236 size 4747008
+2013-11-01 02:38:11,678 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000005_0/part-m-00005 from client DFSClient_attempt_201311010236_0001_m_000005_0
+2013-11-01 02:38:11,678 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000005_0/part-m-00005 is closed by DFSClient_attempt_201311010236_0001_m_000005_0
+2013-11-01 02:38:11,925 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000006_0/part-m-00006. blk_-8274228241966083461_5237
+2013-11-01 02:38:17,559 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /zhangwei1984/wordcount/output/1G_output/_temporary/_attempt_201311010236_0001_m_000007_0/part-m-00007. blk_5526231074697480429_5238

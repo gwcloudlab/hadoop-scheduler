@@ -134,6 +134,7 @@ public class Sort<K,V> extends Configured implements Tool {
     }
 
     // Set user-supplied (possibly default) job configs
+    num_reduces = 0;
     jobConf.setNumReduceTasks(num_reduces);
 
     jobConf.setInputFormat(inputFormatClass);

@@ -6,12 +6,12 @@
 <configuration>
 	<property>
 		<name>mapred.job.tracker</name>
-        	<value>master:9001</value>
+        	<value>mastertest:9001</value>
 	</property>
 
 	<property>
 	  <name>mapred.reduce.tasks</name>
-	  <value>6</value>
+	  <value>0</value>
 	  <description>The default number of reduce tasks per job. Typically set to 99%
 	  of the cluster's reduce capacity, so that if a node fails the reduces can
 	  still be executed in a single wave.
