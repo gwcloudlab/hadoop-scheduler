@@ -24,8 +24,8 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+//import org.apache.commons.logging.Log;
+//import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.filecache.DistributedCache;
 import org.apache.hadoop.fs.FileSystem;
@@ -48,7 +48,7 @@ import org.apache.hadoop.util.ToolRunner;
  * <b>bin/hadoop jar hadoop-examples-*.jar terasort in-dir out-dir</b>
  */
 public class TeraSort extends Configured implements Tool {
-  private static final Log LOG = LogFactory.getLog(TeraSort.class);
+  //private static final Log LOG = LogFactory.getLog(TeraSort.class);
 
   /**
    * A partitioner that splits text keys into roughly equal partitions
@@ -224,7 +224,7 @@ public class TeraSort extends Configured implements Tool {
   }
   
   public int run(String[] args) throws Exception {
-    LOG.info("starting");
+    //LOG.info("starting");
     JobConf job = (JobConf) getConf();
     Path inputDir = new Path(args[0]);
     inputDir = inputDir.makeQualified(inputDir.getFileSystem(job));
@@ -246,7 +246,7 @@ public class TeraSort extends Configured implements Tool {
     job.setInt("dfs.replication", 1);
     TeraOutputFormat.setFinalSync(job, true);
     JobClient.runJob(job);
-    LOG.info("done");
+ //   LOG.info("done");
     return 0;
   }
 

@@ -114,6 +114,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
   @Override
   public synchronized List<Task> assignTasks(TaskTracker taskTracker)
       throws IOException {
+    
     // Assigned tasks
     List<Task> assignedTasks = new ArrayList<Task>();
    
@@ -142,6 +143,16 @@ class JobQueueTaskScheduler extends TaskScheduler {
     int remainingMapLoad = 0;
     synchronized (jobQueue) {
       for (JobInProgress job : jobQueue) {
+        int jobOccupiedSlots = 0;
+        Set<Map.Entry<String, Integer>> entries = job.getSlotsHashMap().entrySet();
+        for (Map.Entry<String, Integer> entry:entries) {
+          String host = entry.getKey();
+          Integer slotsNum = entry.getValue();
+          jobOccupiedSlots += slotsNum;
+	  System.out.printf("***Time=%d, jobName=%s, jobID=%s, host=%s, slots=%d %n", System.currentTimeMillis(), job.getProfile().getJobName(), job.getJobID().toString(), host, slotsNum);
+	}
+	System.out.printf("***Time=%d, JobName=%s, JobID=%s, Slots=%d %n", System.currentTimeMillis(), job.getProfile().getJobName(), job.getJobID().toString(), jobOccupiedSlots);
+	
         if (job.getStatus().getRunState() == JobStatus.RUNNING) {
           remainingMapLoad += (job.desiredMaps() - job.finishedMaps());
           if (job.scheduleReduces()) {
@@ -430,7 +441,12 @@ class JobQueueTaskScheduler extends TaskScheduler {
     	  dedicatedMapTaskExecTime = 11484.4;
     }  else if (jobName.equals("grep-sort")) {
     	  dedicatedMapTaskExecTime = 5175.125;
+    }  else if (jobName.equals("Cluster Iterator running iteration 1 over priorPath: /HiBench/KMeans/Output-comp/clusters-0")) {
+    	  dedicatedMapTaskExecTime = 2068;
+    }  else if (jobName.equals("Cluster Classification Driver running over input: /HiBench/KMeans/Input-comp/samples")) {
+    	  dedicatedMapTaskExecTime = 2034.666667;
     }
+
     return dedicatedMapTaskExecTime;
   }
 
@@ -474,7 +490,17 @@ class JobQueueTaskScheduler extends TaskScheduler {
        b = 0.002232;  
        c = 0.002356;  
        d = 0.04242;  
-     }
+     } else if (jobName.equals("Cluster Iterator running iteration 1 over priorPath: /HiBench/KMeans/Output-comp/clusters-0")){
+       a = 1.128;
+       b = 0.004368;
+       c = 0.004809;
+       d = 0.04385;
+     } else if (jobName.equals("Cluster Classification Driver running over input: /HiBench/KMeans/Input-comp/samples")){
+       a = 0.9821;
+       b = -0.0004303;
+       c = 0.06132;
+       d = 0.02546;    
+    }
 
     mapNormalizedTct = a * Math.exp(b * webCpuUsage) + c * Math.exp(d * webCpuUsage);
     return mapNormalizedTct;
@@ -567,6 +593,7 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
 	    isDedicated = true;
     }
     if (isDedicated && disk + predictDiskDemand > DISKTHRESHOLD) {
+      System.out.printf("Time=%d, jobID=%s, jobName=%s, predictDiskDemand=%f, currentDiskBW=%f, MaxDisk=%f bring datanode %s IO bottleneck %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName(), predictDiskDemand, disk, DISKTHRESHOLD, host);
       return true;
     }
   }
@@ -609,14 +636,16 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     if ( totalOccupiedSlots != 0) {
 
       predictMapPhaseJct = System.currentTimeMillis() - job.getStartTime() + pendingMapTasks * tmpTct / (totalOccupiedSlots * totalOccupiedSlots);
-      System.out.printf("time=%d, jobName=%s, predictMapPhaseJct=%f %n", System.currentTimeMillis(), job.getProfile().getJobName(), predictMapPhaseJct);
+      System.out.printf("time=%d, jobID=%s, jobName=%s, predictMapPhaseJct=%f %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName(), predictMapPhaseJct);
 
     }
      
 /*    for (i = 0; i < taskNums.length; i++) {
       totalTaskNums += taskNums[i];
     }*/
-  
+
+   // adding some extra, try to make all tasks can be finished before the deadline 
+    pendingMapTasks += 3;
     if (totalTaskNums >= pendingMapTasks)
       canMeetDeadline = true;
     else

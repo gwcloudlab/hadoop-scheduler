@@ -2733,10 +2733,10 @@ public class JobInProgress {
         //add by wei
         JobInProgress job = tip.getJob();
         if (job.getFinishTime() <= job.getJobDeadline()) {
-          System.out.printf("&&&job %s meet deadline, jobFinishTime=%d %n", job.getProfile().getJobName(), job.getFinishTime());
+          System.out.printf("&&&job %s meet deadline, jobID=%s, jobStartTime=%d, jobFinishTime=%d, jobRelativeDeadline=%d, beforeTime=%d %n", job.getProfile().getJobName(), job.getJobID().toString(), job.getStartTime(), job.getFinishTime(), job.getJobRelativeDeadline(), job.getJobDeadline()-job.getFinishTime());
         } 
         else {
-          System.out.printf("&&&job %s miss deadline, jobFinishTime=%d %n", job.getProfile().getJobName(), job.getFinishTime());
+	  System.out.printf("&&&job %s miss deadline, jobID=%s, jobStartTime=%d, jobFinishTime=%d, jobRelativeDeadline=%d, afterTime=%d %n", job.getProfile().getJobName(), job.getJobID().toString(), job.getStartTime(), job.getFinishTime(), job.getJobRelativeDeadline(), job.getFinishTime()-job.getJobDeadline());
         }
       }
       // The job has been killed/failed/successful

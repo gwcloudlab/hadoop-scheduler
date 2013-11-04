@@ -253,7 +253,7 @@ public class PiEstimator extends Configured implements Tool {
     jobConf.setNumMapTasks(numMaps);
 
     jobConf.setReducerClass(PiReducer.class);
-    jobConf.setNumReduceTasks(1);
+    jobConf.setNumReduceTasks(0);
 
     // turn off speculative execution, because DFS doesn't handle
     // multiple writers to the same file.
