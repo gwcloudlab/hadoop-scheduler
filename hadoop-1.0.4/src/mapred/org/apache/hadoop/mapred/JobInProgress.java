@@ -1266,7 +1266,7 @@ public class JobInProgress {
             if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
 
               System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, PredictTime=%f %n ",
-                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine,
                                 status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(), tip.getJob().getTaskPredictTime(taskid));
 
             }
