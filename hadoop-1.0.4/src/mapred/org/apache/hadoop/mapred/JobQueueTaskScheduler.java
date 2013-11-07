@@ -289,7 +289,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
             ++numLocalMaps;
              
             job.putTaskPredictTime(t, predictMapTaskExecTime);
-	    System.out.printf("time=%d, pickDeadline=%d, pickProgress=%d, pickNone=%d %n", pickDeadline, pickProgress, pickNone);
+	    System.out.printf("time=%d, pickDeadline=%d, pickProgress=%d, pickNone=%d %n", System.currentTimeMillis(), pickDeadline, pickProgress, pickNone);
             
             // Don't assign map tasks to the hilt!
             // Leave some free slots in the cluster for future task-failures,
@@ -312,7 +312,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
             ++numNonLocalMaps;
        
             job.putTaskPredictTime(t, predictMapTaskExecTime);
-	    System.out.printf("time=%d, pickDeadline=%d, pickProgress=%d, pickNone=%d %n", pickDeadline, pickProgress, pickNone);
+	    System.out.printf("time=%d, pickDeadline=%d, pickProgress=%d, pickNone=%d %n", System.currentTimeMillis(), pickDeadline, pickProgress, pickNone);
             
             // We assign at most 1 off-switch or speculative task
             // This is to prevent TaskTrackers from stealing local-tasks
