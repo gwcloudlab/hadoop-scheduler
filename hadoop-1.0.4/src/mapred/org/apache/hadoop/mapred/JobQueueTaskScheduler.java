@@ -247,9 +247,6 @@ class JobQueueTaskScheduler extends TaskScheduler {
 	
 	}
      
-        if (job != null) {
-          pickDeadline++;
-	}
         //add by wei
         // Check if we found a job that could not meet deadline
         if (job == null) { /* ALl jobs can meet deadline */
@@ -264,6 +261,9 @@ class JobQueueTaskScheduler extends TaskScheduler {
       	    break;
       	  }
 	}
+	else{
+          pickDeadline++;
+        }
 	// if we reach here, we have found a job to run
 
      //   job = jobQueue.iterator.next();
