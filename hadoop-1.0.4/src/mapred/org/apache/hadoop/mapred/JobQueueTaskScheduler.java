@@ -56,6 +56,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
   protected static  Map<String, NodeResource> resources
     = new HashMap<String, NodeResource>();
   protected volatile boolean running = false;
+  protected static int pickDeadline = 0, pickProgress = 0, pickNone = 0;
   
   public JobQueueTaskScheduler() {
     this.jobQueueJobInProgressListener = new JobQueueJobInProgressListener();
@@ -242,20 +243,27 @@ class JobQueueTaskScheduler extends TaskScheduler {
                 /* This job does not cause IO bottleneck and will make the most progress of those seen so far. */
                 maxProgressJob = jobTmp; 
               }
-	        }
-        }
-      
+         }
+	
+	}
+     
+        if (job != null) {
+          pickDeadline++;
+	}
         //add by wei
         // Check if we found a job that could not meet deadline
-        if (job == null) { /* ALl jobs can meet deadlin */
+        if (job == null) { /* ALl jobs can meet deadline */
       	  if(maxProgressJob != null) {
       	    job = maxProgressJob; /* Pick the job that will make the most progress */
+	    pickProgress++;
+           System.out.printf("time=%d, jobID=%s, jobName=%s has the maximum progress for the current jobs%n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
       	  }
       	  else {
       	    // any job we pick will cause IO bottleneck
+	    pickNone++;
       	    break;
       	  }
-	      }
+	}
 	// if we reach here, we have found a job to run
 
      //   job = jobQueue.iterator.next();
@@ -267,6 +275,9 @@ class JobQueueTaskScheduler extends TaskScheduler {
       //  System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
         System.out.printf("@@@Job %s gets the map free slot from TaskTracker %s %n", job.getProfile().getJobName(), taskTracker.getStatus().getHost());
 
+        double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource);      
+        double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTct; 
+
           Task t = null;
           
           // Try to schedule a node-local or rack-local Map task
@@ -276,6 +287,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
           if (t != null) {
             assignedTasks.add(t);
             ++numLocalMaps;
+             
+            job.putTaskPredictTime(t, predictMapTaskExecTime);
             
             // Don't assign map tasks to the hilt!
             // Leave some free slots in the cluster for future task-failures,
@@ -296,6 +309,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
           if (t != null) {
             assignedTasks.add(t);
             ++numNonLocalMaps;
+       
+            job.putTaskPredictTime(t, predictMapTaskExecTime);
             
             // We assign at most 1 off-switch or speculative task
             // This is to prevent TaskTrackers from stealing local-tasks
@@ -645,12 +660,16 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     }*/
 
    // adding some extra, try to make all tasks can be finished before the deadline 
-    pendingMapTasks += 3;
-    if (totalTaskNums >= pendingMapTasks)
+    //if (totalTaskNums >= (pendingMapTasks*1.08))
+    //if (totalTaskNums >= ((int)Math.ceil(1.5*pendingMapTasks)))
+    if (totalTaskNums >= pendingMapTasks) {
       canMeetDeadline = true;
-    else
+ 
+    }
+    else {
       canMeetDeadline = false;
-    
+      System.out.printf("time=%d, jobID=%s, jobName=%s MISS DEADLINE, need more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
+   }
     return canMeetDeadline;  
   
  }

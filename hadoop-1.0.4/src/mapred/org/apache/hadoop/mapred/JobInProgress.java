@@ -238,6 +238,9 @@ public class JobInProgress {
   long deadLine;
   private Map<String, Integer> slotsOccupied = 
       new HashMap<String, Integer>();
+  private Map<TaskAttemptID, Double> taskPredictTime = 
+      new HashMap<TaskAttemptID, Double>();
+
 
   // First *task launch time
   final Map<TaskType, Long> firstTaskLaunchTimes =
@@ -845,7 +848,7 @@ public class JobInProgress {
     return startTime;
   }
   
-  //add by wei
+  //add by wei 
   public int getJobRelativeDeadline() {
     return relativeDeadline;
   }
@@ -898,6 +901,15 @@ public class JobInProgress {
     }
     slotsOccupied.put(host, slots);
   }
+
+ public void putTaskPredictTime(Task task, double predictTime) {
+   TaskAttemptID taskid = task.getTaskID();
+   taskPredictTime.put(taskid, (Double)predictTime); 
+ }
+
+ public double getTaskPredictTime(TaskAttemptID taskid) {
+   return taskPredictTime.get(taskid);
+}
 
   public int desiredMaps() {
     return numMapTasks;
@@ -1253,14 +1265,15 @@ public class JobInProgress {
           if(status.getIsMap()){
             if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
 
-              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, PredictTime=%f %n ",
                                 tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
-                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(), tip.getJob().getTaskPredictTime(taskid));
+
             }
             else{
-              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, PredictTime=%f %n ",
                                 tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
-                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(), tip.getJob().getTaskPredictTime(taskid));
            }
           }
           else{
