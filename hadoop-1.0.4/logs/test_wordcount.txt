@@ -1,0 +1,166 @@
+JobName=word count, ID=attempt_201311070810_0001_m_000165_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383811912469, FinishTime=1383811918530, ExecTime=6061 
+JobName=word count, ID=attempt_201311070810_0001_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383811921416, FinishTime=1383811956082, ExecTime=34666, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383811921423, FinishTime=1383811962169, ExecTime=40746, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383811921817, FinishTime=1383811966154, ExecTime=44337, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383811922514, FinishTime=1383811966599, ExecTime=44085, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383811921780, FinishTime=1383811978336, ExecTime=56556, PredictTime=48645.515395 
+JobName=word count, ID=attempt_201311070810_0001_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave11, StartTime=1383811921981, FinishTime=1383811978862, ExecTime=56881, PredictTime=52628.164741 
+JobName=word count, ID=attempt_201311070810_0001_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383811920236, FinishTime=1383811986438, ExecTime=66202, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=slave9, StartTime=1383811921945, FinishTime=1383811984768, ExecTime=62823, PredictTime=48691.034510 
+ JobName=word count, ID=attempt_201311070810_0001_m_000030_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383811924722, FinishTime=1383811987764, ExecTime=63042, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000022_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383811924004, FinishTime=1383811987531, ExecTime=63527, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383811922151, FinishTime=1383811987751, ExecTime=65600, PredictTime=52457.446040 
+ JobName=word count, ID=attempt_201311070810_0001_m_000032_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383811925201, FinishTime=1383811996622, ExecTime=71421, PredictTime=86792.267876 
+JobName=word count, ID=attempt_201311070810_0001_m_000023_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383811924052, FinishTime=1383811997306, ExecTime=73254, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000027_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383811924436, FinishTime=1383811996868, ExecTime=72432, PredictTime=48765.630707 
+ JobName=word count, ID=attempt_201311070810_0001_m_000026_0, Type=MAP, Status=SUCCEEDED, Machine=slave9, StartTime=1383811924397, FinishTime=1383811997270, ExecTime=72873, PredictTime=48691.034510 
+JobName=word count, ID=attempt_201311070810_0001_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383811921976, FinishTime=1383811999596, ExecTime=77620, PredictTime=48695.171447 
+ JobName=word count, ID=attempt_201311070810_0001_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383811922708, FinishTime=1383812001069, ExecTime=78361, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000029_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383811924462, FinishTime=1383812003465, ExecTime=79003, PredictTime=52457.446040 
+JobName=word count, ID=attempt_201311070810_0001_m_000018_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383811922949, FinishTime=1383812014703, ExecTime=91754, PredictTime=79985.651740 
+JobName=word count, ID=attempt_201311070810_0001_m_000025_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383811924226, FinishTime=1383812014965, ExecTime=90739, PredictTime=48645.515395 
+JobName=word count, ID=attempt_201311070810_0001_m_000019_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383811923613, FinishTime=1383812016071, ExecTime=92458, PredictTime=177674.024184 
+JobName=word count, ID=attempt_201311070810_0001_m_000028_0, Type=MAP, Status=SUCCEEDED, Machine=slave11, StartTime=1383811924450, FinishTime=1383812015490, ExecTime=91040, PredictTime=52628.164741 
+JobName=word count, ID=attempt_201311070810_0001_m_000017_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383811923014, FinishTime=1383812016257, ExecTime=93243, PredictTime=86792.267876 
+JobName=word count, ID=attempt_201311070810_0001_m_000031_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383811925002, FinishTime=1383812021428, ExecTime=96426, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=slave8, StartTime=1383811922965, FinishTime=1383812027787, ExecTime=104822, PredictTime=236991.061175 
+ JobName=word count, ID=attempt_201311070810_0001_m_000021_0, Type=MAP, Status=SUCCEEDED, Machine=slave8, StartTime=1383811923966, FinishTime=1383812026929, ExecTime=102963, PredictTime=236991.061175 
+JobName=word count, ID=attempt_201311070810_0001_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383811922473, FinishTime=1383812031536, ExecTime=109063, PredictTime=131314.242634 
+ JobName=word count, ID=attempt_201311070810_0001_m_000020_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383811924062, FinishTime=1383812030287, ExecTime=106225, PredictTime=140206.108566 
+JobName=word count, ID=attempt_201311070810_0001_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=slave12, StartTime=1383811923223, FinishTime=1383812031863, ExecTime=108640, PredictTime=358004.219834 
+ JobName=word count, ID=attempt_201311070810_0001_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383811922285, FinishTime=1383812033705, ExecTime=111420, PredictTime=175553.048656 
+JobName=word count, ID=attempt_201311070810_0001_m_000024_0, Type=MAP, Status=SUCCEEDED, Machine=slave12, StartTime=1383811924312, FinishTime=1383812054401, ExecTime=130089, PredictTime=358004.219834 
+JobName=word count, ID=attempt_201311070810_0001_m_000033_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383811926452, FinishTime=1383812059867, ExecTime=133415, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000034_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383812034733, FinishTime=1383812069366, ExecTime=34633, PredictTime=76292.843655 
+JobName=word count, ID=attempt_201311070810_0001_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=slave10, StartTime=1383811925924, FinishTime=1383812069732, ExecTime=143808, PredictTime=1315120.598020 
+JobName=word count, ID=attempt_201311070810_0001_m_000016_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383811926457, FinishTime=1383812075645, ExecTime=149188, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000037_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812063708, FinishTime=1383812101562, ExecTime=37854, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000035_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383812060831, FinishTime=1383812107959, ExecTime=47128, PredictTime=79330.984471 
+ JobName=word count, ID=attempt_201311070810_0001_m_000036_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812060868, FinishTime=1383812110075, ExecTime=49207, PredictTime=86853.125097 
+JobName=word count, ID=attempt_201311070810_0001_m_000038_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812079458, FinishTime=1383812120429, ExecTime=40971, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000039_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812106825, FinishTime=1383812151149, ExecTime=44324, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000041_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812120430, FinishTime=1383812158209, ExecTime=37779, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000040_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812110080, FinishTime=1383812159133, ExecTime=49053, PredictTime=80865.332463 
+JobName=word count, ID=attempt_201311070810_0001_m_000042_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812123024, FinishTime=1383812161232, ExecTime=38208, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000044_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812160590, FinishTime=1383812189962, ExecTime=29372, PredictTime=48815.415945 
+JobName=word count, ID=attempt_201311070810_0001_m_000043_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812155049, FinishTime=1383812193861, ExecTime=38812, PredictTime=49132.070558 
+JobName=word count, ID=attempt_201311070810_0001_m_000045_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812162069, FinishTime=1383812197017, ExecTime=34948, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000047_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812195119, FinishTime=1383812218262, ExecTime=23143, PredictTime=48484.473153 
+ JobName=word count, ID=attempt_201311070810_0001_m_000046_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812191844, FinishTime=1383812221232, ExecTime=29388, PredictTime=48356.834845 
+ JobName=word count, ID=attempt_201311070810_0001_m_000048_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812198206, FinishTime=1383812221469, ExecTime=23263, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000051_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812212624, FinishTime=1383812253493, ExecTime=40869, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000065_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812218267, FinishTime=1383812265919, ExecTime=47652, PredictTime=48571.112662 
+JobName=word count, ID=attempt_201311070810_0001_m_000062_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812215638, FinishTime=1383812266880, ExecTime=51242, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000054_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812213263, FinishTime=1383812269573, ExecTime=56310, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000056_0, Type=MAP, Status=SUCCEEDED, Machine=slave9, StartTime=1383812213304, FinishTime=1383812272622, ExecTime=59318, PredictTime=48948.488747 
+JobName=word count, ID=attempt_201311070810_0001_m_000055_0, Type=MAP, Status=SUCCEEDED, Machine=slave11, StartTime=1383812213278, FinishTime=1383812275818, ExecTime=62540, PredictTime=52826.614115 
+JobName=word count, ID=attempt_201311070810_0001_m_000067_0, Type=MAP, Status=SUCCEEDED, Machine=slave9, StartTime=1383812216304, FinishTime=1383812274246, ExecTime=57942, PredictTime=48948.488747 
+JobName=word count, ID=attempt_201311070810_0001_m_000050_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812212582, FinishTime=1383812277939, ExecTime=65357, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000059_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812213545, FinishTime=1383812276823, ExecTime=63278, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000069_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812216538, FinishTime=1383812278256, ExecTime=61718, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000070_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812216761, FinishTime=1383812280158, ExecTime=63397, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000074_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812220338, FinishTime=1383812279329, ExecTime=58991, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000063_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812219168, FinishTime=1383812281535, ExecTime=62367, PredictTime=49391.988674 
+ JobName=word count, ID=attempt_201311070810_0001_m_000052_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812212971, FinishTime=1383812281396, ExecTime=68425, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000064_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812215974, FinishTime=1383812281791, ExecTime=65817, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000053_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812213181, FinishTime=1383812281881, ExecTime=68700, PredictTime=48484.473153 
+JobName=word count, ID=attempt_201311070810_0001_m_000057_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383812213405, FinishTime=1383812282138, ExecTime=68733, PredictTime=51864.629542 
+JobName=word count, ID=attempt_201311070810_0001_m_000060_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812213747, FinishTime=1383812288382, ExecTime=74635, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000066_0, Type=MAP, Status=SUCCEEDED, Machine=slave11, StartTime=1383812216294, FinishTime=1383812288982, ExecTime=72688, PredictTime=52826.614115 
+JobName=word count, ID=attempt_201311070810_0001_m_000076_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812221470, FinishTime=1383812292924, ExecTime=71454, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000075_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812221237, FinishTime=1383812296334, ExecTime=75097, PredictTime=49391.988674 
+JobName=word count, ID=attempt_201311070810_0001_m_000068_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383812216410, FinishTime=1383812294581, ExecTime=78171, PredictTime=51864.629542 
+JobName=word count, ID=attempt_201311070810_0001_m_000072_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812217710, FinishTime=1383812297123, ExecTime=79413, PredictTime=123209.401412 
+JobName=word count, ID=attempt_201311070810_0001_m_000061_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812214729, FinishTime=1383812300509, ExecTime=85780, PredictTime=123209.401412 
+JobName=word count, ID=attempt_201311070810_0001_m_000049_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812212519, FinishTime=1383812300861, ExecTime=88342, PredictTime=151091.491730 
+JobName=word count, ID=attempt_201311070810_0001_m_000073_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812221149, FinishTime=1383812304092, ExecTime=82943, PredictTime=150286.946643 
+JobName=word count, ID=attempt_201311070810_0001_m_000058_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812213826, FinishTime=1383812345655, ExecTime=131829, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000071_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812216981, FinishTime=1383812345665, ExecTime=128684, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000077_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812342890, FinishTime=1383812375875, ExecTime=32985, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000082_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812369694, FinishTime=1383812395492, ExecTime=25798, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000080_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812369059, FinishTime=1383812397731, ExecTime=28672, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000086_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812372067, FinishTime=1383812405051, ExecTime=32984, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000081_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812369385, FinishTime=1383812404819, ExecTime=35434, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000087_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812372382, FinishTime=1383812404896, ExecTime=32514, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000083_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812369994, FinishTime=1383812405614, ExecTime=35620, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000088_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812372702, FinishTime=1383812407776, ExecTime=35074, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000085_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812374583, FinishTime=1383812410978, ExecTime=36395, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000090_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812383606, FinishTime=1383812409431, ExecTime=25825, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000089_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812375879, FinishTime=1383812415976, ExecTime=40097, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000079_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812368737, FinishTime=1383812418801, ExecTime=50064, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000084_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812371705, FinishTime=1383812419532, ExecTime=47827, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000091_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812412080, FinishTime=1383812442107, ExecTime=30027, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000092_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812414093, FinishTime=1383812448971, ExecTime=34878, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000093_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812414149, FinishTime=1383812448872, ExecTime=34723, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000095_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812415978, FinishTime=1383812449263, ExecTime=33285, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000098_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812417159, FinishTime=1383812452455, ExecTime=35296, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000099_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812417477, FinishTime=1383812452853, ExecTime=35376, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000078_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812347388, FinishTime=1383812453972, ExecTime=106584, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000097_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812417104, FinishTime=1383812455316, ExecTime=38212, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000094_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812414795, FinishTime=1383812455665, ExecTime=40870, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000100_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812417806, FinishTime=1383812459207, ExecTime=41401, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000096_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812418802, FinishTime=1383812460634, ExecTime=41832, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000101_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812419803, FinishTime=1383812471172, ExecTime=51369, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000106_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812448873, FinishTime=1383812484921, ExecTime=36048, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000108_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812452456, FinishTime=1383812487990, ExecTime=35534, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000103_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812442108, FinishTime=1383812496135, ExecTime=54027, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000116_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383812457256, FinishTime=1383812501686, ExecTime=44430, PredictTime=52171.274210 
+ JobName=word count, ID=attempt_201311070810_0001_m_000109_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812452861, FinishTime=1383812503078, ExecTime=50217, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000105_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812448973, FinishTime=1383812508072, ExecTime=59099, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000104_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812446578, FinishTime=1383812508875, ExecTime=62297, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000107_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812449266, FinishTime=1383812513192, ExecTime=63926, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000111_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812455317, FinishTime=1383812514863, ExecTime=59546, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000112_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812455673, FinishTime=1383812514865, ExecTime=59192, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000114_0, Type=MAP, Status=SUCCEEDED, Machine=slave9, StartTime=1383812457070, FinishTime=1383812516396, ExecTime=59326, PredictTime=49721.022460 
+JobName=word count, ID=attempt_201311070810_0001_m_000121_0, Type=MAP, Status=SUCCEEDED, Machine=slave9, StartTime=1383812460078, FinishTime=1383812520092, ExecTime=60014, PredictTime=49721.022460 
+JobName=word count, ID=attempt_201311070810_0001_m_000115_0, Type=MAP, Status=SUCCEEDED, Machine=slave11, StartTime=1383812457232, FinishTime=1383812522942, ExecTime=65710, PredictTime=52175.728150 
+JobName=word count, ID=attempt_201311070810_0001_m_000127_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812467693, FinishTime=1383812527389, ExecTime=59696, PredictTime=48911.028069 
+JobName=word count, ID=attempt_201311070810_0001_m_000129_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812487997, FinishTime=1383812531197, ExecTime=43200, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000113_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812459209, FinishTime=1383812530817, ExecTime=71608, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000122_0, Type=MAP, Status=SUCCEEDED, Machine=slave11, StartTime=1383812460241, FinishTime=1383812532250, ExecTime=72009, PredictTime=52175.728150 
+JobName=word count, ID=attempt_201311070810_0001_m_000123_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383812460255, FinishTime=1383812532748, ExecTime=72493, PredictTime=52171.274210 
+JobName=word count, ID=attempt_201311070810_0001_m_000118_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812458824, FinishTime=1383812538972, ExecTime=80148, PredictTime=80077.704715 
+ JobName=word count, ID=attempt_201311070810_0001_m_000125_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812461799, FinishTime=1383812538840, ExecTime=77041, PredictTime=80077.704715 
+JobName=word count, ID=attempt_201311070810_0001_m_000120_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812460646, FinishTime=1383812541361, ExecTime=80715, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000131_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812498144, FinishTime=1383812542530, ExecTime=44386, PredictTime=49048.544540 
+JobName=word count, ID=attempt_201311070810_0001_m_000117_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812457899, FinishTime=1383812544185, ExecTime=86286, PredictTime=129806.156389 
+JobName=word count, ID=attempt_201311070810_0001_m_000128_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812471178, FinishTime=1383812546324, ExecTime=75146, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000124_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812460883, FinishTime=1383812548325, ExecTime=87442, PredictTime=129806.156389 
+JobName=word count, ID=attempt_201311070810_0001_m_000119_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812458885, FinishTime=1383812548191, ExecTime=89306, PredictTime=149058.553660 
+JobName=word count, ID=attempt_201311070810_0001_m_000130_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812496138, FinishTime=1383812549156, ExecTime=53018, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000133_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383812501687, FinishTime=1383812549178, ExecTime=47491, PredictTime=52772.425128 
+JobName=word count, ID=attempt_201311070810_0001_m_000132_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812501266, FinishTime=1383812551682, ExecTime=50416, PredictTime=49048.544540 
+JobName=word count, ID=attempt_201311070810_0001_m_000126_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812462180, FinishTime=1383812555535, ExecTime=93355, PredictTime=149058.553660 
+ JobName=word count, ID=attempt_201311070810_0001_m_000110_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812453977, FinishTime=1383812566898, ExecTime=112921, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000102_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812443100, FinishTime=1383812586837, ExecTime=143737, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000135_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812592413, FinishTime=1383812622426, ExecTime=30013, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000134_0, Type=MAP, Status=SUCCEEDED, Machine=slave8, StartTime=1383812590121, FinishTime=1383812653738, ExecTime=63617, PredictTime=225132.095895 
+JobName=word count, ID=attempt_201311070810_0001_m_000137_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812626246, FinishTime=1383812661590, ExecTime=35344, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000136_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812624255, FinishTime=1383812697150, ExecTime=72895, PredictTime=144315.570292 
+JobName=word count, ID=attempt_201311070810_0001_m_000138_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812667385, FinishTime=1383812699861, ExecTime=32476, PredictTime=48525.711538 
+JobName=word count, ID=attempt_201311070810_0001_m_000139_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812700006, FinishTime=1383812732456, ExecTime=32450, PredictTime=48948.488747 
+JobName=word count, ID=attempt_201311070810_0001_m_000140_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812733111, FinishTime=1383812753212, ExecTime=20101, PredictTime=48720.038134 
+JobName=word count, ID=attempt_201311070810_0001_m_000141_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812754189, FinishTime=1383812774146, ExecTime=19957, PredictTime=47578.286762 
+ JobName=word count, ID=attempt_201311070810_0001_m_000142_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812775263, FinishTime=1383812804553, ExecTime=29290, PredictTime=47578.286762 
+JobName=word count, ID=attempt_201311070810_0001_m_000149_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812793615, FinishTime=1383812828573, ExecTime=34958, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000146_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812792897, FinishTime=1383812831049, ExecTime=38152, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000161_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812795901, FinishTime=1383812834223, ExecTime=38322, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000148_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812793322, FinishTime=1383812834777, ExecTime=41455, PredictTime=47772.689675 
+JobName=word count, ID=attempt_201311070810_0001_m_000163_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812796611, FinishTime=1383812834816, ExecTime=38205, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000162_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812798279, FinishTime=1383812839981, ExecTime=41702, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000155_0, Type=MAP, Status=SUCCEEDED, Machine=slave11, StartTime=1383812794313, FinishTime=1383812841964, ExecTime=47651, PredictTime=50952.040284 
+JobName=word count, ID=attempt_201311070810_0001_m_000145_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812792537, FinishTime=1383812843084, ExecTime=50547, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000160_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812795830, FinishTime=1383812845769, ExecTime=49939, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000147_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812793260, FinishTime=1383812846545, ExecTime=53285, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000153_0, Type=MAP, Status=SUCCEEDED, Machine=slave3, StartTime=1383812794153, FinishTime=1383812850917, ExecTime=56764, PredictTime=50356.122590 
+JobName=word count, ID=attempt_201311070810_0001_m_000150_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812793676, FinishTime=1383812859243, ExecTime=65567, PredictTime=48765.630707 
+JobName=word count, ID=attempt_201311070810_0001_m_000152_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812794129, FinishTime=1383812860410, ExecTime=66281, PredictTime=37172.044743 
+ JobName=word count, ID=attempt_201311070810_0001_m_000154_0, Type=MAP, Status=SUCCEEDED, Machine=slave9, StartTime=1383812794215, FinishTime=1383812862996, ExecTime=68781, PredictTime=48282.896253 
+JobName=word count, ID=attempt_201311070810_0001_m_000156_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812794429, FinishTime=1383812863302, ExecTime=68873, PredictTime=102762.280805 
+JobName=word count, ID=attempt_201311070810_0001_m_000144_0, Type=MAP, Status=SUCCEEDED, Machine=slave8, StartTime=1383812792427, FinishTime=1383812868323, ExecTime=75896, PredictTime=153690.621441 
+ JobName=word count, ID=attempt_201311070810_0001_m_000151_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812793786, FinishTime=1383812871160, ExecTime=77374, PredictTime=153732.234618 
+JobName=word count, ID=attempt_201311070810_0001_m_000159_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383812795516, FinishTime=1383812873412, ExecTime=77896, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000158_0, Type=MAP, Status=SUCCEEDED, Machine=slave8, StartTime=1383812795549, FinishTime=1383812873234, ExecTime=77685, PredictTime=153690.621441 
+JobName=word count, ID=attempt_201311070810_0001_m_000143_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812791652, FinishTime=1383812893125, ExecTime=101473, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000157_0, Type=MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812795022, FinishTime=1383812907305, ExecTime=112283, PredictTime=37172.044743 
+JobName=word count, ID=attempt_201311070810_0001_m_000164_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave6, StartTime=1383812910027, FinishTime=1383812921233, ExecTime=11206 

@@ -459,61 +459,61 @@ class JobQueueTaskScheduler extends TaskScheduler {
     	  dedicatedMapTaskExecTime = 11484.4;
     }  else if (jobName.equals("grep-sort")) {
     	  dedicatedMapTaskExecTime = 5175.125;
-    }  else if (jobName.equals("Cluster Iterator running iteration 1 over priorPath: /HiBench/KMeans/Output-comp/clusters-0")) {
-    	  dedicatedMapTaskExecTime = 2068;
-    }  else if (jobName.equals("Cluster Classification Driver running over input: /HiBench/KMeans/Input-comp/samples")) {
-    	  dedicatedMapTaskExecTime = 2034.666667;
+    }  else if (jobName.contains("Iterator")) {
+	    dedicatedMapTaskExecTime = 13539.15;
+    }  else if (jobName.contains("Classification")) {
+	    dedicatedMapTaskExecTime = 16777.95;
     }
 
     return dedicatedMapTaskExecTime;
   }
 
   public double predictMapNormalizedTct(JobInProgress job, NodeResource nodeResource) {
-    double mapNormalizedTct = 0;
-    double webCpuUsage = nodeResource.getCpuUsage();
-    double a = 0;
-    double b = 0;
-    double c = 0;
-    double d = 0;
-    String jobName = job.getProfile().getJobName();
-    if (jobName.equals("PiEstimator")) {
-       a = 1.004;  
-       b = 0.001889;  
-       c = 0.007551;  
-       d = 0.03663;   
-    }  else if (jobName.equals("word count")) {
-       a = 0.9472;  
-       b = 0.0076;  
-       c = 0.0001143;  
-       d = 0.06541;  
-    }  else if (jobName.equals("TeraSort")) {
+	  double mapNormalizedTct = 0;
+	  double webCpuUsage = nodeResource.getCpuUsage();
+	  double a = 0;
+	  double b = 0;
+	  double c = 0;
+	  double d = 0;
+	  String jobName = job.getProfile().getJobName();
+	  if (jobName.equals("PiEstimator")) {
+		  a = 1.004;  
+		  b = 0.001889;  
+		  c = 0.007551;  
+		  d = 0.03663;   
+	  }  else if (jobName.equals("word count")) {
+		  a = 0.9472;  
+		  b = 0.0076;  
+		  c = 0.0001143;  
+		  d = 0.06541;  
+	  }  else if (jobName.equals("TeraSort")) {
 
-       a = 1.118;  
-       b = 0.004328;  
-       c = 0.002235;  
-       d = 0.04902;
-     } else if (jobName.equals("sorter")) {
-       a = 1.235;  
-       b = 0.003595;  
-       c = 0.07363;  
-       d = 0.02306;  
+		  a = 1.118;  
+		  b = 0.004328;  
+		  c = 0.002235;  
+		  d = 0.04902;
+	  } else if (jobName.equals("sorter")) {
+		  a = 1.235;  
+		  b = 0.003595;  
+		  c = 0.07363;  
+		  d = 0.02306;  
 
-     } else if (jobName.equals("grep-search")) {
-       a = 0.9232;  
-       b = 0.005957;  
-       c = 0.001579;  
-       d = 0.04666;  
-     } else if (jobName.equals("grep-sort")) {
-       a = 0.929;  
-       b = 0.002232;  
-       c = 0.002356;  
-       d = 0.04242;  
-     } else if (jobName.equals("Cluster Iterator running iteration 1 over priorPath: /HiBench/KMeans/Output-comp/clusters-0")){
-       a = 1.128;
-       b = 0.004368;
-       c = 0.004809;
-       d = 0.04385;
-     } else if (jobName.equals("Cluster Classification Driver running over input: /HiBench/KMeans/Input-comp/samples")){
+	  } else if (jobName.equals("grep-search")) {
+		  a = 0.9232;  
+		  b = 0.005957;  
+		  c = 0.001579;  
+		  d = 0.04666;  
+	  } else if (jobName.equals("grep-sort")) {
+		  a = 0.929;  
+		  b = 0.002232;  
+		  c = 0.002356;  
+		  d = 0.04242;  
+	  } else if (jobName.contains("Iterator")){
+		  a = 1.128;
+		  b = 0.004368;
+		  c = 0.004809;
+		  d = 0.04385;
+	  } else if (jobName.contains("Classification")){
        a = 0.9821;
        b = -0.0004303;
        c = 0.06132;
@@ -588,8 +588,14 @@ public double predictTaskDiskDemand(JobInProgress job, TaskTracker taskTracker) 
     }  else if (jobName.equals("grep-search")) {
       diskDemandwithFullCpu = 27373.33333;
     }  else if (jobName.equals("grep-sort")) {
-      diskDemandwithFullCpu = 26256;
+      diskDemandwithFullCpu = 0;
+    }  else if (jobName.contains("Iterator")) {
+      diskDemandwithFullCpu = 2068;
+    }  else if (jobName.contains("Classification")) {
+      diskDemandwithFullCpu = 0;
     }
+
+  
     diskDemand = diskDemandwithFullCpu / (predictMapNormalizedTct * REPLICATION);
     return diskDemand; 
 }

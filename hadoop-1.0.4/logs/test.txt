@@ -1,0 +1,78 @@
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000061_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383811918431, FinishTime=1383811926382, ExecTime=7951 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383811967540, FinishTime=1383811975100, ExecTime=7560, PredictTime=13754.749436 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383811929404, FinishTime=1383811980979, ExecTime=51575, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383811978739, FinishTime=1383811993165, ExecTime=14426, PredictTime=16303.942409 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=slave15, StartTime=1383811986492, FinishTime=1383812021931, ExecTime=35439, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383811997283, FinishTime=1383812060040, ExecTime=62757, PredictTime=16142.111177 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812025013, FinishTime=1383812069980, ExecTime=44967, PredictTime=16295.258638 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812062766, FinishTime=1383812094973, ExecTime=32207, PredictTime=16344.876843 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812071639, FinishTime=1383812116163, ExecTime=44524, PredictTime=16064.840902 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812102569, FinishTime=1383812140579, ExecTime=38010, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812119571, FinishTime=1383812167195, ExecTime=47624, PredictTime=16062.307475 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812149818, FinishTime=1383812175658, ExecTime=25840, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812176459, FinishTime=1383812184254, ExecTime=7795, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812185489, FinishTime=1383812193059, ExecTime=7570, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812167801, FinishTime=1383812194423, ExecTime=26622, PredictTime=16182.285794 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812194519, FinishTime=1383812201948, ExecTime=7429, PredictTime=13754.749436 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000016_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812203551, FinishTime=1383812220337, ExecTime=16786, PredictTime=13754.749436 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812194853, FinishTime=1383812219155, ExecTime=24302, PredictTime=16087.697189 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000017_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812216663, FinishTime=1383812253914, ExecTime=37251, PredictTime=26451.562003 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000019_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812221885, FinishTime=1383812262854, ExecTime=40969, PredictTime=26451.562003 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000018_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383812218597, FinishTime=1383812276780, ExecTime=58183, PredictTime=23775.367996 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000021_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812274161, FinishTime=1383812293011, ExecTime=18850, PredictTime=25888.961036 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000020_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812263753, FinishTime=1383812302316, ExecTime=38563, PredictTime=25454.216861 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000022_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812278657, FinishTime=1383812302865, ExecTime=24208, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000024_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812306974, FinishTime=1383812317575, ExecTime=10601, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000025_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812317808, FinishTime=1383812325377, ExecTime=7569, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000023_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383812308536, FinishTime=1383812330312, ExecTime=21776, PredictTime=22985.469219 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000026_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812326847, FinishTime=1383812334851, ExecTime=8004, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000027_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812332867, FinishTime=1383812340414, ExecTime=7547, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000028_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812335878, FinishTime=1383812343813, ExecTime=7935, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000029_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812341902, FinishTime=1383812349468, ExecTime=7566, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000030_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812344913, FinishTime=1383812356000, ExecTime=11087, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000031_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812350935, FinishTime=1383812359287, ExecTime=8352, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000032_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812356955, FinishTime=1383812367673, ExecTime=10718, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000033_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812359967, FinishTime=1383812374581, ExecTime=14614, PredictTime=13754.749436 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000034_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812368990, FinishTime=1383812383604, ExecTime=14614, PredictTime=13754.749436 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000035_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812375328, FinishTime=1383812401532, ExecTime=26204, PredictTime=16067.375050 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000036_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812386757, FinishTime=1383812401084, ExecTime=14327, PredictTime=16067.375050 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000038_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812405771, FinishTime=1383812413752, ExecTime=7981, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000037_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812402388, FinishTime=1383812420355, ExecTime=17967, PredictTime=16295.258638 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000040_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812420452, FinishTime=1383812437644, ExecTime=17192, PredictTime=16295.258638 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000039_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812414467, FinishTime=1383812446576, ExecTime=32109, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000042_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812447546, FinishTime=1383812467691, ExecTime=20145, PredictTime=16190.000215 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000041_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812438516, FinishTime=1383812476849, ExecTime=38333, PredictTime=16190.000215 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000044_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812484923, FinishTime=1383812518229, ExecTime=33306, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000043_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812476864, FinishTime=1383812533640, ExecTime=56776, PredictTime=16202.017434 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000045_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812519276, FinishTime=1383812536870, ExecTime=17594, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000047_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812537315, FinishTime=1383812548084, ExecTime=10769, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000046_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812534664, FinishTime=1383812554941, ExecTime=20277, PredictTime=16162.606303 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000048_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812549350, FinishTime=1383812556887, ExecTime=7537, PredictTime=13754.749436 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000049_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812555748, FinishTime=1383812588026, ExecTime=32278, PredictTime=16098.727355 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000050_0, Type=MAP, Status=SUCCEEDED, Machine=slave01, StartTime=1383812558377, FinishTime=1383812596968, ExecTime=38591, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000051_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812591384, FinishTime=1383812629905, ExecTime=38521, PredictTime=16099.575224 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000053_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812602740, FinishTime=1383812643769, ExecTime=41029, PredictTime=13754.749436 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000052_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812601909, FinishTime=1383812650642, ExecTime=48733, PredictTime=36527.459509 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000054_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1383812629907, FinishTime=1383812662726, ExecTime=32819, PredictTime=16091.939697 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000055_0, Type=MAP, Status=SUCCEEDED, Machine=slave16, StartTime=1383812633365, FinishTime=1383812665600, ExecTime=32235, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000056_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1383812643771, FinishTime=1383812690826, ExecTime=47055, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000057_0, Type=MAP, Status=SUCCEEDED, Machine=slave7, StartTime=1383812653079, FinishTime=1383812691485, ExecTime=38406, PredictTime=16252.833601 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000058_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383812655394, FinishTime=1383812695665, ExecTime=40271, PredictTime=23109.197150 
+JobName=TeraSort, ID=attempt_201311070810_0003_m_000059_0, Type=MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812656968, FinishTime=1383812697426, ExecTime=40458, PredictTime=46502.069343 
+ JobName=TeraSort, ID=attempt_201311070810_0003_m_000060_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave4, StartTime=1383812700273, FinishTime=1383812711143, ExecTime=10870 
+ JobName=TeraSort, ID=attempt_201311070810_0011_m_000061_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812702865, FinishTime=1383812714257, ExecTime=11392 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812717142, FinishTime=1383812737440, ExecTime=20298, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812714585, FinishTime=1383812741100, ExecTime=26515, PredictTime=58692.945117 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812739056, FinishTime=1383812750074, ExecTime=11018, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812751100, FinishTime=1383812762168, ExecTime=11068, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812741804, FinishTime=1383812761906, ExecTime=20102, PredictTime=51227.559836 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812763146, FinishTime=1383812771204, ExecTime=8058, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=slave5, StartTime=1383812772185, FinishTime=1383812798277, ExecTime=26092, PredictTime=13754.749436 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1383812763261, FinishTime=1383812800489, ExecTime=37228, PredictTime=51227.559836 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383812794395, FinishTime=1383812821716, ExecTime=27321, PredictTime=22128.604395 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=slave13, StartTime=1383812797169, FinishTime=1383812846840, ExecTime=49671, PredictTime=22128.604395 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812793774, FinishTime=1383812854505, ExecTime=60731, PredictTime=23986.287605 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812796554, FinishTime=1383812857926, ExecTime=61372, PredictTime=23986.287605 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812857939, FinishTime=1383812876967, ExecTime=19028, PredictTime=23735.977018 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=slave14, StartTime=1383812861050, FinishTime=1383812880962, ExecTime=19912, PredictTime=23735.977018 
+JobName=TeraSort, ID=attempt_201311070810_0011_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=slave02, StartTime=1383812878832, FinishTime=1383812887258, ExecTime=8426, PredictTime=13754.749436 
