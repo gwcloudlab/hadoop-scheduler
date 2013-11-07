@@ -289,7 +289,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
             assignedTasks.add(t);
             ++numLocalMaps;
              
-            job.putTaskPredictTime(t, predictMapTaskExecTime);
+            job.putTaskInfo(t, predictMapTaskExecTime, host);
 	    System.out.printf("time=%d, pickDeadline=%d, pickProgress=%d, pickNone=%d %n", System.currentTimeMillis(), pickDeadline, pickProgress, pickNone);
             
             // Don't assign map tasks to the hilt!
@@ -312,8 +312,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
             assignedTasks.add(t);
             ++numNonLocalMaps;
        
-            job.putTaskPredictTime(t, predictMapTaskExecTime);
-	    System.out.printf("time=%d, pickDeadline=%d, pickProgress=%d, pickNone=%d %n", System.currentTimeMillis(), pickDeadline, pickProgress, pickNone);
+            job.putTaskInfo(t, predictMapTaskExecTime, host);
+	          System.out.printf("time=%d, pickDeadline=%d, pickProgress=%d, pickNone=%d %n", System.currentTimeMillis(), pickDeadline, pickProgress, pickNone);
             
             // We assign at most 1 off-switch or speculative task
             // This is to prevent TaskTrackers from stealing local-tasks
@@ -640,6 +640,11 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
 
     pendingMapTasks = job.pendingMaps();
     remainingTime = (job.getJobDeadline() - System.currentTimeMillis());
+
+    // FORCE IMMEDIATE RETURN
+    if(totalTaskNums == 0) {
+      return false;
+    }
 
     Set<Map.Entry<String, Integer>> entries = job.getSlotsHashMap().entrySet();
     for (Map.Entry<String, Integer> entry:entries) {

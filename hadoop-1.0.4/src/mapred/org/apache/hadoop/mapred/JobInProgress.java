@@ -68,6 +68,14 @@ import org.apache.hadoop.security.token.Token;
 import org.apache.hadoop.security.token.TokenIdentifier;
 import org.apache.hadoop.util.StringUtils;
 
+
+class DataMeasurement{
+  public double sharedCPU;
+  public double IO[] = new double[3];
+  public double predictTime;
+
+}
+
 /*************************************************************
  * JobInProgress maintains all the info for keeping
  * a Job on the straight and narrow.  It keeps its JobProfile
@@ -238,8 +246,8 @@ public class JobInProgress {
   long deadLine;
   private Map<String, Integer> slotsOccupied = 
       new HashMap<String, Integer>();
-  private Map<TaskAttemptID, Double> taskPredictTime = 
-      new HashMap<TaskAttemptID, Double>();
+  private Map<TaskAttemptID, DataMeasurement> taskInfo = 
+      new HashMap<TaskAttemptID, DataMeasurement>();
 
 
   // First *task launch time
@@ -902,13 +910,20 @@ public class JobInProgress {
     slotsOccupied.put(host, slots);
   }
 
- public void putTaskPredictTime(Task task, double predictTime) {
+ public void putTaskInfo(Task task, double predictTime, String hostname) {
    TaskAttemptID taskid = task.getTaskID();
-   taskPredictTime.put(taskid, (Double)predictTime); 
+   DataMeasurement d = new DataMeasurement();
+   d.sharedCPU = JobQueueTaskScheduler.resources.get(hostname).getCpuUsage();
+   d.IO[0] = JobQueueTaskScheduler.resources.get("slave00").getDisk();
+   d.IO[1] = JobQueueTaskScheduler.resources.get("slave01").getDisk();
+   d.IO[2] = JobQueueTaskScheduler.resources.get("slave02").getDisk();
+   d.predictTime = predictTime;
+
+   taskInfo.put(taskid, d); 
  }
 
- public double getTaskPredictTime(TaskAttemptID taskid) {
-   return taskPredictTime.get(taskid);
+ public DataMeasurement getTaskInfo(TaskAttemptID taskid) {
+   return taskInfo.get(taskid);
 }
 
   public int desiredMaps() {
@@ -1264,10 +1279,10 @@ public class JobInProgress {
         if(state == TaskStatus.State.SUCCEEDED || state == TaskStatus.State.FAILED || state == TaskStatus.State.KILLED){
           if(status.getIsMap()){
             if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
-
-              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, PredictTime=%f %n ",
+              DataMeasurement d =  tip.getJob().getTaskInfo(taskid);
+              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, PredictTime=%f, sharedCPU=%f, IO1=%f, IO2=%f, IO3=%f %n ",
                                 tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine,
-                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(), tip.getJob().getTaskPredictTime(taskid));
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(), d.predictTime, d.sharedCPU, d.IO[0], d.IO[1], d.IO[2]);
 
             }
             else{
