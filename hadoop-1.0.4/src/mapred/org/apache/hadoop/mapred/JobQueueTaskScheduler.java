@@ -258,6 +258,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       	  else {
       	    // any job we pick will cause IO bottleneck
 	    pickNone++;
+            System.out.printf("time=%d, no job is selected, becasue of IO bottleneck %n", System.currentTimeMillis());
       	    break;
       	  }
 	}
