@@ -1271,9 +1271,9 @@ public class JobInProgress {
 
             }
             else{
-              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, PredictTime=%f %n ",
+              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
                                 tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
-                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(), tip.getJob().getTaskPredictTime(taskid));
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
            }
           }
           else{
