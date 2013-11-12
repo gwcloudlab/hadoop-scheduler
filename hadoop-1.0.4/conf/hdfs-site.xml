@@ -6,7 +6,7 @@
 <configuration>
 	<property>
         <name>dfs.replication</name>
-        <value>2</value>
+        <value>3</value>
 	</property>
 	<property>
     	<name>dfs.name.dir</name>
@@ -18,6 +18,11 @@
     	<name>dfs.data.dir</name>
     	<value>/home/hadoop/hdfs/data</value>
     	<description>Determines where on the local filesystem an DFS data node should store its blocks. If this is a comma-delimited list of directories, then data will be stored in all named directories, typically on different devices. Directories that do not exist are ignored.</description>
+	</property>
+
+	<property>
+	<name>dfs.hosts</name>
+	<value>/home/hadoop/hadoop-scheduler/hadoop-1.0.4/conf/hosts</value>
 	</property>
 
 </configuration>

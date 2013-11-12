@@ -1,0 +1,1481 @@
+###current time: 1384227102584, job name: grep-search, job startTime: 1384227102525, job launchTime: 0, job relativeDeadline: 0, job deadline: 1384227102525
+***Time=1384227105352, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227105364, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227108352, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227108360, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227108370, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000097_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227103953, FinishTime=1384227108369, ExecTime=4416 
+ ***Time=1384227111371, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227111373, pickDeadline=1, pickProgress=0, pickNone=0 
+***Time=1384227111373, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=1 
+***Time=1384227111374, JobName=grep-search, JobID=job_201311120331_0001, Slots=1 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227111375, pickDeadline=2, pickProgress=0, pickNone=0 
+***Time=1384227111376, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=1 
+***Time=1384227111376, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=1 
+***Time=1384227111377, JobName=grep-search, JobID=job_201311120331_0001, Slots=2 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227111378, pickDeadline=3, pickProgress=0, pickNone=0 
+***Time=1384227114378, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=1 
+***Time=1384227114379, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=1 
+***Time=1384227114379, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227114380, JobName=grep-search, JobID=job_201311120331_0001, Slots=3 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227114381, pickDeadline=4, pickProgress=0, pickNone=0 
+***Time=1384227114411, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227114411, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=1 
+***Time=1384227114412, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227114412, JobName=grep-search, JobID=job_201311120331_0001, Slots=4 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227114413, pickDeadline=5, pickProgress=0, pickNone=0 
+***Time=1384227114428, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227114428, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=1 
+***Time=1384227114428, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227114429, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227114430, pickDeadline=6, pickProgress=0, pickNone=0 
+***Time=1384227135403, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227135404, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227135404, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227135404, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227135405, pickDeadline=7, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227109619, FinishTime=1384227135204, ExecTime=25585, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227138434, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227138435, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227138435, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227138435, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227138436, pickDeadline=8, pickProgress=0, pickNone=0 
+***Time=1384227138451, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227138452, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227138452, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227138452, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227138454, pickDeadline=9, pickProgress=0, pickNone=0 
+***Time=1384227141422, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227141423, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227141423, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227141423, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227141425, pickDeadline=10, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227110551, FinishTime=1384227139342, ExecTime=28791, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227141452, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227141452, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227141453, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227141453, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227141454, pickDeadline=11, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227110524, FinishTime=1384227139234, ExecTime=28710, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227141464, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227141464, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227141465, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227141465, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227141466, pickDeadline=12, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227112630, FinishTime=1384227141701, ExecTime=29071, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227113115, FinishTime=1384227142318, ExecTime=29203, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227113131, FinishTime=1384227142365, ExecTime=29234, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227147436, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227147436, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227147436, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227147437, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227147438, pickDeadline=13, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227135206, FinishTime=1384227146043, ExecTime=10837, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227150476, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227150476, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227150476, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227150477, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227150478, pickDeadline=14, pickProgress=0, pickNone=0 
+***Time=1384227150482, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227150482, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227150483, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227150483, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227150484, pickDeadline=15, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227139346, FinishTime=1384227150261, ExecTime=10915, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227139238, FinishTime=1384227150247, ExecTime=11009, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227162455, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227162456, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227162456, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227162457, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227162458, pickDeadline=16, pickProgress=0, pickNone=0 
+***Time=1384227162496, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227162496, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227162497, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227162497, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227162498, pickDeadline=17, pickProgress=0, pickNone=0 
+***Time=1384227162500, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227162500, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227162500, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227162501, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227162502, pickDeadline=18, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227141703, FinishTime=1384227162557, ExecTime=20854, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227142321, FinishTime=1384227163124, ExecTime=20803, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227142371, FinishTime=1384227163247, ExecTime=20876, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227168469, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227168469, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227168470, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227168470, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227168471, pickDeadline=19, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227146044, FinishTime=1384227169584, ExecTime=23540, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227171511, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227171511, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227171511, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227171512, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227171513, pickDeadline=20, pickProgress=0, pickNone=0 
+***Time=1384227171515, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227171515, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227171515, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227171516, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227171517, pickDeadline=21, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227150269, FinishTime=1384227173492, ExecTime=23223, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227150249, FinishTime=1384227173455, ExecTime=23206, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227186488, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227186488, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227186488, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227186489, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227186490, pickDeadline=22, pickProgress=0, pickNone=0 
+***Time=1384227186529, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227186529, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227186530, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227186530, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227186531, pickDeadline=23, pickProgress=0, pickNone=0 
+***Time=1384227186533, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227186533, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227186534, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227186534, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227186535, pickDeadline=24, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227162561, FinishTime=1384227185514, ExecTime=22953, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000016_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227163128, FinishTime=1384227186508, ExecTime=23380, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000017_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227163251, FinishTime=1384227186404, ExecTime=23153, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227192500, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227192501, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227192501, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227192501, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227192502, pickDeadline=25, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000018_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227169585, FinishTime=1384227192513, ExecTime=22928, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227195543, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227195543, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227195543, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227195544, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227195544, pickDeadline=26, pickProgress=0, pickNone=0 
+***Time=1384227195549, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227195549, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227195550, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227195550, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227195551, pickDeadline=27, pickProgress=0, pickNone=0 
+***Time=1384227198512, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227198513, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227198513, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227198513, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227198514, pickDeadline=28, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000019_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227173500, FinishTime=1384227196599, ExecTime=23099, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227198553, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227198554, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227198554, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227198554, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227198555, pickDeadline=29, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000020_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227173456, FinishTime=1384227196574, ExecTime=23118, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227198559, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227198559, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227198560, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227198560, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227198561, pickDeadline=30, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000021_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227185515, FinishTime=1384227199328, ExecTime=13813, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000022_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227186509, FinishTime=1384227200638, ExecTime=14129, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000023_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227186405, FinishTime=1384227200487, ExecTime=14082, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227210525, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227210525, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227210526, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227210526, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227210527, pickDeadline=31, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000024_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227192514, FinishTime=1384227210106, ExecTime=17592, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227222581, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227222581, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227222581, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227222582, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227222583, pickDeadline=32, pickProgress=0, pickNone=0 
+***Time=1384227222584, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227222585, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227222585, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227222586, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227222587, pickDeadline=33, pickProgress=0, pickNone=0 
+***Time=1384227225541, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227225542, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227225542, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227225543, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227225544, pickDeadline=34, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000025_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227196604, FinishTime=1384227222566, ExecTime=25962, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227225590, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227225590, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227225591, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227225591, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227225593, pickDeadline=35, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000026_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227196584, FinishTime=1384227222519, ExecTime=25935, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227225595, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227225595, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227225596, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227225596, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227225597, pickDeadline=36, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000027_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227199329, FinishTime=1384227225179, ExecTime=25850, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227228551, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227228552, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227228552, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227228552, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227228553, pickDeadline=37, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000028_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227200648, FinishTime=1384227226742, ExecTime=26094, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000029_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227200490, FinishTime=1384227226585, ExecTime=26095, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000030_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227210108, FinishTime=1384227229853, ExecTime=19745, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227237612, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227237612, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227237613, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227237613, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227237614, pickDeadline=38, pickProgress=0, pickNone=0 
+***Time=1384227240606, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227240606, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227240606, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227240607, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227240608, pickDeadline=39, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000032_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227222521, FinishTime=1384227239471, ExecTime=16950, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227246575, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227246575, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227246576, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227246576, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227246577, pickDeadline=40, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000031_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227222567, FinishTime=1384227242521, ExecTime=19954, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000033_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227225183, FinishTime=1384227247829, ExecTime=22646, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227252589, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227252590, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227252590, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227252590, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227252593, pickDeadline=41, pickProgress=0, pickNone=0 
+***Time=1384227252626, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227252626, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227252626, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227252627, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227252627, pickDeadline=42, pickProgress=0, pickNone=0 
+***Time=1384227252631, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227252631, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227252631, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227252632, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227252632, pickDeadline=43, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000036_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227229858, FinishTime=1384227252673, ExecTime=22815, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000034_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227226743, FinishTime=1384227253309, ExecTime=26566, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227255635, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227255635, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227255635, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227255635, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227255636, pickDeadline=44, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000035_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227226590, FinishTime=1384227253583, ExecTime=26993, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227255640, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227255640, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227255641, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227255641, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227255642, pickDeadline=45, pickProgress=0, pickNone=0 
+***Time=1384227258601, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227258601, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227258602, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227258602, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227258603, pickDeadline=46, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000038_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227242523, FinishTime=1384227256431, ExecTime=13908, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000037_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227239473, FinishTime=1384227256402, ExecTime=16929, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000039_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227247830, FinishTime=1384227258718, ExecTime=10888, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227276624, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227276625, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227276625, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227276625, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227276626, pickDeadline=47, pickProgress=0, pickNone=0 
+***Time=1384227276653, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227276653, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227276654, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227276654, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227276655, pickDeadline=48, pickProgress=0, pickNone=0 
+***Time=1384227276659, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227276659, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227276659, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227276659, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227276660, pickDeadline=49, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000040_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227252674, FinishTime=1384227276263, ExecTime=23589, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227279632, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227279633, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227279633, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227279633, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227279634, pickDeadline=50, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000041_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227253314, FinishTime=1384227276203, ExecTime=22889, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227279662, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227279663, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227279663, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227279664, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227279665, pickDeadline=51, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000042_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227253586, FinishTime=1384227276357, ExecTime=22771, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227279669, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227279670, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227279670, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227279671, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227279672, pickDeadline=52, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000045_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227258720, FinishTime=1384227278513, ExecTime=19793, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000043_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227256433, FinishTime=1384227279576, ExecTime=23143, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000044_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227256404, FinishTime=1384227279504, ExecTime=23100, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227288644, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227288644, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227288644, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227288644, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227288645, pickDeadline=53, pickProgress=0, pickNone=0 
+***Time=1384227288675, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227288676, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227288676, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227288676, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227288677, pickDeadline=54, pickProgress=0, pickNone=0 
+***Time=1384227288683, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227288684, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227288684, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227288684, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227288685, pickDeadline=55, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000047_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227276205, FinishTime=1384227290122, ExecTime=13917, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000048_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227276359, FinishTime=1384227290055, ExecTime=13696, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000046_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227276267, FinishTime=1384227289955, ExecTime=13688, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227294654, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227294654, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227294655, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227294655, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227294656, pickDeadline=56, pickProgress=0, pickNone=0 
+***Time=1384227294686, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227294686, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227294687, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227294687, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227294693, pickDeadline=57, pickProgress=0, pickNone=0 
+***Time=1384227294693, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227294694, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227294694, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227294694, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227294695, pickDeadline=58, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000049_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227278515, FinishTime=1384227293268, ExecTime=14753, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000050_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227279577, FinishTime=1384227294289, ExecTime=14712, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227300664, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227300665, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227300665, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227300665, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227300666, pickDeadline=59, pickProgress=0, pickNone=0 
+***Time=1384227300700, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227300700, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227300701, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227300701, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227300705, pickDeadline=60, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000051_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227279506, FinishTime=1384227297078, ExecTime=17572, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227300708, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227300708, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227300709, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227300709, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227300710, pickDeadline=61, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000052_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227289956, FinishTime=1384227300712, ExecTime=10756, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000053_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227290125, FinishTime=1384227301339, ExecTime=11214, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000054_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227290056, FinishTime=1384227301286, ExecTime=11230, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227312679, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227312680, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227312680, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227312680, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227312681, pickDeadline=62, pickProgress=0, pickNone=0 
+***Time=1384227315724, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227315725, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227315725, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227315725, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227315726, pickDeadline=63, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000055_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227293270, FinishTime=1384227314335, ExecTime=21065, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227318724, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227318724, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227318724, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227318725, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227318726, pickDeadline=64, pickProgress=0, pickNone=0 
+***Time=1384227321692, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227321692, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227321692, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227321693, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227321694, pickDeadline=65, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000057_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227297080, FinishTime=1384227320300, ExecTime=23220, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227321733, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227321733, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227321733, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227321733, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227321737, pickDeadline=66, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000056_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227294290, FinishTime=1384227318186, ExecTime=23896, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227321739, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227321739, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227321739, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227321740, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227321740, pickDeadline=67, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000060_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227301288, FinishTime=1384227321290, ExecTime=20002, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000059_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227301341, FinishTime=1384227321411, ExecTime=20070, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000058_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227300715, FinishTime=1384227323315, ExecTime=22600, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227327703, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227327703, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227327703, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227327703, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227327704, pickDeadline=68, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000061_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227314336, FinishTime=1384227328228, ExecTime=13892, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227336754, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227336755, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227336755, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227336755, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227336756, pickDeadline=69, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000062_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227318187, FinishTime=1384227338242, ExecTime=20055, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227342758, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227342758, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227342758, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227342759, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227342760, pickDeadline=70, pickProgress=0, pickNone=0 
+***Time=1384227345719, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227345719, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227345719, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227345719, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227345720, pickDeadline=71, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000063_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227320301, FinishTime=1384227343525, ExecTime=23224, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227345765, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227345766, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227345766, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227345766, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227345767, pickDeadline=72, pickProgress=0, pickNone=0 
+***Time=1384227345768, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227345768, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227345768, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227345769, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227345769, pickDeadline=73, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000064_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227323322, FinishTime=1384227346276, ExecTime=22954, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000067_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227328229, FinishTime=1384227344979, ExecTime=16750, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227348727, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=1 
+***Time=1384227348728, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227348728, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227348728, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227348729, pickDeadline=74, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000065_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227321291, FinishTime=1384227347956, ExecTime=26665, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000066_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227321413, FinishTime=1384227347643, ExecTime=26230, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227351778, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227351778, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227351778, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227351778, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227351779, pickDeadline=75, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000068_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227338243, FinishTime=1384227352145, ExecTime=13902, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227357780, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227357780, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227357781, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227357781, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227357782, pickDeadline=76, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000069_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227343527, FinishTime=1384227357255, ExecTime=13728, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227366741, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227366741, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227366741, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227366742, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227366743, pickDeadline=77, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000070_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227344980, FinishTime=1384227367813, ExecTime=22833, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227372751, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227372751, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227372751, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227372752, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227372753, pickDeadline=78, pickProgress=0, pickNone=0 
+***Time=1384227372795, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227372795, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227372795, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227372796, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227372797, pickDeadline=79, pickProgress=0, pickNone=0 
+***Time=1384227372797, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227372798, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227372798, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227372798, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227372799, pickDeadline=80, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000073_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227346973, FinishTime=1384227373301, ExecTime=26328, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000072_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227347644, FinishTime=1384227373481, ExecTime=25837, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227375802, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227375803, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227375803, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227375803, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227375804, pickDeadline=81, pickProgress=0, pickNone=0 
+***Time=1384227375806, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227375806, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227375806, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227375807, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227375807, pickDeadline=82, pickProgress=0, pickNone=0 
+***Time=1384227378769, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227378769, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=4 
+***Time=1384227378770, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227378770, JobName=grep-search, JobID=job_201311120331_0001, Slots=9 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227378771, pickDeadline=83, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000074_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227352156, FinishTime=1384227375303, ExecTime=23147, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000071_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227347972, FinishTime=1384227374608, ExecTime=26636, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000075_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227357257, FinishTime=1384227377351, ExecTime=20094, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000076_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227367815, FinishTime=1384227378795, ExecTime=10980, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227399787, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227399788, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227399788, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227399788, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227399789, pickDeadline=84, pickProgress=0, pickNone=0 
+***Time=1384227399822, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227399822, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227399823, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227399823, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227399824, pickDeadline=85, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000077_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227373302, FinishTime=1384227399767, ExecTime=26465, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227402830, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227402830, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227402830, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227402830, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227402833, pickDeadline=86, pickProgress=0, pickNone=0 
+***Time=1384227402834, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227402834, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227402835, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=4 
+***Time=1384227402835, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227402836, pickDeadline=87, pickProgress=0, pickNone=0 
+***Time=1384227405797, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227405798, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227405798, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=4 
+***Time=1384227405798, JobName=grep-search, JobID=job_201311120331_0001, Slots=9 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227405799, pickDeadline=88, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000078_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227373482, FinishTime=1384227402242, ExecTime=28760, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000079_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227374627, FinishTime=1384227403435, ExecTime=28808, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227405842, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227405842, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227405842, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227405842, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227405843, pickDeadline=89, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000080_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227375305, FinishTime=1384227404867, ExecTime=29562, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000081_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227377353, FinishTime=1384227406521, ExecTime=29168, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000082_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227378796, FinishTime=1384227407738, ExecTime=28942, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227411807, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227411808, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227411808, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227411808, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227411809, pickDeadline=90, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000083_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227399768, FinishTime=1384227413673, ExecTime=13905, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227420850, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227420850, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227420851, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227420851, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227420852, pickDeadline=91, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000084_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227402244, FinishTime=1384227421979, ExecTime=19735, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227423860, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227423861, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227423861, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227423861, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227423862, pickDeadline=92, pickProgress=0, pickNone=0 
+***Time=1384227426823, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227426823, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227426823, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227426823, JobName=grep-search, JobID=job_201311120331_0001, Slots=7 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227426824, pickDeadline=93, pickProgress=0, pickNone=0 
+***Time=1384227426860, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227426861, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227426861, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227426861, JobName=grep-search, JobID=job_201311120331_0001, Slots=8 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+time=1384227426862, pickDeadline=94, pickProgress=0, pickNone=0 
+***Time=1384227426868, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=3 
+***Time=1384227426868, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=3 
+***Time=1384227426868, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227426868, JobName=grep-search, JobID=job_201311120331_0001, Slots=9 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+time=1384227426869, pickDeadline=95, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000087_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227407739, FinishTime=1384227427571, ExecTime=19832, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227429831, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227429832, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=4 
+***Time=1384227429832, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=3 
+***Time=1384227429832, JobName=grep-search, JobID=job_201311120331_0001, Slots=9 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+time=1384227429833, pickDeadline=96, pickProgress=0, pickNone=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000085_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227404869, FinishTime=1384227428137, ExecTime=23268, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000086_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227403437, FinishTime=1384227426179, ExecTime=22742, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000088_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227406523, FinishTime=1384227426641, ExecTime=20118, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000089_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227413674, FinishTime=1384227430509, ExecTime=16835, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227435872, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227435872, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227435872, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=2 
+***Time=1384227435873, JobName=grep-search, JobID=job_201311120331_0001, Slots=6 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000090_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227421980, FinishTime=1384227435952, ExecTime=13972, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227438878, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227438879, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227438879, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227438879, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+***Time=1384227441882, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227441883, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227441883, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227441883, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+***Time=1384227444887, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227444887, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227444887, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227444887, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+***Time=1384227447891, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227447891, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227447891, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227447892, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+***Time=1384227450855, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227450856, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227450856, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227450856, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+***Time=1384227450889, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227450889, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227450889, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227450890, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+***Time=1384227450896, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=2 
+***Time=1384227450896, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227450896, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227450896, JobName=grep-search, JobID=job_201311120331_0001, Slots=5 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000092_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227427573, FinishTime=1384227450192, ExecTime=22619, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227453862, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=1 
+***Time=1384227453862, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227453863, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227453863, JobName=grep-search, JobID=job_201311120331_0001, Slots=4 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+***Time=1384227453894, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=1 
+***Time=1384227453894, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227453894, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=1 
+***Time=1384227453894, JobName=grep-search, JobID=job_201311120331_0001, Slots=4 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+@@@Job grep-search gets the map free slot from TaskTracker slave1 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000093_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227428139, FinishTime=1384227451627, ExecTime=23488, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227453901, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=1 
+***Time=1384227453901, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227453901, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=0 
+***Time=1384227453902, JobName=grep-search, JobID=job_201311120331_0001, Slots=3 
+@@@Job grep-search gets the map free slot from TaskTracker slave2 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000095_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227430511, FinishTime=1384227453309, ExecTime=22798, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227456868, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=0 
+***Time=1384227456869, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=2 
+***Time=1384227456869, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=0 
+***Time=1384227456869, JobName=grep-search, JobID=job_201311120331_0001, Slots=2 
+@@@Job grep-search gets the map free slot from TaskTracker slave00 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000091_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227426180, FinishTime=1384227452793, ExecTime=26613, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ JobName=grep-search, ID=attempt_201311120331_0001_m_000094_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227426642, FinishTime=1384227453277, ExecTime=26635, PredictTime=10620.531948, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227456906, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=0 
+***Time=1384227456906, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=0 
+***Time=1384227456906, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=0 
+***Time=1384227456907, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227459872, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=0 
+***Time=1384227459872, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=0 
+***Time=1384227459872, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=0 
+***Time=1384227459873, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227459908, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=0 
+***Time=1384227459909, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=0 
+***Time=1384227459909, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=0 
+***Time=1384227459909, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227459910, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=0 
+***Time=1384227459910, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=0 
+***Time=1384227459910, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=0 
+***Time=1384227459911, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+***Time=1384227462875, jobName=grep-search, jobID=job_201311120331_0001, host=slave00, slots=0 
+***Time=1384227462876, jobName=grep-search, jobID=job_201311120331_0001, host=slave1, slots=0 
+***Time=1384227462876, jobName=grep-search, jobID=job_201311120331_0001, host=slave2, slots=0 
+***Time=1384227462876, JobName=grep-search, JobID=job_201311120331_0001, Slots=0 
+JobName=grep-search, ID=attempt_201311120331_0001_m_000096_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227455608, FinishTime=1384227460111, ExecTime=4503 
+ &&&job grep-search miss deadline, jobID=job_201311120331_0001, jobStartTime=1384227102525, jobFinishTime=1384227462914, jobRelativeDeadline=0, afterTime=360389 
+###current time: 1384227464104, job name: grep-sort, job startTime: 1384227464068, job launchTime: 0, job relativeDeadline: 0, job deadline: 1384227464068
+***Time=1384227465977, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227465979, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227468886, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227468979, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227468981, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000097_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227464260, FinishTime=1384227468831, ExecTime=4571 
+ ***Time=1384227471890, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227471891, pickDeadline=113, pickProgress=0, pickNone=0 
+***Time=1384227471982, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227471982, JobName=grep-sort, JobID=job_201311120331_0002, Slots=1 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227471983, pickDeadline=114, pickProgress=0, pickNone=0 
+***Time=1384227471983, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227471984, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227471984, JobName=grep-sort, JobID=job_201311120331_0002, Slots=2 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227471985, pickDeadline=115, pickProgress=0, pickNone=0 
+***Time=1384227474895, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227474895, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227474895, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227474895, JobName=grep-sort, JobID=job_201311120331_0002, Slots=3 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227474896, pickDeadline=116, pickProgress=0, pickNone=0 
+***Time=1384227474987, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227474987, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227474987, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227474988, JobName=grep-sort, JobID=job_201311120331_0002, Slots=4 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227474988, pickDeadline=117, pickProgress=0, pickNone=0 
+***Time=1384227474989, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227474989, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227474989, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227474990, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227474990, pickDeadline=118, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227470135, FinishTime=1384227474551, ExecTime=4416, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227477902, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227477902, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227477902, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227477903, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227477903, pickDeadline=119, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227470817, FinishTime=1384227475456, ExecTime=4639, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227477993, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227477994, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227477994, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227477994, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227477995, pickDeadline=120, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227470845, FinishTime=1384227475436, ExecTime=4591, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227477997, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227477998, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227477998, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227477999, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227477999, pickDeadline=121, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227473140, FinishTime=1384227477627, ExecTime=4487, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227480908, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227480908, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227480908, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227480909, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227480909, pickDeadline=122, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227473691, FinishTime=1384227478208, ExecTime=4517, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227481000, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227481000, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227481000, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227481001, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227481001, pickDeadline=123, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227473693, FinishTime=1384227478337, ExecTime=4644, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227481005, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227481005, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227481006, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227481006, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227481006, pickDeadline=124, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227476147, FinishTime=1384227480572, ExecTime=4425, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227483914, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227483914, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227483914, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227483915, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227483915, pickDeadline=125, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227476697, FinishTime=1384227481368, ExecTime=4671, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227484007, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227484007, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227484007, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227484008, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227484008, pickDeadline=126, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227476702, FinishTime=1384227481291, ExecTime=4589, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227484012, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227484012, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227484012, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227484013, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227484013, pickDeadline=127, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227479153, FinishTime=1384227483535, ExecTime=4382, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227486921, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227486921, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227486921, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227486922, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227486922, pickDeadline=128, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227479703, FinishTime=1384227484349, ExecTime=4646, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227487013, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227487013, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227487013, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227487014, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227487014, pickDeadline=129, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227479709, FinishTime=1384227484361, ExecTime=4652, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227487018, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227487018, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227487018, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227487018, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227487019, pickDeadline=130, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227482159, FinishTime=1384227486610, ExecTime=4451, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227489928, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227489928, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227489928, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227489928, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227489929, pickDeadline=131, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227482710, FinishTime=1384227487310, ExecTime=4600, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227490020, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227490020, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227490020, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227490020, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227490021, pickDeadline=132, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227482716, FinishTime=1384227487309, ExecTime=4593, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227490024, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227490025, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227490025, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227490025, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227490026, pickDeadline=133, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227485166, FinishTime=1384227489527, ExecTime=4361, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227492935, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227492935, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227492935, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227492935, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227492936, pickDeadline=134, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000016_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227485716, FinishTime=1384227490366, ExecTime=4650, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227493026, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227493027, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227493027, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227493027, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227493028, pickDeadline=135, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000017_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227485721, FinishTime=1384227490305, ExecTime=4584, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227493031, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227493031, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227493031, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227493032, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227493032, pickDeadline=136, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000018_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227488173, FinishTime=1384227492527, ExecTime=4354, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227495941, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227495941, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227495942, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227495942, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227495943, pickDeadline=137, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000019_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227488723, FinishTime=1384227493348, ExecTime=4625, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227496032, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227496032, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227496032, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227496033, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227496033, pickDeadline=138, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000020_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227488728, FinishTime=1384227493388, ExecTime=4660, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227496037, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227496037, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227496037, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227496037, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227496038, pickDeadline=139, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000021_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227491180, FinishTime=1384227495528, ExecTime=4348, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227498947, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227498947, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227498947, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227498947, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227498948, pickDeadline=140, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000022_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227491730, FinishTime=1384227496298, ExecTime=4568, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227499038, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227499038, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227499038, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227499038, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227499039, pickDeadline=141, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000023_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227491735, FinishTime=1384227496300, ExecTime=4565, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227499047, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227499048, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227499048, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227499048, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227499049, pickDeadline=142, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000024_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227494186, FinishTime=1384227498643, ExecTime=4457, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227501954, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227501954, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227501954, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227501954, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227501955, pickDeadline=143, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000025_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227494735, FinishTime=1384227499416, ExecTime=4681, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227502045, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227502045, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227502045, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227502045, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227502046, pickDeadline=144, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000026_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227494740, FinishTime=1384227499345, ExecTime=4605, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227502054, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227502054, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227502055, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227502055, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227502055, pickDeadline=145, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000027_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227497192, FinishTime=1384227501596, ExecTime=4404, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227504960, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227504960, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227504960, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227504961, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227504961, pickDeadline=146, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000028_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227497741, FinishTime=1384227502348, ExecTime=4607, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227505051, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227505051, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227505052, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227505052, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227505052, pickDeadline=147, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000029_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227497751, FinishTime=1384227502380, ExecTime=4629, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227505061, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227505061, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227505061, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227505061, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227505062, pickDeadline=148, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000030_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227500199, FinishTime=1384227504691, ExecTime=4492, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227507966, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227507967, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227507967, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227507967, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227507968, pickDeadline=149, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000031_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227500748, FinishTime=1384227505379, ExecTime=4631, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227508057, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227508057, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227508057, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227508057, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227508058, pickDeadline=150, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000032_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227500758, FinishTime=1384227505368, ExecTime=4610, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227508068, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227508068, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227508068, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227508068, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227508069, pickDeadline=151, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000033_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227503205, FinishTime=1384227507577, ExecTime=4372, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227510972, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227510972, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227510972, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227510972, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227510978, pickDeadline=152, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000034_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227503755, FinishTime=1384227508369, ExecTime=4614, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227511063, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227511063, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227511063, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227511064, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227511064, pickDeadline=153, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000035_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227503764, FinishTime=1384227508368, ExecTime=4604, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227511074, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227511074, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227511074, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227511075, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227511075, pickDeadline=154, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000036_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227506211, FinishTime=1384227510641, ExecTime=4430, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227513982, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227513983, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227513983, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227513983, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227513984, pickDeadline=155, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000037_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227506760, FinishTime=1384227511361, ExecTime=4601, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227514069, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227514069, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227514069, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227514069, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227514070, pickDeadline=156, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000038_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227506771, FinishTime=1384227511294, ExecTime=4523, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227514079, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227514080, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227514080, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227514080, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227514080, pickDeadline=157, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000039_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227509222, FinishTime=1384227513651, ExecTime=4429, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227516988, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227516988, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227516988, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227516988, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227516989, pickDeadline=158, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000040_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227509766, FinishTime=1384227514352, ExecTime=4586, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227517075, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227517075, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227517075, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227517075, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227517076, pickDeadline=159, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000041_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227509777, FinishTime=1384227514472, ExecTime=4695, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227517086, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227517086, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227517086, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227517086, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227517087, pickDeadline=160, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000042_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227512227, FinishTime=1384227516619, ExecTime=4392, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227519994, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227519994, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227519994, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227519994, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227519995, pickDeadline=161, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000043_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227512772, FinishTime=1384227517414, ExecTime=4642, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227520081, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227520081, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227520082, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227520082, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227520082, pickDeadline=162, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000044_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227512783, FinishTime=1384227517374, ExecTime=4591, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227520092, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227520092, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227520092, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227520093, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227520093, pickDeadline=163, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000045_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227515233, FinishTime=1384227519706, ExecTime=4473, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227523000, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227523000, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227523000, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227523001, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227523001, pickDeadline=164, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000046_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227515778, FinishTime=1384227520348, ExecTime=4570, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227523087, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227523087, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227523087, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227523087, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227523088, pickDeadline=165, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000047_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227515789, FinishTime=1384227520372, ExecTime=4583, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227523097, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227523098, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227523098, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227523098, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227523098, pickDeadline=166, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000048_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227518239, FinishTime=1384227522635, ExecTime=4396, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227526006, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227526007, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227526007, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227526007, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227526009, pickDeadline=167, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000049_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227518784, FinishTime=1384227523468, ExecTime=4684, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227526093, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227526093, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227526093, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227526094, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227526094, pickDeadline=168, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000050_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227518796, FinishTime=1384227523470, ExecTime=4674, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227526104, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227526104, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227526104, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227526104, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227526105, pickDeadline=169, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000051_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227521245, FinishTime=1384227525672, ExecTime=4427, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227529014, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227529014, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227529014, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227529014, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227529015, pickDeadline=170, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000052_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227521790, FinishTime=1384227526388, ExecTime=4598, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227529098, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227529099, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227529099, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227529099, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227529100, pickDeadline=171, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000053_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227521801, FinishTime=1384227526401, ExecTime=4600, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227529110, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227529111, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227529111, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227529111, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227529112, pickDeadline=172, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000054_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227524253, FinishTime=1384227528665, ExecTime=4412, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227532020, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227532020, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227532020, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227532020, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227532021, pickDeadline=173, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000055_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227524796, FinishTime=1384227529512, ExecTime=4716, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227532105, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227532105, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227532105, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227532105, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227532106, pickDeadline=174, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000056_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227524807, FinishTime=1384227529402, ExecTime=4595, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227532117, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227532117, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227532117, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227532117, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227532118, pickDeadline=175, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000057_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227527259, FinishTime=1384227531709, ExecTime=4450, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227535026, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227535026, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227535027, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227535027, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227535028, pickDeadline=176, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000058_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227527802, FinishTime=1384227532404, ExecTime=4602, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227535111, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227535111, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227535111, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227535112, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227535112, pickDeadline=177, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000059_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227527814, FinishTime=1384227532374, ExecTime=4560, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227535122, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227535122, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227535122, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227535123, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227535123, pickDeadline=178, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000060_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227530265, FinishTime=1384227534680, ExecTime=4415, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227538032, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227538032, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227538032, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227538032, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227538033, pickDeadline=179, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000061_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227530808, FinishTime=1384227535487, ExecTime=4679, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227538116, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227538117, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227538117, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227538117, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227538117, pickDeadline=180, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000062_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227530820, FinishTime=1384227535496, ExecTime=4676, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227538128, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227538128, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227538129, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227538129, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227538129, pickDeadline=181, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000063_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227533271, FinishTime=1384227537675, ExecTime=4404, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227541038, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227541038, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227541038, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227541038, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227541039, pickDeadline=182, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000064_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227533815, FinishTime=1384227538424, ExecTime=4609, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227541123, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227541123, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227541123, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227541123, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227541124, pickDeadline=183, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000065_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227533826, FinishTime=1384227538402, ExecTime=4576, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227541135, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227541135, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227541135, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227541135, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227541136, pickDeadline=184, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000066_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227536277, FinishTime=1384227540676, ExecTime=4399, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227544044, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227544044, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227544044, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227544044, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227544045, pickDeadline=185, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000067_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227536820, FinishTime=1384227541400, ExecTime=4580, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227544129, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227544129, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227544129, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227544129, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227544130, pickDeadline=186, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000068_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227536832, FinishTime=1384227541400, ExecTime=4568, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227544140, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227544140, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227544141, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227544141, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227544141, pickDeadline=187, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000069_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227539283, FinishTime=1384227543666, ExecTime=4383, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227547050, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227547050, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227547050, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227547050, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227547051, pickDeadline=188, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000070_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227539827, FinishTime=1384227544513, ExecTime=4686, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227547135, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227547135, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227547135, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227547135, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227547136, pickDeadline=189, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000071_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227539838, FinishTime=1384227544417, ExecTime=4579, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227547146, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227547146, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227547147, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227547147, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227547147, pickDeadline=190, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000072_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227542289, FinishTime=1384227546739, ExecTime=4450, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227550056, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227550056, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227550056, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227550056, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227550057, pickDeadline=191, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000073_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227542832, FinishTime=1384227547445, ExecTime=4613, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227550141, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227550141, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227550141, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227550141, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227550142, pickDeadline=192, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000074_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227542844, FinishTime=1384227547500, ExecTime=4656, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227550152, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227550152, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227550153, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227550153, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227550153, pickDeadline=193, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000075_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227545295, FinishTime=1384227549655, ExecTime=4360, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227553062, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227553062, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227553062, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227553062, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227553063, pickDeadline=194, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000076_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227545838, FinishTime=1384227550432, ExecTime=4594, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227553147, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227553147, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227553147, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227553148, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227553148, pickDeadline=195, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000077_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227545850, FinishTime=1384227550448, ExecTime=4598, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227553158, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227553158, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227553158, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227553159, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227553159, pickDeadline=196, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000078_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227548301, FinishTime=1384227552787, ExecTime=4486, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227556068, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227556068, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227556068, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227556068, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227556069, pickDeadline=197, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000079_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227548844, FinishTime=1384227553494, ExecTime=4650, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227556152, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227556152, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227556152, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227556153, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227556153, pickDeadline=198, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000080_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227548856, FinishTime=1384227553496, ExecTime=4640, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227556163, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227556163, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227556163, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227556163, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227556164, pickDeadline=199, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000081_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227551307, FinishTime=1384227555695, ExecTime=4388, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227559074, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227559074, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227559074, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227559074, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227559075, pickDeadline=200, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000082_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227551851, FinishTime=1384227556456, ExecTime=4605, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227559157, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227559157, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227559157, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227559158, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227559158, pickDeadline=201, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000083_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227551862, FinishTime=1384227556473, ExecTime=4611, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227559169, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227559169, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227559169, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227559170, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227559170, pickDeadline=202, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000084_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227554313, FinishTime=1384227558679, ExecTime=4366, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227562080, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227562080, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227562080, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227562080, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227562081, pickDeadline=203, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000085_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227554856, FinishTime=1384227559516, ExecTime=4660, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227562162, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227562162, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227562163, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227562163, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227562163, pickDeadline=204, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000086_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227554867, FinishTime=1384227559452, ExecTime=4585, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227562175, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227562175, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227562175, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227562176, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227562176, pickDeadline=205, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000087_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227557319, FinishTime=1384227561827, ExecTime=4508, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227565086, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227565086, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227565086, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227565086, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+time=1384227565087, pickDeadline=206, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000088_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227557861, FinishTime=1384227562468, ExecTime=4607, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227565167, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227565167, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227565167, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227565168, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+time=1384227565168, pickDeadline=207, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000089_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227557873, FinishTime=1384227562484, ExecTime=4611, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227565181, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=2 
+***Time=1384227565181, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227565181, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227565182, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+time=1384227565182, pickDeadline=208, pickProgress=0, pickNone=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000090_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227560325, FinishTime=1384227564720, ExecTime=4395, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227568092, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227568092, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=2 
+***Time=1384227568092, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227568092, JobName=grep-sort, JobID=job_201311120331_0002, Slots=5 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000091_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227560866, FinishTime=1384227565528, ExecTime=4662, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227568172, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227568172, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227568172, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=2 
+***Time=1384227568173, JobName=grep-sort, JobID=job_201311120331_0002, Slots=4 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000092_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227560879, FinishTime=1384227565536, ExecTime=4657, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227568187, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=1 
+***Time=1384227568187, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227568187, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227568188, JobName=grep-sort, JobID=job_201311120331_0002, Slots=3 
+@@@Job grep-sort gets the map free slot from TaskTracker slave2 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000093_0, Type=MAP, Status=SUCCEEDED, Machine=slave00, StartTime=1384227563331, FinishTime=1384227567811, ExecTime=4480, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227571096, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=0 
+***Time=1384227571096, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=1 
+***Time=1384227571096, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227571096, JobName=grep-sort, JobID=job_201311120331_0002, Slots=2 
+@@@Job grep-sort gets the map free slot from TaskTracker slave00 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000094_0, Type=MAP, Status=SUCCEEDED, Machine=slave1, StartTime=1384227563871, FinishTime=1384227568456, ExecTime=4585, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227571177, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=0 
+***Time=1384227571177, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=0 
+***Time=1384227571177, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=1 
+***Time=1384227571177, JobName=grep-sort, JobID=job_201311120331_0002, Slots=1 
+@@@Job grep-sort gets the map free slot from TaskTracker slave1 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000095_0, Type=MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227563885, FinishTime=1384227568492, ExecTime=4607, PredictTime=4819.883720, sharedCPU=0.000000, IO1=0.000000, IO2=0.000000, IO3=0.000000 
+ ***Time=1384227574099, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=0 
+***Time=1384227574099, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=0 
+***Time=1384227574099, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=0 
+***Time=1384227574099, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227574180, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=0 
+***Time=1384227574180, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=0 
+***Time=1384227574180, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=0 
+***Time=1384227574180, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227574197, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=0 
+***Time=1384227574197, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=0 
+***Time=1384227574197, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=0 
+***Time=1384227574198, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227577102, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=0 
+***Time=1384227577102, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=0 
+***Time=1384227577102, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=0 
+***Time=1384227577102, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+***Time=1384227577183, jobName=grep-sort, jobID=job_201311120331_0002, host=slave00, slots=0 
+***Time=1384227577183, jobName=grep-sort, jobID=job_201311120331_0002, host=slave1, slots=0 
+***Time=1384227577183, jobName=grep-sort, jobID=job_201311120331_0002, host=slave2, slots=0 
+***Time=1384227577183, JobName=grep-sort, JobID=job_201311120331_0002, Slots=0 
+JobName=grep-sort, ID=attempt_201311120331_0002_m_000096_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave2, StartTime=1384227569896, FinishTime=1384227574451, ExecTime=4555 
+ &&&job grep-sort miss deadline, jobID=job_201311120331_0002, jobStartTime=1384227464068, jobFinishTime=1384227577201, jobRelativeDeadline=0, afterTime=113133 

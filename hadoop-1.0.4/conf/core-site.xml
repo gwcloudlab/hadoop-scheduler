@@ -6,7 +6,7 @@
 <configuration>
 <property>
 	<name>fs.default.name</name>
-	<value>hdfs://mastertest:9000</value>
+	<value>hdfs://master:9000</value>
 </property>
 <property>
   <name>hadoop.tmp.dir</name>

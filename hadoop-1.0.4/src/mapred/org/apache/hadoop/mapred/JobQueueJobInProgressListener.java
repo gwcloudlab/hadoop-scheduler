@@ -89,6 +89,24 @@ class JobQueueJobInProgressListener extends JobInProgressListener {
     public int compare(JobSchedulingInfo o1, JobSchedulingInfo o2) {
       int res = o1.getPriority().compareTo(o2.getPriority());
       if (res == 0) {
+        if (o1.getStartTime() < o2.getStartTime()) {
+          res = -1;
+        } else {
+          res = (o1.getStartTime() == o2.getStartTime() ? 0 : 1);
+        }
+      }
+      if (res == 0) {
+        res = o1.getJobID().compareTo(o2.getJobID());
+      }
+      return res;
+    }
+  };
+ 
+  static final Comparator<JobSchedulingInfo> DEADLINE_JOB_QUEUE_COMPARATOR
+    = new Comparator<JobSchedulingInfo>() {
+    public int compare(JobSchedulingInfo o1, JobSchedulingInfo o2) {
+      int res = o1.getPriority().compareTo(o2.getPriority());
+      if (res == 0) {
       //  if (o1.getStartTime() < o2.getStartTime()) {
         if (o1.getJobDeadline() < o2.getJobDeadline()) {
           res = -1;
@@ -103,12 +121,13 @@ class JobQueueJobInProgressListener extends JobInProgressListener {
       return res;
     }
   };
-  
+
+ 
   private Map<JobSchedulingInfo, JobInProgress> jobQueue;
   
   public JobQueueJobInProgressListener() {
     this(new TreeMap<JobSchedulingInfo, 
-                     JobInProgress>(FIFO_JOB_QUEUE_COMPARATOR));
+                     JobInProgress>(DEADLINE_JOB_QUEUE_COMPARATOR));
   }
 
   /**
