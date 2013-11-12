@@ -68,6 +68,14 @@ import org.apache.hadoop.security.token.Token;
 import org.apache.hadoop.security.token.TokenIdentifier;
 import org.apache.hadoop.util.StringUtils;
 
+
+class DataMeasurement{
+  public double sharedCPU;
+  public double IO[] = new double[3];
+  public double predictTime;
+
+}
+
 /*************************************************************
  * JobInProgress maintains all the info for keeping
  * a Job on the straight and narrow.  It keeps its JobProfile
@@ -236,6 +244,11 @@ public class JobInProgress {
   // add by wei
   int relativeDeadline;
   long deadLine;
+  private Map<String, Integer> slotsOccupied = 
+      new HashMap<String, Integer>();
+  private Map<TaskAttemptID, DataMeasurement> taskInfo = 
+      new HashMap<TaskAttemptID, DataMeasurement>();
+
 
   // First *task launch time
   final Map<TaskType, Long> firstTaskLaunchTimes =
@@ -435,6 +448,7 @@ public class JobInProgress {
       this.relativeDeadline = conf.getJobRelativeDeadline();
       this.status.setJobRelativeDeadline(this.relativeDeadline);
       this.deadLine = this.startTime + this.relativeDeadline * 1000;
+      //this.deadLine = this.getLaunchTime() + this.relativeDeadline * 1000;
       this.status.setJobDeadline(this.deadLine);
 
       String queueName = conf.getQueueName();
@@ -842,7 +856,7 @@ public class JobInProgress {
     return startTime;
   }
   
-  //add by wei
+  //add by wei 
   public int getJobRelativeDeadline() {
     return relativeDeadline;
   }
@@ -855,6 +869,63 @@ public class JobInProgress {
   public long getFinishTime() {
     return finishTime;
   }
+
+  public Map<String, Integer> getSlotsHashMap() {
+    return this.slotsOccupied;
+  }
+
+  public int getSlotsOccupied(String host) {
+    int slots;
+
+    if(slotsOccupied.containsKey(host))
+      slots = slotsOccupied.get(host);
+    else
+      slots = 0;
+    return slots;
+  }
+ 
+  public void incSlotsOccupied(String host) {
+    int slots = 0;
+   
+    if(slotsOccupied.containsKey(host)) {
+      slots = slotsOccupied.get(host);
+      slots++;
+    }
+    else {
+      slots = 1;
+    }
+    slotsOccupied.put(host, slots);
+  }
+
+  public void decSlotsOccupied(String host) {
+    int slots = 0;
+    
+    if(slotsOccupied.containsKey(host)) {
+    slots = slotsOccupied.get(host);
+      slots--;
+    }
+    else {
+      slots = 0;
+    }
+    slotsOccupied.put(host, slots);
+  }
+
+ public void putTaskInfo(Task task, double predictTime, String hostname) {
+   TaskAttemptID taskid = task.getTaskID();
+   DataMeasurement d = new DataMeasurement();
+   d.sharedCPU = JobQueueTaskScheduler.resources.get(hostname).getCpuUsage();
+   d.IO[0] = JobQueueTaskScheduler.resources.get("slave00").getDisk();
+   d.IO[1] = JobQueueTaskScheduler.resources.get("slave01").getDisk();
+   d.IO[2] = JobQueueTaskScheduler.resources.get("slave02").getDisk();
+   d.predictTime = predictTime;
+
+   taskInfo.put(taskid, d); 
+ }
+
+ public DataMeasurement getTaskInfo(TaskAttemptID taskid) {
+   return taskInfo.get(taskid);
+}
+
   public int desiredMaps() {
     return numMapTasks;
   }
@@ -1084,6 +1155,7 @@ public class JobInProgress {
     boolean wasPending = tip.isOnlyCommitPending();
     TaskAttemptID taskid = status.getTaskID();
     boolean wasAttemptRunning = tip.isAttemptRunning(taskid);
+    String machine = new String("hostname");
 
     // If the TIP is already completed and the task reports as SUCCEEDED then 
     // mark the task as KILLED.
@@ -1129,6 +1201,7 @@ public class JobInProgress {
         }
         httpTaskLogLocation = "http://" + host + ":" + ttStatus.getHttpPort(); 
            //+ "/tasklog?plaintext=true&attemptid=" + status.getTaskID();
+        machine = host;
       }
 
       TaskCompletionEvent taskEvent = null;
@@ -1145,11 +1218,6 @@ public class JobInProgress {
                                            );
         taskEvent.setTaskRunTime((int)(status.getFinishTime() 
                                        - status.getStartTime()));
-	//added by wei
-	System.out.printf("##task id: %s, task type: %b, run time: %d%n", taskEvent.getTaskAttemptId(), taskEvent.isMap, taskEvent.getTaskRunTime());
-//	System.out.printf("##hello world!%n");
-
-//	System.out.printf("##task type: %b, run time: %d%n", taskEvent.isMap, taskEvent.getTaskRunTime());
 
         tip.setSuccessEventNumber(taskCompletionEventTracker); 
       } else if (state == TaskStatus.State.COMMIT_PENDING) {
@@ -1206,6 +1274,38 @@ public class JobInProgress {
                                             httpTaskLogLocation
                                            );
       }          
+
+      // add by wei
+        if(state == TaskStatus.State.SUCCEEDED || state == TaskStatus.State.FAILED || state == TaskStatus.State.KILLED){
+          if(status.getIsMap()){
+            if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
+              DataMeasurement d =  tip.getJob().getTaskInfo(taskid);
+              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, PredictTime=%f, sharedCPU=%f, IO1=%f, IO2=%f, IO3=%f %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine,
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(), d.predictTime, d.sharedCPU, d.IO[0], d.IO[1], d.IO[2]);
+
+            }
+            else{
+              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
+           }
+          }
+          else{
+            if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
+              System.out.printf("JobName=%s, ID=%s, Type=REDUCE, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, ShuffleTime=%d, SortTime=%d %n",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(),
+                                status.getShuffleFinishTime()-status.getStartTime(), status.getSortFinishTime()-status.getShuffleFinishTime());
+            }
+            else{
+              System.out.printf("JobName=%s, ID=%s, Type=SC_REDUCE, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
+
+            }
+          }
+        }
 
       // Add the 'complete' task i.e. successful/failed
       // It _is_ safe to add the TaskCompletionEvent.Status.SUCCEEDED
@@ -1763,6 +1863,10 @@ public class JobInProgress {
       name = Values.CLEANUP.name();
     } else if (tip.isMapTask()) {
       ++runningMapTasks;
+      //add by wei
+      String host = tts.getHost();
+      tip.getJob().incSlotsOccupied(host);
+      
       name = Values.MAP.name();
       counter = Counter.TOTAL_LAUNCHED_MAPS;
       splits = tip.getSplitNodes();
@@ -2654,12 +2758,24 @@ public class JobInProgress {
       }
       else {
         jobComplete();
+        //add by wei
+        JobInProgress job = tip.getJob();
+        if (job.getFinishTime() <= job.getJobDeadline()) {
+          System.out.printf("&&&job %s meet deadline, jobID=%s, jobStartTime=%d, jobFinishTime=%d, jobRelativeDeadline=%d, beforeTime=%d %n", job.getProfile().getJobName(), job.getJobID().toString(), job.getStartTime(), job.getFinishTime(), job.getJobRelativeDeadline(), job.getJobDeadline()-job.getFinishTime());
+        } 
+        else {
+	  System.out.printf("&&&job %s miss deadline, jobID=%s, jobStartTime=%d, jobFinishTime=%d, jobRelativeDeadline=%d, afterTime=%d %n", job.getProfile().getJobName(), job.getJobID().toString(), job.getStartTime(), job.getFinishTime(), job.getJobRelativeDeadline(), job.getFinishTime()-job.getJobDeadline());
+        }
       }
       // The job has been killed/failed/successful
       // JobTracker should cleanup this task
       jobtracker.markCompletedTaskAttempt(status.getTaskTracker(), taskid);
     } else if (tip.isMapTask()) {
       runningMapTasks -= 1;
+      //add by wei
+      String taskTrackerName = status.getTaskTracker();
+      String host = convertTrackerNameToHostName(taskTrackerName);
+      tip.getJob().decSlotsOccupied(host);
       // check if this was a sepculative task
       if (oldNumAttempts > 1) {
         speculativeMapTasks -= (oldNumAttempts - newNumAttempts);
@@ -2988,6 +3104,11 @@ public class JobInProgress {
       if (!tip.isJobCleanupTask() && !tip.isJobSetupTask()) {
         if (tip.isMapTask() && !metricsDone) {
           runningMapTasks -= 1;
+          //add by wei
+          String taskTrackerName = status.getTaskTracker();
+          String host = convertTrackerNameToHostName(taskTrackerName);
+          tip.getJob().decSlotsOccupied(host);
+ 
           metrics.failedMap(taskid);
           this.queueMetrics.failedMap(taskid);
         } else if (!metricsDone) {

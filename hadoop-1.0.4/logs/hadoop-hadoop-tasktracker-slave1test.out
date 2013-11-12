@@ -1,0 +1,1 @@
+log4j:ERROR Failed to rename [/home/hadoop/hadoop-scheduler/hadoop-1.0.4/libexec/../logs/hadoop-hadoop-tasktracker-slave1test.log] to [/home/hadoop/hadoop-scheduler/hadoop-1.0.4/libexec/../logs/hadoop-hadoop-tasktracker-slave1test.log.2013-08-19].

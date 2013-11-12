@@ -1,0 +1,16 @@
+61,64c61,70
+<     NodeResource nodeMasterTest = new NodeResource(0, 0);
+<     resources.put("mastertest", nodeMasterTest);
+<     NodeResource nodeSlave1Test = new NodeResource(0, 0);
+<     resources.put("slave1test", nodeSlave1Test);
+---
+>     NodeResource nodeMaster = new NodeResource(0, 0);
+>     resources.put("master", nodeMaster);
+>     NodeResource nodeSlave1 = new NodeResource(0, 0);
+>     resources.put("slave1", nodeSlave1);
+>     NodeResource nodeSlave2 = new NodeResource(0, 0);
+>     resources.put("slave2", nodeSlave2);
+>     NodeResource nodeSlave3 = new NodeResource(0, 0);
+>     resources.put("slave3", nodeSlave3);
+>     NodeResource nodeSlave4 = new NodeResource(0, 0);
+>     resources.put("slave4", nodeSlave4);

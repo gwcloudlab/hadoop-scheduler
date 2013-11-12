@@ -1,0 +1,814 @@
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+###current time: 1376163790147, job name: TeraSort, job startTime: 1376163790100, job relativeDeadline: 115, job deadline: 1376163905100
+###current time: 1376163791193, job name: PiEstimator, job startTime: 1376163791129, job relativeDeadline: 1000, job deadline: 1376164791129
+$$$The total map free slots in TaskTracker mastertest is -1 
+$$$The total map free slots in TaskTracker slave1test is -1 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000017_0, Type=SC_MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163792249, FinishTime=1376163796662, ExecTime=4413 
+ $$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163797830 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000101_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163796235, FinishTime=1376163800798, ExecTime=4563 
+ $$$The total map free slots in TaskTracker slave1test is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163797836 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163800841 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163800841 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163800846 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163800847 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163797836, FinishTime=1376163805232, ExecTime=7396 
+ JobName=PiEstimator, ID=attempt_201308101942_0002_m_000000_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163801290, FinishTime=1376163806661, ExecTime=5371 
+ $$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163806862 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163806862 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163802034, FinishTime=1376163809660, ExecTime=7626 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163806876 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163806876 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163809880 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163809880 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker slave1test is 0 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000001_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163806884, FinishTime=1376163812176, ExecTime=5292 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163812891 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163812891 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163804807, FinishTime=1376163816562, ExecTime=11755 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163812935 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163812935 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163809886, FinishTime=1376163818272, ExecTime=8386 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163818901 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163818901 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000002_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163812894, FinishTime=1376163818990, ExecTime=6096 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163821910 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163821910 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163810854, FinishTime=1376163823592, ExecTime=12738 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163821948 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163821949 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163816896, FinishTime=1376163828818, ExecTime=11922 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163824961 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163824961 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163818904, FinishTime=1376163826488, ExecTime=7584 
+ JobName=PiEstimator, ID=attempt_201308101942_0002_m_000003_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163821913, FinishTime=1376163827301, ExecTime=5388 
+ $$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163827923 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163827924 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163830929 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163830930 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000004_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163827927, FinishTime=1376163832563, ExecTime=4636 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163833938 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163833939 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163825909, FinishTime=1376163837013, ExecTime=11104 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163833982 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163833983 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000005_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163833973, FinishTime=1376163839765, ExecTime=5792 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163839950 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163839951 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163830933, FinishTime=1376163841577, ExecTime=10644 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163842957 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163842957 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163828929, FinishTime=1376163844976, ExecTime=16047 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163843007 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163843007 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000006_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163839954, FinishTime=1376163844328, ExecTime=4374 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163845964 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163845964 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163837980, FinishTime=1376163849193, ExecTime=11213 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163846015 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163846015 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163842961, FinishTime=1376163853438, ExecTime=10477 
+ JobName=PiEstimator, ID=attempt_201308101942_0002_m_000007_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163845971, FinishTime=1376163852042, ExecTime=6071 
+ $$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163854978 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163854979 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163846968, FinishTime=1376163857686, ExecTime=10718 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163855028 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163855029 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163857983 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163857983 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000008_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163854982, FinishTime=1376163860239, ExecTime=5257 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163860990 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163860991 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163849976, FinishTime=1376163862468, ExecTime=12492 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163861040 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163861040 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163857986, FinishTime=1376163862546, ExecTime=4560 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163863998 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163863999 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163858989, FinishTime=1376163867538, ExecTime=8549 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163864052 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163864053 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000009_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163860994, FinishTime=1376163866515, ExecTime=5521 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163867006 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163867007 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163870062 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163870063 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000010_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163867017, FinishTime=1376163872308, ExecTime=5291 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163873018 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163873018 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000015_1, Type=MAP, Status=KILLED, Machine=slave1test, StartTime=1376163871017, FinishTime=1376163876827, ExecTime=5810 
+ $$$The total map free slots in TaskTracker slave1test is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163873068 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163873069 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163873070 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163873070 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker slave1test is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163876075 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163876075 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=true, currentTime=1376163876076 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163876076 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000014_1, Type=MAP, Status=KILLED, Machine=mastertest, StartTime=1376163870013, FinishTime=1376163877243, ExecTime=7230 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163879029 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker slave1test is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163879081 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163879082 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_r_000002_0, Type=REDUCE, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163809887, FinishTime=1376163881817, ExecTime=71930, ShuffleTime=57780, SortTime=230 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000011_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163873022, FinishTime=1376163879751, ExecTime=6729 
+ $$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163882041 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163882042 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_r_000001_0, Type=REDUCE, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163810861, FinishTime=1376163884743, ExecTime=73882, ShuffleTime=60331, SortTime=1062 
+$$$The total map free slots in TaskTracker slave1test is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163882090 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163882091 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163885046 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163885047 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker slave1test is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163885100 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163885101 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker slave1test 
+JobName=TeraSort, ID=attempt_201308101942_0001_r_000000_0, Type=REDUCE, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163806881, FinishTime=1376163888021, ExecTime=81140, ShuffleTime=63614, SortTime=1808 
+$$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163888053 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163888053 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_r_000003_0, Type=REDUCE, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163813886, FinishTime=1376163890214, ExecTime=76328, ShuffleTime=59631, SortTime=1063 
+$$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163891057 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163891058 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker slave1test is 1 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163891116 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 2 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163894061 
+@@@Job TeraSort gets the 1th map free slot from TaskTracker mastertest 
+JobName=TeraSort Deadline=1376163905100 
+***JobName=TeraSort, canMeetDeadline=false, currentTime=1376163894062 
+@@@Job TeraSort gets the 2th map free slot from TaskTracker mastertest 
+JobName=TeraSort, ID=attempt_201308101942_0001_m_000016_0, Type=SC_MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163892071, FinishTime=1376163896643, ExecTime=4572 
+ &&&job TeraSort meet deadline, jobFinishTime=1376163894121 
+$$$The total map free slots in TaskTracker slave1test is 2 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=false, currentTime=1376163894177 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 2 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163897065 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+$$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163897184 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+$$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163900070 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000012_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163898143, FinishTime=1376163902694, ExecTime=4551 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163900191 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000013_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163897072, FinishTime=1376163901460, ExecTime=4388 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163903077 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000014_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163901145, FinishTime=1376163905718, ExecTime=4573 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163903200 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000015_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163900073, FinishTime=1376163904419, ExecTime=4346 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163906084 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000016_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163904152, FinishTime=1376163908718, ExecTime=4566 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163906208 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000017_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163903080, FinishTime=1376163907524, ExecTime=4444 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163909090 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000018_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163907160, FinishTime=1376163911741, ExecTime=4581 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163909228 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000019_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163906086, FinishTime=1376163910443, ExecTime=4357 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163912097 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000020_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163910168, FinishTime=1376163914713, ExecTime=4545 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163912235 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000021_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163909093, FinishTime=1376163913588, ExecTime=4495 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163915102 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000022_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163913188, FinishTime=1376163917784, ExecTime=4596 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163915252 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000023_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163912099, FinishTime=1376163916471, ExecTime=4372 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163918109 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000024_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163916196, FinishTime=1376163920670, ExecTime=4474 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163918259 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000025_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163915105, FinishTime=1376163919434, ExecTime=4329 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163921114 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000026_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163919216, FinishTime=1376163923838, ExecTime=4622 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163921265 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000027_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163918111, FinishTime=1376163922568, ExecTime=4457 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163924121 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000028_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163922219, FinishTime=1376163926797, ExecTime=4578 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163924271 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000029_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163921117, FinishTime=1376163925456, ExecTime=4339 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163927126 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000030_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163925226, FinishTime=1376163929752, ExecTime=4526 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163927279 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000031_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163924123, FinishTime=1376163928568, ExecTime=4445 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163930133 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000032_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163928232, FinishTime=1376163932797, ExecTime=4565 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163930286 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000033_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163927129, FinishTime=1376163931524, ExecTime=4395 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163933138 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000034_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163931239, FinishTime=1376163935781, ExecTime=4542 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163933293 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000035_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163930135, FinishTime=1376163934500, ExecTime=4365 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163936144 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000036_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163934246, FinishTime=1376163938813, ExecTime=4567 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163936299 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000037_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163933141, FinishTime=1376163937480, ExecTime=4339 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163939151 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000038_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163937253, FinishTime=1376163941805, ExecTime=4552 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163939305 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000039_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163936147, FinishTime=1376163940532, ExecTime=4385 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163942159 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000040_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163940260, FinishTime=1376163944774, ExecTime=4514 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163942312 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000041_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163939157, FinishTime=1376163943490, ExecTime=4333 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163945165 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000042_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163943266, FinishTime=1376163947841, ExecTime=4575 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163945319 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000043_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163942162, FinishTime=1376163946620, ExecTime=4458 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163948172 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000044_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163946273, FinishTime=1376163950782, ExecTime=4509 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163948327 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000045_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163945168, FinishTime=1376163949500, ExecTime=4332 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163951182 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000046_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163949280, FinishTime=1376163953859, ExecTime=4579 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163951333 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000047_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163948179, FinishTime=1376163952589, ExecTime=4410 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163954189 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000048_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163952287, FinishTime=1376163956810, ExecTime=4523 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163954340 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000049_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163951185, FinishTime=1376163955584, ExecTime=4399 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163957194 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000050_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163955294, FinishTime=1376163959790, ExecTime=4496 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163957348 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000051_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163954191, FinishTime=1376163958549, ExecTime=4358 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163960200 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000052_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163958301, FinishTime=1376163962809, ExecTime=4508 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163960355 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000053_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163957197, FinishTime=1376163961576, ExecTime=4379 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163963207 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000054_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163961308, FinishTime=1376163965925, ExecTime=4617 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163963361 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000055_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163960203, FinishTime=1376163964532, ExecTime=4329 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163966216 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000056_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163964316, FinishTime=1376163968846, ExecTime=4530 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163966367 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000057_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163963209, FinishTime=1376163967647, ExecTime=4438 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163969223 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000058_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163967322, FinishTime=1376163971918, ExecTime=4596 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163969373 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000059_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163966219, FinishTime=1376163970520, ExecTime=4301 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163972228 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000060_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163970327, FinishTime=1376163974858, ExecTime=4531 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163972384 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000061_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163969225, FinishTime=1376163973711, ExecTime=4486 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163975234 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000062_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163973333, FinishTime=1376163977901, ExecTime=4568 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163975390 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000063_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163972231, FinishTime=1376163976627, ExecTime=4396 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163978240 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000064_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163976345, FinishTime=1376163980850, ExecTime=4505 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163978396 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000065_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163975237, FinishTime=1376163979620, ExecTime=4383 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163981246 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000066_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163979350, FinishTime=1376163983987, ExecTime=4637 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163981403 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000067_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163978243, FinishTime=1376163982619, ExecTime=4376 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163984253 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000068_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163982356, FinishTime=1376163986889, ExecTime=4533 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163984410 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000069_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163981249, FinishTime=1376163985611, ExecTime=4362 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163987258 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000070_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163985363, FinishTime=1376163989934, ExecTime=4571 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163987422 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000071_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163984255, FinishTime=1376163988704, ExecTime=4449 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163990264 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000072_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163988371, FinishTime=1376163992906, ExecTime=4535 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163990428 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000073_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163987261, FinishTime=1376163991572, ExecTime=4311 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163993270 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000074_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163991382, FinishTime=1376163995930, ExecTime=4548 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163993434 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000075_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163990267, FinishTime=1376163994692, ExecTime=4425 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163996276 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000076_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163994388, FinishTime=1376163998952, ExecTime=4564 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163996440 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000077_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163993273, FinishTime=1376163997624, ExecTime=4351 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163999283 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000078_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376163997394, FinishTime=1376164001981, ExecTime=4587 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376163999447 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000079_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163996279, FinishTime=1376164000723, ExecTime=4444 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164002288 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000080_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164000401, FinishTime=1376164004960, ExecTime=4559 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164002455 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000081_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163999285, FinishTime=1376164003679, ExecTime=4394 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164005293 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000082_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164003408, FinishTime=1376164007946, ExecTime=4538 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164005461 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000083_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164002290, FinishTime=1376164006632, ExecTime=4342 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164008299 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000084_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164006415, FinishTime=1376164010984, ExecTime=4569 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164008467 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000085_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164005296, FinishTime=1376164009684, ExecTime=4388 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164011305 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000086_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164009422, FinishTime=1376164013946, ExecTime=4524 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164011473 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000087_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164008302, FinishTime=1376164012708, ExecTime=4406 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164014311 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000088_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164012427, FinishTime=1376164016922, ExecTime=4495 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164014483 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000089_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164011308, FinishTime=1376164015688, ExecTime=4380 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164017317 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000090_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164015434, FinishTime=1376164020008, ExecTime=4574 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164017490 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000091_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164014314, FinishTime=1376164018647, ExecTime=4333 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164020323 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000092_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164018444, FinishTime=1376164022988, ExecTime=4544 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164020497 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000093_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164017320, FinishTime=1376164021760, ExecTime=4440 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164023329 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000094_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164021451, FinishTime=1376164026001, ExecTime=4550 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164023507 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000095_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164020326, FinishTime=1376164024698, ExecTime=4372 
+ $$$The total map free slots in TaskTracker mastertest is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164026335 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker mastertest 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000096_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164024458, FinishTime=1376164028985, ExecTime=4527 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164026514 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000097_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164023332, FinishTime=1376164027758, ExecTime=4426 
+ $$$The total map free slots in TaskTracker mastertest is 0 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000098_0, Type=MAP, Status=SUCCEEDED, Machine=slave1test, StartTime=1376164027468, FinishTime=1376164031970, ExecTime=4502 
+ $$$The total map free slots in TaskTracker slave1test is 1 
+JobName=PiEstimator Deadline=1376164791129 
+***JobName=PiEstimator, canMeetDeadline=true, currentTime=1376164029519 
+@@@Job PiEstimator gets the 1th map free slot from TaskTracker slave1test 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000099_0, Type=MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164026338, FinishTime=1376164030726, ExecTime=4388 
+ $$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+JobName=PiEstimator, ID=attempt_201308101942_0002_r_000000_0, Type=REDUCE, Status=SUCCEEDED, Machine=mastertest, StartTime=1376163881818, FinishTime=1376164043360, ExecTime=161542, ShuffleTime=158242, SortTime=19 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is -1 
+$$$The total map free slots in TaskTracker slave1test is 0 
+JobName=PiEstimator, ID=attempt_201308101942_0002_m_000100_0, Type=SC_MAP, Status=SUCCEEDED, Machine=mastertest, StartTime=1376164044371, FinishTime=1376164048706, ExecTime=4335 
+ &&&job PiEstimator meet deadline, jobFinishTime=1376164050376 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 
+$$$The total map free slots in TaskTracker mastertest is 0 
+$$$The total map free slots in TaskTracker slave1test is 0 

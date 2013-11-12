@@ -811,6 +811,20 @@ class TaskInProgress {
   public TaskStatus getTaskStatus(TaskAttemptID taskid) {
     return taskStatuses.get(taskid);
   }
+
+  /**
+   * Get the node name of the specified task
+   * @param tip
+   * @return
+   */
+/*  public String getHost(TaskInProgress tip) {
+    String taskTrackerName = tip.getTaskStatus(tip.getTIPId()).getTaskTracker();
+    int start = taskTrackerName.indexOf("_") + 1;
+    int end = taskTrackerName.indexOf(":");
+    String host = taskTrackerName.substring(start, end);
+    return host;
+  }*/
+
   /**
    * The TIP's been ordered kill()ed.
    */

@@ -1390,7 +1390,7 @@ public class JobConf extends Configuration {
    * @param relativeDeadline the relativeDeadline for this job.
    */
   public int getJobRelativeDeadline() {
-    return getInt("mapred.job.relative.deadline", 0);
+    return getInt("mapred.job.relative.deadline", 65535);
   }
   
   /**
