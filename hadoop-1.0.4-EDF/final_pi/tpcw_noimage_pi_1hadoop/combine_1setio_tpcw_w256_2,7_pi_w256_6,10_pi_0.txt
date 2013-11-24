@@ -1,0 +1,576 @@
+time ./bin/hadoop jar hadoop-examples-1.0.4.jar pi 400 1000000
+Number of Maps  = 400
+Samples per Map = 1000000
+Wrote input for Map #0
+Wrote input for Map #1
+Wrote input for Map #2
+Wrote input for Map #3
+Wrote input for Map #4
+Wrote input for Map #5
+Wrote input for Map #6
+Wrote input for Map #7
+Wrote input for Map #8
+Wrote input for Map #9
+Wrote input for Map #10
+Wrote input for Map #11
+Wrote input for Map #12
+Wrote input for Map #13
+Wrote input for Map #14
+Wrote input for Map #15
+Wrote input for Map #16
+Wrote input for Map #17
+Wrote input for Map #18
+Wrote input for Map #19
+Wrote input for Map #20
+Wrote input for Map #21
+Wrote input for Map #22
+Wrote input for Map #23
+Wrote input for Map #24
+Wrote input for Map #25
+Wrote input for Map #26
+Wrote input for Map #27
+Wrote input for Map #28
+Wrote input for Map #29
+Wrote input for Map #30
+Wrote input for Map #31
+Wrote input for Map #32
+Wrote input for Map #33
+Wrote input for Map #34
+Wrote input for Map #35
+Wrote input for Map #36
+Wrote input for Map #37
+Wrote input for Map #38
+Wrote input for Map #39
+Wrote input for Map #40
+Wrote input for Map #41
+Wrote input for Map #42
+Wrote input for Map #43
+Wrote input for Map #44
+Wrote input for Map #45
+Wrote input for Map #46
+Wrote input for Map #47
+Wrote input for Map #48
+Wrote input for Map #49
+Wrote input for Map #50
+Wrote input for Map #51
+Wrote input for Map #52
+Wrote input for Map #53
+Wrote input for Map #54
+Wrote input for Map #55
+Wrote input for Map #56
+Wrote input for Map #57
+Wrote input for Map #58
+Wrote input for Map #59
+Wrote input for Map #60
+Wrote input for Map #61
+Wrote input for Map #62
+Wrote input for Map #63
+Wrote input for Map #64
+Wrote input for Map #65
+Wrote input for Map #66
+Wrote input for Map #67
+Wrote input for Map #68
+Wrote input for Map #69
+Wrote input for Map #70
+Wrote input for Map #71
+Wrote input for Map #72
+Wrote input for Map #73
+Wrote input for Map #74
+Wrote input for Map #75
+Wrote input for Map #76
+Wrote input for Map #77
+Wrote input for Map #78
+Wrote input for Map #79
+Wrote input for Map #80
+Wrote input for Map #81
+Wrote input for Map #82
+Wrote input for Map #83
+Wrote input for Map #84
+Wrote input for Map #85
+Wrote input for Map #86
+Wrote input for Map #87
+Wrote input for Map #88
+Wrote input for Map #89
+Wrote input for Map #90
+Wrote input for Map #91
+Wrote input for Map #92
+Wrote input for Map #93
+Wrote input for Map #94
+Wrote input for Map #95
+Wrote input for Map #96
+Wrote input for Map #97
+Wrote input for Map #98
+Wrote input for Map #99
+Wrote input for Map #100
+Wrote input for Map #101
+Wrote input for Map #102
+Wrote input for Map #103
+Wrote input for Map #104
+Wrote input for Map #105
+Wrote input for Map #106
+Wrote input for Map #107
+Wrote input for Map #108
+Wrote input for Map #109
+Wrote input for Map #110
+Wrote input for Map #111
+Wrote input for Map #112
+Wrote input for Map #113
+Wrote input for Map #114
+Wrote input for Map #115
+Wrote input for Map #116
+Wrote input for Map #117
+Wrote input for Map #118
+Wrote input for Map #119
+Wrote input for Map #120
+Wrote input for Map #121
+Wrote input for Map #122
+Wrote input for Map #123
+Wrote input for Map #124
+Wrote input for Map #125
+Wrote input for Map #126
+Wrote input for Map #127
+Wrote input for Map #128
+Wrote input for Map #129
+Wrote input for Map #130
+Wrote input for Map #131
+Wrote input for Map #132
+Wrote input for Map #133
+Wrote input for Map #134
+Wrote input for Map #135
+Wrote input for Map #136
+Wrote input for Map #137
+Wrote input for Map #138
+Wrote input for Map #139
+Wrote input for Map #140
+Wrote input for Map #141
+Wrote input for Map #142
+Wrote input for Map #143
+Wrote input for Map #144
+Wrote input for Map #145
+Wrote input for Map #146
+Wrote input for Map #147
+Wrote input for Map #148
+Wrote input for Map #149
+Wrote input for Map #150
+Wrote input for Map #151
+Wrote input for Map #152
+Wrote input for Map #153
+Wrote input for Map #154
+Wrote input for Map #155
+Wrote input for Map #156
+Wrote input for Map #157
+Wrote input for Map #158
+Wrote input for Map #159
+Wrote input for Map #160
+Wrote input for Map #161
+Wrote input for Map #162
+Wrote input for Map #163
+Wrote input for Map #164
+Wrote input for Map #165
+Wrote input for Map #166
+Wrote input for Map #167
+Wrote input for Map #168
+Wrote input for Map #169
+Wrote input for Map #170
+Wrote input for Map #171
+Wrote input for Map #172
+Wrote input for Map #173
+Wrote input for Map #174
+Wrote input for Map #175
+Wrote input for Map #176
+Wrote input for Map #177
+Wrote input for Map #178
+Wrote input for Map #179
+Wrote input for Map #180
+Wrote input for Map #181
+Wrote input for Map #182
+Wrote input for Map #183
+Wrote input for Map #184
+Wrote input for Map #185
+Wrote input for Map #186
+Wrote input for Map #187
+Wrote input for Map #188
+Wrote input for Map #189
+Wrote input for Map #190
+Wrote input for Map #191
+Wrote input for Map #192
+Wrote input for Map #193
+Wrote input for Map #194
+Wrote input for Map #195
+Wrote input for Map #196
+Wrote input for Map #197
+Wrote input for Map #198
+Wrote input for Map #199
+Wrote input for Map #200
+Wrote input for Map #201
+Wrote input for Map #202
+Wrote input for Map #203
+Wrote input for Map #204
+Wrote input for Map #205
+Wrote input for Map #206
+Wrote input for Map #207
+Wrote input for Map #208
+Wrote input for Map #209
+Wrote input for Map #210
+Wrote input for Map #211
+Wrote input for Map #212
+Wrote input for Map #213
+Wrote input for Map #214
+Wrote input for Map #215
+Wrote input for Map #216
+Wrote input for Map #217
+Wrote input for Map #218
+Wrote input for Map #219
+Wrote input for Map #220
+Wrote input for Map #221
+Wrote input for Map #222
+Wrote input for Map #223
+Wrote input for Map #224
+Wrote input for Map #225
+Wrote input for Map #226
+Wrote input for Map #227
+Wrote input for Map #228
+Wrote input for Map #229
+Wrote input for Map #230
+Wrote input for Map #231
+Wrote input for Map #232
+Wrote input for Map #233
+Wrote input for Map #234
+Wrote input for Map #235
+Wrote input for Map #236
+Wrote input for Map #237
+Wrote input for Map #238
+Wrote input for Map #239
+Wrote input for Map #240
+Wrote input for Map #241
+Wrote input for Map #242
+Wrote input for Map #243
+Wrote input for Map #244
+Wrote input for Map #245
+Wrote input for Map #246
+Wrote input for Map #247
+Wrote input for Map #248
+Wrote input for Map #249
+Wrote input for Map #250
+Wrote input for Map #251
+Wrote input for Map #252
+Wrote input for Map #253
+Wrote input for Map #254
+Wrote input for Map #255
+Wrote input for Map #256
+Wrote input for Map #257
+Wrote input for Map #258
+Wrote input for Map #259
+Wrote input for Map #260
+Wrote input for Map #261
+Wrote input for Map #262
+Wrote input for Map #263
+Wrote input for Map #264
+Wrote input for Map #265
+Wrote input for Map #266
+Wrote input for Map #267
+Wrote input for Map #268
+Wrote input for Map #269
+Wrote input for Map #270
+Wrote input for Map #271
+Wrote input for Map #272
+Wrote input for Map #273
+Wrote input for Map #274
+Wrote input for Map #275
+Wrote input for Map #276
+Wrote input for Map #277
+Wrote input for Map #278
+Wrote input for Map #279
+Wrote input for Map #280
+Wrote input for Map #281
+Wrote input for Map #282
+Wrote input for Map #283
+Wrote input for Map #284
+Wrote input for Map #285
+Wrote input for Map #286
+Wrote input for Map #287
+Wrote input for Map #288
+Wrote input for Map #289
+Wrote input for Map #290
+Wrote input for Map #291
+Wrote input for Map #292
+Wrote input for Map #293
+Wrote input for Map #294
+Wrote input for Map #295
+Wrote input for Map #296
+Wrote input for Map #297
+Wrote input for Map #298
+Wrote input for Map #299
+Wrote input for Map #300
+Wrote input for Map #301
+Wrote input for Map #302
+Wrote input for Map #303
+Wrote input for Map #304
+Wrote input for Map #305
+Wrote input for Map #306
+Wrote input for Map #307
+Wrote input for Map #308
+Wrote input for Map #309
+Wrote input for Map #310
+Wrote input for Map #311
+Wrote input for Map #312
+Wrote input for Map #313
+Wrote input for Map #314
+Wrote input for Map #315
+Wrote input for Map #316
+Wrote input for Map #317
+Wrote input for Map #318
+Wrote input for Map #319
+Wrote input for Map #320
+Wrote input for Map #321
+Wrote input for Map #322
+Wrote input for Map #323
+Wrote input for Map #324
+Wrote input for Map #325
+Wrote input for Map #326
+Wrote input for Map #327
+Wrote input for Map #328
+Wrote input for Map #329
+Wrote input for Map #330
+Wrote input for Map #331
+Wrote input for Map #332
+Wrote input for Map #333
+Wrote input for Map #334
+Wrote input for Map #335
+Wrote input for Map #336
+Wrote input for Map #337
+Wrote input for Map #338
+Wrote input for Map #339
+Wrote input for Map #340
+Wrote input for Map #341
+Wrote input for Map #342
+Wrote input for Map #343
+Wrote input for Map #344
+Wrote input for Map #345
+Wrote input for Map #346
+Wrote input for Map #347
+Wrote input for Map #348
+Wrote input for Map #349
+Wrote input for Map #350
+Wrote input for Map #351
+Wrote input for Map #352
+Wrote input for Map #353
+Wrote input for Map #354
+Wrote input for Map #355
+Wrote input for Map #356
+Wrote input for Map #357
+Wrote input for Map #358
+Wrote input for Map #359
+Wrote input for Map #360
+Wrote input for Map #361
+Wrote input for Map #362
+Wrote input for Map #363
+Wrote input for Map #364
+Wrote input for Map #365
+Wrote input for Map #366
+Wrote input for Map #367
+Wrote input for Map #368
+Wrote input for Map #369
+Wrote input for Map #370
+Wrote input for Map #371
+Wrote input for Map #372
+Wrote input for Map #373
+Wrote input for Map #374
+Wrote input for Map #375
+Wrote input for Map #376
+Wrote input for Map #377
+Wrote input for Map #378
+Wrote input for Map #379
+Wrote input for Map #380
+Wrote input for Map #381
+Wrote input for Map #382
+Wrote input for Map #383
+Wrote input for Map #384
+Wrote input for Map #385
+Wrote input for Map #386
+Wrote input for Map #387
+Wrote input for Map #388
+Wrote input for Map #389
+Wrote input for Map #390
+Wrote input for Map #391
+Wrote input for Map #392
+Wrote input for Map #393
+Wrote input for Map #394
+Wrote input for Map #395
+Wrote input for Map #396
+Wrote input for Map #397
+Wrote input for Map #398
+Wrote input for Map #399
+Starting Job
+13/04/19 05:26:51 INFO mapred.FileInputFormat: Total input paths to process : 400
+13/04/19 05:26:52 INFO mapred.JobClient: Running job: job_201304190148_0008
+13/04/19 05:26:53 INFO mapred.JobClient:  map 0% reduce 0%
+13/04/19 05:27:20 INFO mapred.JobClient:  map 1% reduce 0%
+13/04/19 05:27:32 INFO mapred.JobClient:  map 2% reduce 0%
+13/04/19 05:27:44 INFO mapred.JobClient:  map 3% reduce 0%
+13/04/19 05:27:50 INFO mapred.JobClient:  map 4% reduce 0%
+13/04/19 05:28:02 INFO mapred.JobClient:  map 5% reduce 0%
+13/04/19 05:28:20 INFO mapred.JobClient:  map 6% reduce 1%
+13/04/19 05:28:32 INFO mapred.JobClient:  map 7% reduce 1%
+13/04/19 05:28:35 INFO mapred.JobClient:  map 7% reduce 2%
+13/04/19 05:28:50 INFO mapred.JobClient:  map 8% reduce 2%
+13/04/19 05:29:02 INFO mapred.JobClient:  map 9% reduce 2%
+13/04/19 05:29:14 INFO mapred.JobClient:  map 10% reduce 3%
+13/04/19 05:29:26 INFO mapred.JobClient:  map 11% reduce 3%
+13/04/19 05:29:38 INFO mapred.JobClient:  map 12% reduce 3%
+13/04/19 05:29:50 INFO mapred.JobClient:  map 13% reduce 4%
+13/04/19 05:30:02 INFO mapred.JobClient:  map 14% reduce 4%
+13/04/19 05:30:14 INFO mapred.JobClient:  map 15% reduce 4%
+13/04/19 05:30:20 INFO mapred.JobClient:  map 15% reduce 5%
+13/04/19 05:30:26 INFO mapred.JobClient:  map 16% reduce 5%
+13/04/19 05:30:38 INFO mapred.JobClient:  map 17% reduce 5%
+13/04/19 05:30:50 INFO mapred.JobClient:  map 18% reduce 5%
+13/04/19 05:30:59 INFO mapred.JobClient:  map 18% reduce 6%
+13/04/19 05:31:02 INFO mapred.JobClient:  map 19% reduce 6%
+13/04/19 05:31:14 INFO mapred.JobClient:  map 20% reduce 6%
+13/04/19 05:31:26 INFO mapred.JobClient:  map 21% reduce 6%
+13/04/19 05:31:35 INFO mapred.JobClient:  map 21% reduce 7%
+13/04/19 05:31:38 INFO mapred.JobClient:  map 22% reduce 7%
+13/04/19 05:31:50 INFO mapred.JobClient:  map 23% reduce 7%
+13/04/19 05:32:02 INFO mapred.JobClient:  map 24% reduce 7%
+13/04/19 05:32:05 INFO mapred.JobClient:  map 24% reduce 8%
+13/04/19 05:32:14 INFO mapred.JobClient:  map 25% reduce 8%
+13/04/19 05:32:27 INFO mapred.JobClient:  map 26% reduce 8%
+13/04/19 05:32:39 INFO mapred.JobClient:  map 27% reduce 8%
+13/04/19 05:32:51 INFO mapred.JobClient:  map 28% reduce 9%
+13/04/19 05:33:03 INFO mapred.JobClient:  map 29% reduce 9%
+13/04/19 05:33:15 INFO mapred.JobClient:  map 30% reduce 9%
+13/04/19 05:33:21 INFO mapred.JobClient:  map 30% reduce 10%
+13/04/19 05:33:27 INFO mapred.JobClient:  map 31% reduce 10%
+13/04/19 05:33:39 INFO mapred.JobClient:  map 32% reduce 10%
+13/04/19 05:33:51 INFO mapred.JobClient:  map 33% reduce 10%
+13/04/19 05:34:00 INFO mapred.JobClient:  map 33% reduce 11%
+13/04/19 05:34:03 INFO mapred.JobClient:  map 34% reduce 11%
+13/04/19 05:34:15 INFO mapred.JobClient:  map 35% reduce 11%
+13/04/19 05:34:27 INFO mapred.JobClient:  map 36% reduce 11%
+13/04/19 05:34:36 INFO mapred.JobClient:  map 36% reduce 12%
+13/04/19 05:34:39 INFO mapred.JobClient:  map 37% reduce 12%
+13/04/19 05:34:51 INFO mapred.JobClient:  map 38% reduce 12%
+13/04/19 05:35:03 INFO mapred.JobClient:  map 39% reduce 12%
+13/04/19 05:35:06 INFO mapred.JobClient:  map 39% reduce 13%
+13/04/19 05:35:15 INFO mapred.JobClient:  map 40% reduce 13%
+13/04/19 05:35:30 INFO mapred.JobClient:  map 41% reduce 13%
+13/04/19 05:35:42 INFO mapred.JobClient:  map 42% reduce 13%
+13/04/19 05:35:45 INFO mapred.JobClient:  map 42% reduce 14%
+13/04/19 05:35:54 INFO mapred.JobClient:  map 43% reduce 14%
+13/04/19 05:36:06 INFO mapred.JobClient:  map 44% reduce 14%
+13/04/19 05:36:18 INFO mapred.JobClient:  map 45% reduce 14%
+13/04/19 05:36:21 INFO mapred.JobClient:  map 45% reduce 15%
+13/04/19 05:36:30 INFO mapred.JobClient:  map 46% reduce 15%
+13/04/19 05:36:42 INFO mapred.JobClient:  map 47% reduce 15%
+13/04/19 05:36:54 INFO mapred.JobClient:  map 48% reduce 15%
+13/04/19 05:37:06 INFO mapred.JobClient:  map 49% reduce 16%
+13/04/19 05:37:18 INFO mapred.JobClient:  map 50% reduce 16%
+13/04/19 05:37:30 INFO mapred.JobClient:  map 51% reduce 16%
+13/04/19 05:37:36 INFO mapred.JobClient:  map 51% reduce 17%
+13/04/19 05:37:42 INFO mapred.JobClient:  map 52% reduce 17%
+13/04/19 05:37:54 INFO mapred.JobClient:  map 53% reduce 17%
+13/04/19 05:38:06 INFO mapred.JobClient:  map 54% reduce 17%
+13/04/19 05:38:15 INFO mapred.JobClient:  map 54% reduce 18%
+13/04/19 05:38:18 INFO mapred.JobClient:  map 55% reduce 18%
+13/04/19 05:38:30 INFO mapred.JobClient:  map 56% reduce 18%
+13/04/19 05:38:42 INFO mapred.JobClient:  map 57% reduce 18%
+13/04/19 05:38:51 INFO mapred.JobClient:  map 57% reduce 19%
+13/04/19 05:38:55 INFO mapred.JobClient:  map 58% reduce 19%
+13/04/19 05:39:07 INFO mapred.JobClient:  map 59% reduce 19%
+13/04/19 05:39:19 INFO mapred.JobClient:  map 60% reduce 19%
+13/04/19 05:39:31 INFO mapred.JobClient:  map 61% reduce 20%
+13/04/19 05:39:43 INFO mapred.JobClient:  map 62% reduce 20%
+13/04/19 05:39:55 INFO mapred.JobClient:  map 63% reduce 20%
+13/04/19 05:40:01 INFO mapred.JobClient:  map 63% reduce 21%
+13/04/19 05:40:07 INFO mapred.JobClient:  map 64% reduce 21%
+13/04/19 05:40:19 INFO mapred.JobClient:  map 65% reduce 21%
+13/04/19 05:40:31 INFO mapred.JobClient:  map 66% reduce 21%
+13/04/19 05:40:37 INFO mapred.JobClient:  map 66% reduce 22%
+13/04/19 05:40:43 INFO mapred.JobClient:  map 67% reduce 22%
+13/04/19 05:40:55 INFO mapred.JobClient:  map 68% reduce 22%
+13/04/19 05:41:07 INFO mapred.JobClient:  map 69% reduce 22%
+13/04/19 05:41:10 INFO mapred.JobClient:  map 69% reduce 23%
+13/04/19 05:41:19 INFO mapred.JobClient:  map 70% reduce 23%
+13/04/19 05:41:31 INFO mapred.JobClient:  map 71% reduce 23%
+13/04/19 05:41:43 INFO mapred.JobClient:  map 72% reduce 23%
+13/04/19 05:41:55 INFO mapred.JobClient:  map 73% reduce 24%
+13/04/19 05:42:07 INFO mapred.JobClient:  map 74% reduce 24%
+13/04/19 05:42:19 INFO mapred.JobClient:  map 75% reduce 24%
+13/04/19 05:42:25 INFO mapred.JobClient:  map 75% reduce 25%
+13/04/19 05:42:31 INFO mapred.JobClient:  map 76% reduce 25%
+13/04/19 05:42:43 INFO mapred.JobClient:  map 77% reduce 25%
+13/04/19 05:42:55 INFO mapred.JobClient:  map 78% reduce 25%
+13/04/19 05:43:04 INFO mapred.JobClient:  map 78% reduce 26%
+13/04/19 05:43:07 INFO mapred.JobClient:  map 79% reduce 26%
+13/04/19 05:43:19 INFO mapred.JobClient:  map 80% reduce 26%
+13/04/19 05:43:31 INFO mapred.JobClient:  map 81% reduce 26%
+13/04/19 05:43:34 INFO mapred.JobClient:  map 81% reduce 27%
+13/04/19 05:43:43 INFO mapred.JobClient:  map 82% reduce 27%
+13/04/19 05:43:55 INFO mapred.JobClient:  map 83% reduce 27%
+13/04/19 05:44:07 INFO mapred.JobClient:  map 84% reduce 27%
+13/04/19 05:44:13 INFO mapred.JobClient:  map 84% reduce 28%
+13/04/19 05:44:19 INFO mapred.JobClient:  map 85% reduce 28%
+13/04/19 05:44:31 INFO mapred.JobClient:  map 86% reduce 28%
+13/04/19 05:44:43 INFO mapred.JobClient:  map 87% reduce 28%
+13/04/19 05:44:49 INFO mapred.JobClient:  map 87% reduce 29%
+13/04/19 05:44:55 INFO mapred.JobClient:  map 88% reduce 29%
+13/04/19 05:45:07 INFO mapred.JobClient:  map 89% reduce 29%
+13/04/19 05:45:20 INFO mapred.JobClient:  map 90% reduce 29%
+13/04/19 05:45:29 INFO mapred.JobClient:  map 90% reduce 30%
+13/04/19 05:45:32 INFO mapred.JobClient:  map 91% reduce 30%
+13/04/19 05:45:44 INFO mapred.JobClient:  map 92% reduce 30%
+13/04/19 05:45:56 INFO mapred.JobClient:  map 93% reduce 30%
+13/04/19 05:46:05 INFO mapred.JobClient:  map 93% reduce 31%
+13/04/19 05:46:08 INFO mapred.JobClient:  map 94% reduce 31%
+13/04/19 05:46:20 INFO mapred.JobClient:  map 95% reduce 31%
+13/04/19 05:46:32 INFO mapred.JobClient:  map 96% reduce 31%
+13/04/19 05:46:44 INFO mapred.JobClient:  map 97% reduce 32%
+13/04/19 05:46:56 INFO mapred.JobClient:  map 98% reduce 32%
+13/04/19 05:47:08 INFO mapred.JobClient:  map 99% reduce 32%
+13/04/19 05:47:17 INFO mapred.JobClient:  map 100% reduce 32%
+13/04/19 05:47:20 INFO mapred.JobClient:  map 100% reduce 33%
+13/04/19 05:47:29 INFO mapred.JobClient:  map 100% reduce 100%
+13/04/19 05:47:34 INFO mapred.JobClient: Job complete: job_201304190148_0008
+13/04/19 05:47:34 INFO mapred.JobClient: Counters: 30
+13/04/19 05:47:34 INFO mapred.JobClient:   Job Counters 
+13/04/19 05:47:34 INFO mapred.JobClient:     Launched reduce tasks=1
+13/04/19 05:47:34 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=2139337
+13/04/19 05:47:34 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+13/04/19 05:47:34 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+13/04/19 05:47:34 INFO mapred.JobClient:     Launched map tasks=400
+13/04/19 05:47:34 INFO mapred.JobClient:     Data-local map tasks=400
+13/04/19 05:47:34 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=1164582
+13/04/19 05:47:34 INFO mapred.JobClient:   File Input Format Counters 
+13/04/19 05:47:34 INFO mapred.JobClient:     Bytes Read=47200
+13/04/19 05:47:34 INFO mapred.JobClient:   File Output Format Counters 
+13/04/19 05:47:34 INFO mapred.JobClient:     Bytes Written=97
+13/04/19 05:47:34 INFO mapred.JobClient:   FileSystemCounters
+13/04/19 05:47:34 INFO mapred.JobClient:     FILE_BYTES_READ=8806
+13/04/19 05:47:34 INFO mapred.JobClient:     HDFS_BYTES_READ=95890
+13/04/19 05:47:34 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=8744019
+13/04/19 05:47:34 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=215
+13/04/19 05:47:34 INFO mapred.JobClient:   Map-Reduce Framework
+13/04/19 05:47:34 INFO mapred.JobClient:     Map output materialized bytes=11200
+13/04/19 05:47:34 INFO mapred.JobClient:     Map input records=400
+13/04/19 05:47:34 INFO mapred.JobClient:     Reduce shuffle bytes=11172
+13/04/19 05:47:34 INFO mapred.JobClient:     Spilled Records=1600
+13/04/19 05:47:34 INFO mapred.JobClient:     Map output bytes=7200
+13/04/19 05:47:34 INFO mapred.JobClient:     Total committed heap usage (bytes)=64137789440
+13/04/19 05:47:34 INFO mapred.JobClient:     CPU time spent (ms)=172250
+13/04/19 05:47:34 INFO mapred.JobClient:     Map input bytes=9600
+13/04/19 05:47:34 INFO mapred.JobClient:     SPLIT_RAW_BYTES=48690
+13/04/19 05:47:34 INFO mapred.JobClient:     Combine input records=0
+13/04/19 05:47:34 INFO mapred.JobClient:     Reduce input records=800
+13/04/19 05:47:34 INFO mapred.JobClient:     Reduce input groups=800
+13/04/19 05:47:34 INFO mapred.JobClient:     Combine output records=0
+13/04/19 05:47:34 INFO mapred.JobClient:     Physical memory (bytes) snapshot=65767784448
+13/04/19 05:47:34 INFO mapred.JobClient:     Reduce output records=0
+13/04/19 05:47:34 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=386771316736
+13/04/19 05:47:34 INFO mapred.JobClient:     Map output records=800
+Job Finished in 1243.422 seconds
+Estimated value of Pi is 3.14159330000000000000
+
+real	20m49.032s
+user	0m8.269s
+sys	0m1.600s

@@ -1,0 +1,15 @@
+--- ./src/contrib/gridmix/src/java/org/apache/hadoop/mapred/gridmix/Gridmix.java        2012-10-03 13:17:16.000000000 +0800
++++ ./src/contrib/gridmix/src/java/org/apache/hadoop/mapred/gridmix/Gridmix1.java       2013-02-04 19:25:13.000000000 +0800
+@@ -393,10 +393,10 @@
+     }
+   }
+
+-  private <T> String getEnumValues(Enum<? extends T>[] e) {
++  private  String getEnumValues(Enum<?>[] e) {
+     StringBuilder sb = new StringBuilder();
+     String sep = "";
+-    for (Enum<? extends T> v : e) {
++    for (Enum<?> v : e) {
+       sb.append(sep);
+       sb.append(v.name());
+       sep = "|";

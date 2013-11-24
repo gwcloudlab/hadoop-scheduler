@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ssh guest@HDCJ /home/guest/tools/hadoop-1.0.4/bin/stop-mapred.sh
+./bin/stop-dfs.sh

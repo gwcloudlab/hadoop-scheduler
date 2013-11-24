@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+        <name>dfs.replication</name>
+        <value>3</value>
+	</property>
+	<property>
+    	<name>dfs.name.dir</name>
+    	<value>/home/hadoop/hdfs/name</value>
+    	<description>Determines where on the local filesystem the DFS name node should store the name table. If this is a comma-delimited list of directories then the name table is replicated in all of the directories, for redundancy. </description>
+	</property>
+
+	<property>
+    	<name>dfs.data.dir</name>
+    	<value>/home/hadoop/hdfs/data</value>
+    	<description>Determines where on the local filesystem an DFS data node should store its blocks. If this is a comma-delimited list of directories, then data will be stored in all named directories, typically on different devices. Directories that do not exist are ignored.</description>
+	</property>
+
+	<property>
+	<name>dfs.hosts</name>
+	<value>/home/hadoop/hadoop-scheduler/hadoop-1.0.4/conf/hosts</value>
+	</property>
+
+</configuration>
