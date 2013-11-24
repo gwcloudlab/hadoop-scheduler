@@ -47,7 +47,7 @@ ssh root@192.168.1.$host "cd client_directory; nohup java Client </dev/null >log
 2)jobname_deadline.sh [deadline][map tasks or file data size]
 After that, you can run hadoop jobs. Each job, there is a shell script, named jobname_deadline.sh
 Eg, run pi job with deadline
- if we want to give the deadline 300s, map tasks 500, the command line should be like this
+if we want to give the deadline 300s, map tasks 500, the command line should be like this
 ./pi_deadline.sh 300 500 
 3) ./bin/stop-all.sh
 If you want to stop the hadoop processes, run ./bin/stop-all.sh
