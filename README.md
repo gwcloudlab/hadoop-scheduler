@@ -29,36 +29,58 @@ The main modification
 9)When have free slots, firstly select missed deadline job from the jobQueue. If all jobs can meet the deadline, select the job that has the most progress on this free slot
 
 FIFO scheduler
+
 1)In the job run queue, sort the jobs according to the arrive time
+
 2)Select the next running job according to the arriving time
 
 EDF scheduler
+
 1)In the job run queue, sort the jobs according to the deadline
+
 2)Select the next running job according to the deadline
 
 How to use?
+
 1)./bin/start-all.sh
+
 It will run jobtracer, tasktracker, namenode, datanode on the specific nodes according to your configure 
+
 Start hadoop process
+
 If you want to use MIMP scheduler, you also need to start client side on physical server that tasktracer is located on. The client side will report cpu and disk usage.
+
 Start the client
+
 ssh root@192.168.1.$host "cd client_directory; nohup java Client </dev/null >log.txt 2>&1 &"
 
 2)jobname_deadline.sh [deadline][map tasks or file data size]
+
 After that, you can run hadoop jobs. Each job, there is a shell script, named jobname_deadline.sh
+
 Eg, run pi job with deadline
+
 if we want to give the deadline 300s, map tasks 500, the command line should be like this
+
 ./pi_deadline.sh 300 500 
+
 3) ./bin/stop-all.sh
+
 If you want to stop the hadoop processes, run ./bin/stop-all.sh
 
 FIFO and EDF have the same usage with MIMP scheduler
 
 If you change something in the code, in the root directory, run the command
+
 1)ant clean
+
 2)ant
+
 3)go to build/classes directory
+
 jar cvf hadoop-core-1.0.4.jar *
+
 4)copy this jar file to root directory
+
 cp hadoop-core-1.0.4.jar ../..
 
