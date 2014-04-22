@@ -1,10 +1,10 @@
-///////////////////////////////////////////////////////////////////// 
-
-PROJECT TITLE: Hadoop Scheduler 1.0.4 TEAM MEMBERS: Wei Zhang, Sunny Rajasekran 
-
-/////////////////////////////////////////////////////////////////////
+-----
+MIMP Deadline Aware Hadoop Scheduler
+-----
+TEAM MEMBERS: Wei Zhang, Sunny Rajasekran, Timothy Wood, and Mingfa Zhu
 
 MIMP scheduler
+---
 
 This version of hadoop scheduler is a deadline-based hadoop scheduler that uses a hybrid cluster of dedicated and residual resources.
 
@@ -31,12 +31,14 @@ The main modification
 9)When have free slots, firstly select missed deadline job from the jobQueue. If all jobs can meet the deadline, select the job that has the most progress on this free slot
 
 FIFO scheduler
+---
 
 1)In the job run queue, sort the jobs according to the arrive time
 
 2)Select the next running job according to the arriving time
 
 EDF scheduler
+---
 
 1)In the job run queue, sort the jobs according to the deadline
 
@@ -86,3 +88,10 @@ jar cvf hadoop-core-1.0.4.jar *
 
 cp hadoop-core-1.0.4.jar ../..
 
+
+Paper
+-----
+MIMP: Deadline and Interference Aware Scheduling of Hadoop Virtual Machines. Wei Zhang, Sundaresan Rajasekaran, Timothy Wood, Mingfa Zhu. IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, May 2014. 
+http://faculty.cs.gwu.edu/~timwood/papers/14-CCGrid-mimp.pdf
+
+This work was sponsored in part by NSF Grant CNS-1253575.  Wei Zhang and Mingfa Zhu were supported in part by the National Natural Science Foundation of China Grant No. 61370059, 61232009, and Beijing Natural Science Foundation Grant No. 4122042.
