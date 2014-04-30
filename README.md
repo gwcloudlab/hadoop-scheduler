@@ -99,3 +99,8 @@ MIMP: Deadline and Interference Aware Scheduling of Hadoop Virtual Machines. Wei
 http://faculty.cs.gwu.edu/~timwood/papers/14-CCGrid-mimp.pdf
 
 This work was sponsored in part by NSF Grant CNS-1253575.  Wei Zhang and Mingfa Zhu were supported in part by the National Natural Science Foundation of China Grant No. 61370059, 61232009, and Beijing Natural Science Foundation Grant No. 4122042.
+
+
+License
+-----
+The original Hadoop source code was released under the Apache 2.0 license. Our changes and supplementary code follow the same terms.
