@@ -73,6 +73,8 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.ipc.RPC;
 import org.apache.hadoop.ipc.Server;
 import org.apache.hadoop.ipc.RPC.VersionMismatch;
+//add by wei
+import org.apache.hadoop.mapred.JobQueueTaskScheduler;
 import org.apache.hadoop.mapred.AuditLogger.Constants;
 import org.apache.hadoop.mapred.Counters.CountersExceededException;
 import org.apache.hadoop.mapred.JobHistory.Keys;
@@ -3943,6 +3945,23 @@ public class JobTracker implements MRConstants, InterTrackerProtocol,
     } catch (Exception e) {
       throw new IOException(e);
     }
+   
+    double newJobDeadline = job.getJobDeadline();
+    //add by wei
+    Collection<JobInProgress> jobQueue = JobQueueTaskScheduler.jobQueue;
+    double totalPredictExecTime = JobQueueTaskScheduler.predictMapExecTime(job);
+    for (JobInProgress queueJob : jobQueue) {
+        if (queueJob.getJobDeadline() <= newJobDeadline) {
+	    totalPredictExecTime += JobQueueTaskScheduler.predictMapExecTime(queueJob);
+        }
+    }
+
+    if (totalPredictExecTime >= newJobDeadline) {
+        System.out.printf("time=%d, JobID=%s, JobName=%s has been rejected %n", 
+		          System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());	
+        return null;
+}
+
     
     synchronized (this) {
       // check if queue is RUNNING

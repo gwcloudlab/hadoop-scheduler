@@ -52,9 +52,15 @@ class JobQueueTaskScheduler extends TaskScheduler {
     
   //add by wei
   protected static double DISKTHRESHOLD = 200000;
-  protected static int REPLICATION = 6;
+  protected static int REPLICATION = 2;
   protected static  Map<String, NodeResource> resources
     = new HashMap<String, NodeResource>();
+  //add by wei for addmission contorl
+  protected static int SLOTSPERHOST = 1;
+  protected static double CLEANUPTIME = 8500;
+  public static Collection<JobInProgress> jobQueue;
+  
+  protected static Map<String, Integer> predictTctError= new HashMap<String, Integer>();
   protected volatile boolean running = false;
   protected static int pickDeadline = 0, pickProgress = 0, pickNone = 0;
   
@@ -82,6 +88,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
           eagerTaskInitializationListener);
       running = true;
       initResources();
+      initErrors();
       new UpdateResourceThread().start();
     } catch (Exception e) {
       LOG.error("Failed to start threads ", e);
@@ -125,8 +132,8 @@ class JobQueueTaskScheduler extends TaskScheduler {
     final int clusterMapCapacity = clusterStatus.getMaxMapTasks();
     final int clusterReduceCapacity = clusterStatus.getMaxReduceTasks();
 
-    Collection<JobInProgress> jobQueue =
-      jobQueueJobInProgressListener.getJobQueue();
+    //Collection<JobInProgress> jobQueue =
+      jobQueue = jobQueueJobInProgressListener.getJobQueue();
 
     //
     // Get map + reduce counts for the current tracker.
@@ -239,7 +246,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
           }
           else if (!diskBottleneck(jobTmp, taskTracker)) {
               if((maxProgressJob == null) || 
-                  (predictMapNormalizedTct(jobTmp, nodeResource) < predictMapNormalizedTct(maxProgressJob, nodeResource))) {
+                  (predictMapNormalizedTct(jobTmp, nodeResource, predictTctError) < predictMapNormalizedTct(maxProgressJob, nodeResource, predictTctError))) {
                 /* This job does not cause IO bottleneck and will make the most progress of those seen so far. */
                 maxProgressJob = jobTmp; 
               }
@@ -276,7 +283,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       //  System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
         System.out.printf("@@@Job %s gets the map free slot from TaskTracker %s %n", job.getProfile().getJobName(), taskTracker.getStatus().getHost());
 
-        double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource);      
+        double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource, predictTctError);      
         double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTct; 
 
           Task t = null;
@@ -450,21 +457,21 @@ class JobQueueTaskScheduler extends TaskScheduler {
   } 
 
 
-  public double dedicatedMapTaskExecTime(JobInProgress job) {
+  public static double dedicatedMapTaskExecTime(JobInProgress job) {
     double dedicatedMapTaskExecTime = 0;
     String jobName = job.getProfile().getJobName();
     if (jobName.equals("PiEstimator")) {
-      dedicatedMapTaskExecTime = 8845;
+      dedicatedMapTaskExecTime = 6714;
     }  else if (jobName.equals("word count")) {
-    	  dedicatedMapTaskExecTime = 80472;
+    	  dedicatedMapTaskExecTime = 16446;
     }  else if (jobName.equals("TeraSort")) {
-          dedicatedMapTaskExecTime = 53382;
+          dedicatedMapTaskExecTime = 9621;
     }  else if (jobName.equals("sorter")) {
-    	  dedicatedMapTaskExecTime = 65804;
+    	  dedicatedMapTaskExecTime = 9542;
     }  else if (jobName.equals("grep-search")) {
-    	  dedicatedMapTaskExecTime = 37872;
+    	  dedicatedMapTaskExecTime = 12558;
     }  else if (jobName.equals("grep-sort")) {
-    	  dedicatedMapTaskExecTime = 8523;
+    	  dedicatedMapTaskExecTime = 6358;
     }  else if (jobName.contains("Iterator")) {
 	    dedicatedMapTaskExecTime = 22742;
     }  else if (jobName.contains("Classification")) {
@@ -474,7 +481,17 @@ class JobQueueTaskScheduler extends TaskScheduler {
     return dedicatedMapTaskExecTime;
   }
 
-  public double predictMapNormalizedTct(JobInProgress job, NodeResource nodeResource) {
+  public static double predictMapNormalizedTct(JobInProgress job, NodeResource nodeResource, Map<String, Integer> predictTctError) {
+	  
+	  double numb=0;
+	  Integer errorInteger=predictTctError.get(job.getProfile().getJobName());
+	  int error=errorInteger.intValue();
+	  numb=1 + error/100.0;
+	  System.out.printf("Range Error= %d percent, Insert Error= %f %n", error, numb);
+	  return numb*predictMapNormalizedTct(job,nodeResource);  
+  }
+  
+  public static double predictMapNormalizedTct(JobInProgress job, NodeResource nodeResource) {
 	  double mapNormalizedTct = 0;
 	  double webCpuUsage = nodeResource.getCpuUsage();
 	  double a = 0;
@@ -483,37 +500,37 @@ class JobQueueTaskScheduler extends TaskScheduler {
 	  double d = 0;
 	  String jobName = job.getProfile().getJobName();
 	  if (jobName.equals("PiEstimator")) {
-		  a = 1.01;  
-		  b = 0.00494;  
-		  c = 0.0001694;  
-		  d = 0.05609;   
+		  a = 1.3430;  
+		  b = -0.007983;  
+		  c = 0.03425;  
+		  d = 0.05601;   
 	  }  else if (jobName.equals("word count")) {
-		  a = 1.031;  
-		  b = 0.002871;  
-		  c = 0.0002912;  
-		  d = 0.05064;  
+		  a = 1.673;  
+		  b = -0.008967;  
+		  c = 0.01421;  
+		  d = 0.07201;  
 	  }  else if (jobName.equals("TeraSort")) {
 
-		  a = 0.001605;  
-		  b = 0.04108;  
-		  c = 1.104;  
-		  d = 0.002533;
+		  a = 2.175;  
+		  b = -0.01716;  
+		  c = 0.01416;  
+		  d = 0.07278;
 	  } else if (jobName.equals("sorter")) {
-		  a = 0.7689;  
-		  b = 0.005868;  
-		  c = 0;  
-		  d = -7.699;  
+		  a = 1.668;  
+		  b = -0.01627;  
+		  c = 0.06963;  
+		  d = 0.05073;  
 
 	  } else if (jobName.equals("grep-search")) {
-		  a = 0.6553;  
-		  b = 0.009691;  
-		  c = 0;  
-		  d = -7.699;  
+		  a = 1.97;  
+		  b = -0.01984;  
+		  c = 0.06493;  
+		  d = 0.05327;  
 	  } else if (jobName.equals("grep-sort")) {
-		  a = 0.7887;  
-		  b = 0.006898;  
-		  c = 0;  
-		  d = -7.699;  
+		  a = 1.82;  
+		  b = -0.02005;  
+		  c = 0.04443;  
+		  d = 0.05347;  
 	  } else if (jobName.contains("Iterator")){
 		  a = 0.3243;
 		  b = 0.01472;
@@ -529,6 +546,38 @@ class JobQueueTaskScheduler extends TaskScheduler {
     mapNormalizedTct = a * Math.exp(b * webCpuUsage) + c * Math.exp(d * webCpuUsage);
     return mapNormalizedTct;
   }
+
+//add by wei for addmisson control
+public static double predictMapExecTime(JobInProgress job) {
+    double predictMapExecTime = 0.0;
+    int remainingTasks = job.pendingMaps();
+    int hostNums = 0;
+    double slotTaskTctTime = 0.0;
+    double sumTaskTctTime = 0.0;
+    double avgMapTctTime = 0.0;
+    Set<Map.Entry<String, NodeResource>> entries = resources.entrySet();
+    for (Map.Entry<String, NodeResource> entry:entries) {
+        String host = entry.getKey();
+        NodeResource nodeResource = entry.getValue();
+        hostNums++;
+        slotTaskTctTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTct(job, nodeResource);
+        sumTaskTctTime += slotTaskTctTime;
+    }
+
+    if (hostNums == 0) {
+        //this should not happen. Actually you need to give an error message if this happens. Here use a fake value
+        return 0;
+    }
+
+    avgMapTctTime = sumTaskTctTime / hostNums;
+
+    predictMapExecTime = remainingTasks * avgMapTctTime / (hostNums * SLOTSPERHOST) + CLEANUPTIME;
+   
+    return predictMapExecTime; 
+    
+}
+
+
 
 /*  public double jobProgress(JobInProgress job, NodeResource nodeResource){
     double jobProgress = 0;
@@ -580,7 +629,7 @@ public double predictTaskDiskDemand(JobInProgress job, TaskTracker taskTracker) 
   String jobName = job.getProfile().getJobName();
   String taskTrackerHost = taskTracker.getStatus().getHost();
   NodeResource nodeResource = resources.get(taskTrackerHost);
-  double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource);      
+  double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource, predictTctError);      
   double diskDemand = 0.0;
   double diskDemandwithFullCpu = 0.0; 
     if (jobName.equals("PiEstimator")) {
@@ -648,7 +697,7 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
     double tmpTct = 0.0;
     double predictMapPhaseJct = 0.0;
 	
-    double cleanupTime = 65000;
+    double cleanupTime = 8500;
 
 /*    if (job.getJobRelativeDeadline() == 65535) {
       return true;
@@ -675,7 +724,7 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
       Integer slotsNum = entry.getValue();
       totalOccupiedSlots += slotsNum;
       NodeResource nodeResource = resources.get(host);
-      double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource);      
+      double predictMapNormalizedTct = predictMapNormalizedTct(job, nodeResource, predictTctError);      
       double predictMapTaskExecTime = dedicatedMapTaskExecTime(job) * predictMapNormalizedTct; 
       tmpTct += predictMapTaskExecTime * slotsNum; 
 //      taskNums[i] = (int)(remainingTime / (predictMapTaskExecTime * 1000)) * slotsNum;
@@ -712,11 +761,12 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
    if (totalTaskNums >= ((int)Math.ceil(factor*pendingMapTasks))) {*/
    if (totalTaskNums >= pendingMapTasks) {
       canMeetDeadline = true;
+      System.out.printf("time=%d, jobID=%s, jobName=%s REAL MEET DEADLINE, need not more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
  
     }
     else {
-      canMeetDeadline = false;
-      System.out.printf("time=%d, jobID=%s, jobName=%s MISS DEADLINE, need more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
+      canMeetDeadline = true;
+      System.out.printf("time=%d, jobID=%s, jobName=%s PRETEND MEET DEADLINE, need more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
    }
     return canMeetDeadline;  
   
@@ -745,35 +795,28 @@ public void initResources() {
 
 }
 
- public void updateNodeResources() {
-   String fileName="/home/hadoop/resource.txt";
+ public void initErrors() {
+   String fileName="/home/hadoop/error.txt";
    File file=new File(fileName);
    BufferedReader br = null;
-   String host="";
-   double cpu=0;
   
    try {
      br=new BufferedReader(new FileReader(file));
    } catch (FileNotFoundException e) {
-     LOG.error("Can not find resource.txt file", e);
+     LOG.error("Can not find error.txt file", e);
    } 
      String line=null;
-     String[] rec=null;
    try {
    while((line=br.readLine())!=null){
-     rec=line.split("\t");
-     host=rec[0];
-     cpu=Double.parseDouble(rec[1]);
-     NodeResource nodeResource = new NodeResource(cpu);
-     synchronized (resources) {
-       resources.put(host, nodeResource);
-     }
-     
+	 String errorArray[]=line.split(":");
+	 int errorInt=Integer.parseInt(errorArray[1]);
+	 Integer errorInteger= new Integer(errorInt);
+	 predictTctError.put(errorArray[0], errorInteger);
    }
   } catch (IOException e1) {
-    LOG.error("Exception in reading resource.txt file", e1);
+    LOG.error("Exception in reading error.txt file", e1);
   }
- }  
+ }
 
   private class ReceiveThread extends Thread {
     private Socket clientSocket;
@@ -791,19 +834,19 @@ public void initResources() {
     public void run() {
       String line;
       try {
-        while(true) {
-          line = in.readLine();
+        while((line=in.readLine())!=null) {
+          
           String[] rec = line.split("\t");
           String host = rec[0];
           double cpu = Double.parseDouble(rec[1]);
           double disk = Double.parseDouble(rec[2]);
           NodeResource nodeResource = new NodeResource(cpu, disk);
           synchronized(resources){
-            resources.put(host, nodeResource);
-            NodeResource nodeResource1 = resources.get(host);
-  //          System.out.printf("???resources address in ReceiveThread():%s %n", Integer.toHexString(System.identityHashCode(resources)));
-  //          System.out.printf("+++current time:%d, nodeResource1 address:%s, host:%s, cpu usage:%f, disk:%f %n", System.currentTimeMillis(), 
-  //                           Integer.toHexString(System.identityHashCode(nodeResource1)), host, nodeResource1.getCpuUsage(), nodeResource1.getDisk());
+          resources.put(host, nodeResource);
+          NodeResource nodeResource1 = resources.get(host);
+  //      System.out.printf("???resources address in ReceiveThread():%s %n", Integer.toHexString(System.identityHashCode(resources)));
+//	  System.out.printf("+++current time:%d, nodeResource1 address:%s, host:%s, cpu usage:%f, disk:%f %n", System.currentTimeMillis(), Integer.toHexString(System.identityHashCode(nodeResource1)), host, nodeResource1.getCpuUsage(), nodeResource1.getDisk());
+           LOG.info("++++current time:"+System.currentTimeMillis()+", nodeResource1 address:"+Integer.toHexString(System.identityHashCode(nodeResource1))+", host:"+host+", cpu usage:"+nodeResource1.getCpuUsage()+", disk:"+nodeResource1.getDisk());
           }
         }
       } catch(IOException e) {
@@ -834,7 +877,8 @@ public void initResources() {
       JobQueueTaskScheduler jobQueueTaskScheduler = new JobQueueTaskScheduler();
       socket = new ServerSocket(port);
       socket.setReuseAddress(true);
-      while(running) {
+while(running) {
+
         Socket clientScoket = socket.accept();
         jobQueueTaskScheduler.new ReceiveThread(clientScoket);
         } 
