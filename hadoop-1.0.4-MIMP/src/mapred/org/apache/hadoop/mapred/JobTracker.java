@@ -3954,6 +3954,9 @@ public class JobTracker implements MRConstants, InterTrackerProtocol,
         if (queueJob.getJobDeadline() <= newJobDeadline) {
 	    totalPredictExecTime += JobQueueTaskScheduler.predictMapExecTime(queueJob);
         }
+	else {
+	    break;
+	}
     }
 
     if (totalPredictExecTime >= newJobDeadline) {
