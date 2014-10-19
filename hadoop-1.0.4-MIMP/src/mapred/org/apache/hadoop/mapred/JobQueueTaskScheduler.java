@@ -89,6 +89,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       running = true;
       initResources();
       initErrors();
+      jobQueue = jobQueueJobInProgressListener.getJobQueue();
       new UpdateResourceThread().start();
     } catch (Exception e) {
       LOG.error("Failed to start threads ", e);
@@ -133,7 +134,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
     final int clusterReduceCapacity = clusterStatus.getMaxReduceTasks();
 
     //Collection<JobInProgress> jobQueue =
-      jobQueue = jobQueueJobInProgressListener.getJobQueue();
+     // jobQueue = jobQueueJobInProgressListener.getJobQueue();
 
     //
     // Get map + reduce counts for the current tracker.
@@ -761,12 +762,12 @@ public boolean diskBottleneck(JobInProgress job, TaskTracker taskTracker) {
    if (totalTaskNums >= ((int)Math.ceil(factor*pendingMapTasks))) {*/
    if (totalTaskNums >= pendingMapTasks) {
       canMeetDeadline = true;
-      System.out.printf("time=%d, jobID=%s, jobName=%s REAL MEET DEADLINE, need not more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
+      //System.out.printf("time=%d, jobID=%s, jobName=%s REAL MEET DEADLINE, need not more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
  
     }
     else {
-      canMeetDeadline = true;
-      System.out.printf("time=%d, jobID=%s, jobName=%s PRETEND MEET DEADLINE, need more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
+      canMeetDeadline = false;
+      System.out.printf("time=%d, jobID=%s, jobName=%s MISS DEADLINE, need more slots %n", System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());
    }
     return canMeetDeadline;  
   

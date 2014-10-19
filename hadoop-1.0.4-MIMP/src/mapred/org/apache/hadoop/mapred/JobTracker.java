@@ -3949,16 +3949,17 @@ public class JobTracker implements MRConstants, InterTrackerProtocol,
     double newJobDeadline = job.getJobDeadline();
     //add by wei
     Collection<JobInProgress> jobQueue = JobQueueTaskScheduler.jobQueue;
-    double totalPredictExecTime = JobQueueTaskScheduler.predictMapExecTime(job);
+    double totalPredictExecTime = System.currentTimeMillis() + JobQueueTaskScheduler.predictMapExecTime(job);
     for (JobInProgress queueJob : jobQueue) {
         if (queueJob.getJobDeadline() > newJobDeadline || totalPredictExecTime >= newJobDeadline) {
 	   break;
 	}
 	else {
+		System.out.printf("totalPredictExecTime=%f %n", totalPredictExecTime);
 	    totalPredictExecTime += JobQueueTaskScheduler.predictMapExecTime(queueJob);
 	}
     }
-
+    System.out.printf("totalPredictExecTime=%f, newJobDeadline=%f %n", totalPredictExecTime, newJobDeadline);
     if (totalPredictExecTime >= newJobDeadline) {
         System.out.printf("time=%d, JobID=%s, JobName=%s has been rejected %n", 
 		          System.currentTimeMillis(), job.getJobID().toString(), job.getProfile().getJobName());	
