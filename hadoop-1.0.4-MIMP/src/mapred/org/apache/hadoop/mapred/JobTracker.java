@@ -3951,11 +3951,11 @@ public class JobTracker implements MRConstants, InterTrackerProtocol,
     Collection<JobInProgress> jobQueue = JobQueueTaskScheduler.jobQueue;
     double totalPredictExecTime = JobQueueTaskScheduler.predictMapExecTime(job);
     for (JobInProgress queueJob : jobQueue) {
-        if (queueJob.getJobDeadline() <= newJobDeadline) {
-	    totalPredictExecTime += JobQueueTaskScheduler.predictMapExecTime(queueJob);
-        }
+        if (queueJob.getJobDeadline() > newJobDeadline || totalPredictExecTime >= newJobDeadline) {
+	   break;
+	}
 	else {
-	    break;
+	    totalPredictExecTime += JobQueueTaskScheduler.predictMapExecTime(queueJob);
 	}
     }
 
